@@ -1,0 +1,1 @@
+{"part_no": "STM32F469AI", "package": "WLCSP168", "boards": ["STEVAL-IDP005V1", "STEVAL-IDP005V2"], "flash": "2048 kBytes", "ram": "384 kBytes", "io": "128", "frequency": "180 MHz"}

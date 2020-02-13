@@ -1,0 +1,1 @@
+{"part_no": "STM32F746ZG", "package": "LQFP144", "boards": ["NUCLEO-F746ZG"], "flash": "1024 kBytes", "ram": "320 kBytes", "io": "114", "frequency": "216 MHz"}

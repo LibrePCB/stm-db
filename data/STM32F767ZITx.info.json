@@ -1,0 +1,1 @@
+{"part_no": "STM32F767ZI", "package": "LQFP144", "boards": ["NUCLEO-F767ZI"], "flash": "2048 kBytes", "ram": "512 kBytes", "io": "114", "frequency": "216 MHz"}

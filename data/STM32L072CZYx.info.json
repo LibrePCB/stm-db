@@ -1,0 +1,1 @@
+{"part_no": "STM32L072CZ", "package": "WLCSP49", "boards": ["B-L072Z-LRWAN1"], "flash": "192 kBytes", "ram": "20 kBytes", "io": "40", "frequency": "32 MHz"}

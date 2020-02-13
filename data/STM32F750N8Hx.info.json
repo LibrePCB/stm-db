@@ -1,0 +1,1 @@
+{"part_no": "STM32F750N8", "package": "TFBGA216", "boards": ["STM32F7508-DK"], "flash": "64 kBytes", "ram": "320 kBytes", "io": "168", "frequency": "216 MHz"}

@@ -1,0 +1,1 @@
+{"part_no": "STM32L475VG", "package": "LQFP100", "boards": ["B-L475E-IOT01A"], "flash": "1024 kBytes", "ram": "128 kBytes", "io": "82", "frequency": "80 MHz"}

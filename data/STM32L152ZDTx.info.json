@@ -1,0 +1,1 @@
+{"part_no": "STM32L152ZD", "package": "LQFP144", "boards": ["STM32L152D-EVAL"], "flash": "384 kBytes", "ram": "48 kBytes", "io": "115", "frequency": "32 MHz"}

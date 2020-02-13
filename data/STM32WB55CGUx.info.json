@@ -1,0 +1,1 @@
+{"part_no": "STM32WB55CG", "package": "UFQFPN48", "boards": ["P-NUCLEO-WB55-USBDongle"], "flash": "1024 kBytes", "ram": "256 kBytes", "io": "30", "frequency": "64 MHz"}
