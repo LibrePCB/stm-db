@@ -1,0 +1,1 @@
+{"part_no": "STM32L552ZE", "package": "LQFP144", "boards": ["NUCLEO-L552ZE-Q", "STM32L552E-EV"], "flash": "512 kBytes", "ram": "256 kBytes", "io": "111", "frequency": "110 MHz"}

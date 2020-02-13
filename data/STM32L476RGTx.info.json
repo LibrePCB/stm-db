@@ -1,0 +1,1 @@
+{"part_no": "STM32L476RG", "package": "LQFP64", "boards": ["NUCLEO-L476RG"], "flash": "1024 kBytes", "ram": "128 kBytes", "io": "51", "frequency": "80 MHz"}

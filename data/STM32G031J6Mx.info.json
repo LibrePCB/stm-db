@@ -1,0 +1,1 @@
+{"part_no": "STM32G031J6", "package": "SO8N", "boards": ["STM32G0316-DISCO"], "flash": "32 kBytes", "ram": "8 kBytes", "io": "17", "frequency": "64 MHz"}

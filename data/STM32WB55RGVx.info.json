@@ -1,0 +1,1 @@
+{"part_no": "STM32WB55RG", "package": "VFQFPN68", "boards": ["P-NUCLEO-WB55-Nucleo"], "flash": "1024 kBytes", "ram": "256 kBytes", "io": "49", "frequency": "64 MHz"}

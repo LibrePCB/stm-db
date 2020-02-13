@@ -1,0 +1,1 @@
+{"part_no": "STM32F072RB", "package": "LQFP64", "boards": ["NUCLEO-F072RB", "32F072BDISCOVERY"], "flash": "128 kBytes", "ram": "16 kBytes", "io": "51", "frequency": "48 MHz"}

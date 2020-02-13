@@ -1,0 +1,1 @@
+{"part_no": "STM32L4R9AI", "package": "UFBGA169", "boards": ["32L4R9IDISCOVERY", "STM32L4R9I-EVAL"], "flash": "2048 kBytes", "ram": "640 kBytes", "io": "131", "frequency": "120 MHz"}
