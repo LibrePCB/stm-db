@@ -31,7 +31,7 @@ def main(args):
 
     # Write CubeMX script
     print('Writing cubemx_script.txt...')
-    with open('cubemx_script.txt', 'w') as script:
+    with open(args.o, 'w') as script:
         script.write('rm -r out/')
         for row in raw_data:
             if not should_use(row):
@@ -68,5 +68,10 @@ if __name__ == '__main__':
         '--csv', metavar='path-to-base.csv', required=True,
         help='path to the base.csv file',
     )
+    parser.add_argument(
+        '-o', metavar='path-to-output.txt', required=True,
+        help='where to put the cubemx script',
+    )
+
     args = parser.parse_args()
     main(args)
