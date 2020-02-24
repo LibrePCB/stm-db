@@ -1,7 +1,4 @@
 *.pyc
 *.swp
 __pycache__
-base.xlsx
 .mypy_cache/
-*.jar
-stm1337cubemx/
