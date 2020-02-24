@@ -1,1 +1,0 @@
-{"part_no": "STM32F722ZE", "package": "LQFP144", "boards": ["NUCLEO-F722ZE"], "flash": "512 kBytes", "ram": "256 kBytes", "io": "114", "frequency": "216 MHz"}

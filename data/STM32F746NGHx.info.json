@@ -1,1 +1,0 @@
-{"part_no": "STM32F746NG", "package": "TFBGA216", "boards": ["32F746GDISCOVERY", "STM32746G-EVAL"], "flash": "1024 kBytes", "ram": "320 kBytes", "io": "168", "frequency": "216 MHz"}

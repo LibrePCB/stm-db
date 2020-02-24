@@ -1,0 +1,352 @@
+{
+  "names": {
+    "name": "STM32F410T(8-B)Yx",
+    "ref": "STM32F410TBYx",
+    "family": "STM32F4",
+    "line": "STM32F410",
+    "rpn": "STM32F410TB"
+  },
+  "package": "WLCSP36",
+  "info": {
+    "flash": 64,
+    "ram": 32,
+    "io": 23,
+    "frequency": 100,
+    "voltage": {
+      "min": 1.7,
+      "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
+    }
+  },
+  "gpio_version": "STM32F410_gpio_v1_0",
+  "pinout": [
+    {
+      "name": "VDD",
+      "position": "A1",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PA15",
+      "position": "A2",
+      "type": "I/O",
+      "signals": [
+        "ADC1_EXTI15",
+        "I2S1_WS",
+        "SPI1_NSS",
+        "SYS_JTDI",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB5",
+      "position": "A3",
+      "type": "I/O",
+      "signals": [
+        "I2C1_SMBA",
+        "I2S1_SD",
+        "LPTIM1_IN1",
+        "SPI1_MOSI",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB8",
+      "position": "A4",
+      "type": "I/O",
+      "signals": [
+        "I2C1_SCL",
+        "LPTIM1_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "A5",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "A6",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VSS",
+      "position": "B1",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PA14",
+      "position": "B2",
+      "type": "I/O",
+      "signals": [
+        "SYS_JTCK-SWCLK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB6",
+      "position": "B3",
+      "type": "I/O",
+      "signals": [
+        "I2C1_SCL",
+        "LPTIM1_ETR",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PDR_ON",
+      "position": "B4",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VBAT",
+      "position": "B5",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PC14-OSC32_IN",
+      "position": "B6",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSC32_IN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA13",
+      "position": "C1",
+      "type": "I/O",
+      "signals": [
+        "SYS_JTMS-SWDIO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB3",
+      "position": "C2",
+      "type": "I/O",
+      "signals": [
+        "FMPI2C1_SDA",
+        "I2C2_SDA",
+        "I2S1_CK",
+        "SPI1_SCK",
+        "SYS_JTDO-SWO",
+        "USART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB7",
+      "position": "C3",
+      "type": "I/O",
+      "signals": [
+        "I2C1_SDA",
+        "LPTIM1_IN2",
+        "USART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC13-ANTI_TAMP",
+      "position": "C4",
+      "type": "I/O",
+      "signals": [
+        "RTC_AF1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PH0 - OSC_IN",
+      "position": "C5",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSC_IN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC15-OSC32_OUT",
+      "position": "C6",
+      "type": "I/O",
+      "signals": [
+        "ADC1_EXTI15",
+        "RCC_OSC32_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA8",
+      "position": "D1",
+      "type": "I/O",
+      "signals": [
+        "FMPI2C1_SCL",
+        "RCC_MCO_1",
+        "TIM1_CH1",
+        "USART1_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA12",
+      "position": "D2",
+      "type": "I/O",
+      "signals": [
+        "TIM1_ETR",
+        "USART1_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "D3",
+      "type": "I/O",
+      "signals": [
+        "SPI1_MISO",
+        "SYS_JTRST",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "BOOT0",
+      "position": "D4",
+      "type": "Boot",
+      "signals": []
+    },
+    {
+      "name": "NRST",
+      "position": "D5",
+      "type": "Reset",
+      "signals": []
+    },
+    {
+      "name": "PH1 - OSC_OUT",
+      "position": "D6",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSC_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB12",
+      "position": "E1",
+      "type": "I/O",
+      "signals": [
+        "I2C2_SMBA",
+        "TIM1_BKIN",
+        "TIM5_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VCAP1",
+      "position": "E2",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PB10",
+      "position": "E3",
+      "type": "I/O",
+      "signals": [
+        "FMPI2C1_SCL",
+        "I2C2_SCL",
+        "I2S1_MCK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA2",
+      "position": "E4",
+      "type": "I/O",
+      "signals": [
+        "ADC1_IN2",
+        "I2S_CKIN",
+        "TIM5_CH3",
+        "TIM9_CH1",
+        "USART2_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA0-WKUP",
+      "position": "E5",
+      "type": "I/O",
+      "signals": [
+        "ADC1_IN0",
+        "SYS_WKUP1",
+        "TIM5_CH1",
+        "USART2_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSSA/VREF-",
+      "position": "E6",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "F1",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VSS",
+      "position": "F2",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PB2",
+      "position": "F3",
+      "type": "I/O",
+      "signals": [
+        "LPTIM1_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA5",
+      "position": "F4",
+      "type": "I/O",
+      "signals": [
+        "ADC1_IN5",
+        "DAC_OUT1",
+        "I2S1_CK",
+        "SPI1_SCK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA3",
+      "position": "F5",
+      "type": "I/O",
+      "signals": [
+        "ADC1_IN3",
+        "TIM5_CH4",
+        "TIM9_CH2",
+        "USART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VDDA/VREF+",
+      "position": "F6",
+      "type": "Power",
+      "signals": []
+    }
+  ]
+}

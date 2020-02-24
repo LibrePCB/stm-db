@@ -1,1 +1,0 @@
-{"part_no": "STM32L4R5ZI", "package": "LQFP144", "boards": ["NUCLEO-L4R5ZI"], "flash": "2048 kBytes", "ram": "640 kBytes", "io": "115", "frequency": "120 MHz"}

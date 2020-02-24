@@ -1,1 +1,0 @@
-{"part_no": "STM32F410RB", "package": "LQFP64", "boards": ["NUCLEO-F410RB"], "flash": "128 kBytes", "ram": "32 kBytes", "io": "50", "frequency": "100 MHz"}

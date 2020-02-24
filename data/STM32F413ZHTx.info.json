@@ -1,1 +1,0 @@
-{"part_no": "STM32F413ZH", "package": "LQFP144", "boards": ["NUCLEO-F413ZH", "32F413HDISCOVERY"], "flash": "1536 kBytes", "ram": "320 kBytes", "io": "114", "frequency": "100 MHz"}

@@ -1,1 +1,0 @@
-{"part_no": "STM32F411VE", "package": "LQFP100", "boards": ["32F411EDISCOVERY"], "flash": "512 kBytes", "ram": "128 kBytes", "io": "81", "frequency": "100 MHz"}

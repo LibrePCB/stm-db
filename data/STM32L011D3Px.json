@@ -1,0 +1,200 @@
+{
+  "names": {
+    "name": "STM32L011D(3-4)Px",
+    "ref": "STM32L011D3Px",
+    "family": "STM32L0",
+    "line": "STM32L0x1",
+    "rpn": "STM32L011D3"
+  },
+  "package": "TSSOP14",
+  "info": {
+    "flash": 8,
+    "ram": 2,
+    "io": 11,
+    "eeprom": 512,
+    "frequency": 32,
+    "voltage": {
+      "min": 1.65,
+      "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
+    }
+  },
+  "gpio_version": "STM32L021_gpio_v1_0",
+  "pinout": [
+    {
+      "name": "PB9-BOOT0",
+      "position": "1",
+      "type": "I/O",
+      "signals": [
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC14-OSC32_IN",
+      "position": "2",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSC32_IN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC15-OSC32_OUT",
+      "position": "3",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSC32_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "NRST",
+      "position": "4",
+      "type": "Reset",
+      "signals": []
+    },
+    {
+      "name": "PA0-CK_IN",
+      "position": "5",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN0",
+        "COMP1_INM",
+        "COMP1_OUT",
+        "LPTIM1_IN1",
+        "LPUART1_RX",
+        "RCC_CK_IN",
+        "RTC_TAMP2",
+        "SYS_WKUP1",
+        "TIM2_CH1",
+        "TIM2_ETR",
+        "USART2_CTS",
+        "USART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA1",
+      "position": "6",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN1",
+        "COMP1_INP",
+        "I2C1_SMBA",
+        "LPTIM1_IN2",
+        "LPUART1_TX",
+        "TIM21_ETR",
+        "TIM2_CH2",
+        "USART2_DE",
+        "USART2_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA4",
+      "position": "7",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN4",
+        "COMP1_INM",
+        "COMP2_INM",
+        "COMP2_OUT",
+        "I2C1_SCL",
+        "LPTIM1_ETR",
+        "LPTIM1_IN1",
+        "LPUART1_TX",
+        "SPI1_NSS",
+        "TIM2_ETR",
+        "USART2_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA7",
+      "position": "8",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN7",
+        "COMP2_INP",
+        "COMP2_OUT",
+        "LPTIM1_OUT",
+        "SPI1_MOSI",
+        "TIM21_ETR",
+        "USART2_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "9",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "10",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PA9",
+      "position": "11",
+      "type": "I/O",
+      "signals": [
+        "COMP1_OUT",
+        "I2C1_SCL",
+        "LPTIM1_OUT",
+        "RCC_MCO",
+        "TIM21_CH2",
+        "USART2_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA10",
+      "position": "12",
+      "type": "I/O",
+      "signals": [
+        "COMP1_OUT",
+        "I2C1_SDA",
+        "RTC_REFIN",
+        "TIM21_CH1",
+        "TIM2_CH3",
+        "USART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA13",
+      "position": "13",
+      "type": "I/O",
+      "signals": [
+        "COMP1_OUT",
+        "I2C1_SDA",
+        "LPTIM1_ETR",
+        "LPUART1_RX",
+        "SPI1_SCK",
+        "SYS_SWDIO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA14",
+      "position": "14",
+      "type": "I/O",
+      "signals": [
+        "COMP2_OUT",
+        "I2C1_SMBA",
+        "LPTIM1_OUT",
+        "LPUART1_TX",
+        "SPI1_MISO",
+        "SYS_SWCLK",
+        "USART2_TX",
+        "GPIO"
+      ]
+    }
+  ]
+}

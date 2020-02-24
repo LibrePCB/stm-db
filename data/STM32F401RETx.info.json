@@ -1,1 +1,0 @@
-{"part_no": "STM32F401RE", "package": "LQFP64", "boards": ["NUCLEO-F401RE"], "flash": "512 kBytes", "ram": "96 kBytes", "io": "50", "frequency": "84 MHz"}
