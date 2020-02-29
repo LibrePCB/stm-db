@@ -1,1 +1,0 @@
-{"part_no": "STM32L476VG", "package": "LQFP100", "boards": ["32L476GDISCOVERY"], "flash": "1024 kBytes", "ram": "128 kBytes", "io": "82", "frequency": "80 MHz"}

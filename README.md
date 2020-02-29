@@ -1,64 +1,25 @@
 # STM32 Pinout
 
-This repository contains a collection of scripts to download STM32 pin mapping
-CSV files from STM32CubeMX in a semi-automated way. If STM32CubeMX is patched
-first, the CSV files also contain information about alternative functions (AF).
-
-Tested with STM32CubeMX 5.5.0.
+This repository contains a collection of scripts to extract STM32 MCU
+information files (including pin mappings and signals) in JSON format from the
+STM32CubeMX database.
 
 
-## 1. Obtain STM32CubeMX
+## Usage
 
-1. [Download STM32CubeMX][stm32cubemx] ([direct link][stm32cubemx-direct])
+1. Download and install [STM32CubeMX][stm32cubemx] ([direct link][stm32cubemx-direct])
 
 2. Unpack the ZIP file to a writable directory on your computer
+
+3. Run `python3 extract.py --db path/to/stm32cubemx/db/mcu/`
 
 [stm32cubemx]: https://www.st.com/en/development-tools/stm32cubemx.html#get-software
 [stm32cubemx-direct]: https://sw-center.st.com/packs/resource/library/stm32cube_mx_v550.zip
 
 
-## 2. Patch STM32CubeMX
+## Data
 
-Note: This can be skipped if you don't need information about the AF function
-mappings.
-
-1. Run the patch script:
-
-        patching/patch-cubemx.sh /path/to/STM32CubeMX.exe
-
-2. To launch the newly created JAR, run
-
-        java -jar /path/to/STM1337CubeMX.jar
-
-If the patch does not apply, please open an issue.
-
-
-## 3. Export base.csv
-
-1. Launch CubeMX (either the patched or the original version)
-
-2. On the home page, under "New Project", click on "Access to MCU Selector"
-
-3. In the lower right corner, right above the MCU/MPU list, click on the
-   "Export" button and save the file as `base.xlsx`
-
-4. Convert the Excel file to a CSV file:
-
-       libreoffice --headless --convert-to csv base.csv --outdir .
-
-5. Process the base.csv file:
-
-       python3 scripting/process_base.py --csv base.csv -o scripting/dump-csv.txt
-
-
-## 4. Dump pinout files
-
-1. Dump pinout CSV files using STM32CubeMX:
-
-       java -jar /path/to/STM1337CubeMX.jar -q scripting/dump-csv.txt
-
-   (It's possible that you'll see some warnings about missing MCU data files,
-   just ignore those.)
+See JSON files in `data/` directory.
 
 
 ## License

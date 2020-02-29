@@ -1,1 +1,0 @@
-{"part_no": "STM32F446ZE", "package": "LQFP144", "boards": ["NUCLEO-F446ZE", "STM32446E-EVAL"], "flash": "512 kBytes", "ram": "128 kBytes", "io": "114", "frequency": "180 MHz"}

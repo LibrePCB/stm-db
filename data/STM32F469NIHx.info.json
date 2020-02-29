@@ -1,1 +1,0 @@
-{"part_no": "STM32F469NI", "package": "TFBGA216", "boards": ["32F469IDISCOVERY", "STM32469I-EVAL"], "flash": "2048 kBytes", "ram": "384 kBytes", "io": "159", "frequency": "180 MHz"}

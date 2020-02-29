@@ -1,1 +1,0 @@
-{"part_no": "STM32G474RE", "package": "LQFP64", "boards": ["NUCLEO-G474RE", "B-G474E-DPOW1"], "flash": "512 kBytes", "ram": "128 kBytes", "io": "52", "frequency": "170 MHz"}

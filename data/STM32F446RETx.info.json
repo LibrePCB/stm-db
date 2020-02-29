@@ -1,1 +1,0 @@
-{"part_no": "STM32F446RE", "package": "LQFP64", "boards": ["NUCLEO-F446RE"], "flash": "512 kBytes", "ram": "128 kBytes", "io": "50", "frequency": "180 MHz"}

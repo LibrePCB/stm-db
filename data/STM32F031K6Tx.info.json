@@ -1,1 +1,0 @@
-{"part_no": "STM32F031K6", "package": "LQFP32", "boards": ["NUCLEO-F031K6"], "flash": "32 kBytes", "ram": "4 kBytes", "io": "25", "frequency": "48 MHz"}

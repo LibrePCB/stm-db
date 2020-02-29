@@ -1,1 +1,0 @@
-{"part_no": "STM32F207ZG", "package": "LQFP144", "boards": ["NUCLEO-F207ZG"], "flash": "1024 kBytes", "ram": "128 kBytes", "io": "114", "frequency": "120 MHz"}

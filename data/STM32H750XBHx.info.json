@@ -1,1 +1,0 @@
-{"part_no": "STM32H750XB", "package": "TFBGA240", "boards": ["STM32H750B-DK"], "flash": "128 kBytes", "ram": "1024 kBytes", "io": "168", "frequency": "480 MHz"}

@@ -1,1 +1,0 @@
-{"part_no": "STM32L053R8", "package": "LQFP64", "boards": ["NUCLEO-L053R8"], "flash": "64 kBytes", "ram": "8 kBytes", "io": "51", "frequency": "32 MHz"}

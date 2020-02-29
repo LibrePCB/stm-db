@@ -1,1 +1,0 @@
-{"part_no": "STM32L100RC", "package": "LQFP64", "boards": ["32L100CDISCOVERY"], "flash": "256 kBytes", "ram": "16 kBytes", "io": "51", "frequency": "32 MHz"}

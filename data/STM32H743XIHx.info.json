@@ -1,1 +1,0 @@
-{"part_no": "STM32H743XI", "package": "TFBGA240", "boards": ["STM32H743I-EVAL", "STM32H743I-EVAL2"], "flash": "2048 kBytes", "ram": "1024 kBytes", "io": "168", "frequency": "480 MHz"}

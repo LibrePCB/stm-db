@@ -1,1 +1,0 @@
-{"part_no": "STM32H7B3LI", "package": "TFBGA225", "boards": ["STM32H7B3I-DK", "STM32H7B3I-EVAL"], "flash": "2048 kBytes", "ram": "1184 kBytes", "io": "168", "frequency": "280 MHz"}

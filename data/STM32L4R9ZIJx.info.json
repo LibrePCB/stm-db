@@ -1,1 +1,0 @@
-{"part_no": "STM32L4R9ZI", "package": "UFBGA144", "boards": ["STEVAL-MKSBOX1V1", "STEVAL-STWINKT1"], "flash": "2048 kBytes", "ram": "640 kBytes", "io": "112", "frequency": "120 MHz"}
