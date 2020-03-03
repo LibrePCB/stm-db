@@ -7,6 +7,10 @@
     "rpn": "STM32L021D4"
   },
   "package": "TSSOP14",
+  "silicon": {
+    "core": "Arm Cortex-M0+",
+    "die": "DIE457"
+  },
   "info": {
     "flash": 16,
     "ram": 2,

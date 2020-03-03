@@ -7,6 +7,10 @@
     "rpn": "STM8L151K3"
   },
   "package": "UFQFPN32",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE758"
+  },
   "info": {
     "flash": 8,
     "ram": 1,

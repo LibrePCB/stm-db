@@ -7,6 +7,10 @@
     "rpn": "STM8S903K3"
   },
   "package": "LQFP32",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE767"
+  },
   "info": {
     "flash": 8,
     "ram": 1,

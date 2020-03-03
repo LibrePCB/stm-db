@@ -7,6 +7,10 @@
     "rpn": "STM32G431C8"
   },
   "package": "UFQFPN48",
+  "silicon": {
+    "core": "ARM Cortex-M4",
+    "die": "DIE468"
+  },
   "info": {
     "flash": 32,
     "ram": 32,

@@ -7,6 +7,9 @@
     "rpn": "STM8S208R6"
   },
   "package": "LQFP64",
+  "silicon": {
+    "die": "DIE765"
+  },
   "info": {
     "flash": 32,
     "ram": 6,

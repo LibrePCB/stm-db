@@ -7,6 +7,10 @@
     "rpn": "STM32F303RC"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE422"
+  },
   "info": {
     "flash": 128,
     "ram": 32,

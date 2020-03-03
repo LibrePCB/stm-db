@@ -7,6 +7,10 @@
     "rpn": "STM32H7B3LI"
   },
   "package": "TFBGA225",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE480"
+  },
   "info": {
     "flash": 2048,
     "ram": 1424,

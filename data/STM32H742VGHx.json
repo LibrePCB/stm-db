@@ -7,6 +7,10 @@
     "rpn": "STM32H742VG"
   },
   "package": "TFBGA100",
+  "silicon": {
+    "core": "ARM Cortex-M7",
+    "die": "DIE450"
+  },
   "info": {
     "flash": 1024,
     "ram": 864,

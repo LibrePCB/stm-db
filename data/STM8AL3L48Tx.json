@@ -7,6 +7,9 @@
     "rpn": "STM8AL3L48"
   },
   "package": "LQFP48",
+  "silicon": {
+    "die": "DIE79H"
+  },
   "info": {
     "flash": 16,
     "ram": 2,

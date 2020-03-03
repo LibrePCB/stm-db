@@ -7,6 +7,10 @@
     "rpn": "STM8S207RB"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE765"
+  },
   "info": {
     "flash": 128,
     "ram": 6,

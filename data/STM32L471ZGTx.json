@@ -7,6 +7,10 @@
     "rpn": "STM32L471ZG"
   },
   "package": "LQFP144",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE415"
+  },
   "info": {
     "flash": 512,
     "ram": 128,

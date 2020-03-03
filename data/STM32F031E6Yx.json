@@ -7,6 +7,10 @@
     "rpn": "STM32F031E6"
   },
   "package": "WLCSP25",
+  "silicon": {
+    "core": "Arm Cortex-M0",
+    "die": "DIE444"
+  },
   "info": {
     "flash": 32,
     "ram": 4,

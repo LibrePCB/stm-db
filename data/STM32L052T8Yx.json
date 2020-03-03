@@ -7,6 +7,10 @@
     "rpn": "STM32L052T8"
   },
   "package": "WLCSP36",
+  "silicon": {
+    "core": "Arm Cortex-M0+",
+    "die": "DIE417"
+  },
   "info": {
     "flash": 32,
     "ram": 8,

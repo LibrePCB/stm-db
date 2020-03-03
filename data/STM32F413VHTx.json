@@ -7,6 +7,10 @@
     "rpn": "STM32F413VH"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE463"
+  },
   "info": {
     "flash": 1024,
     "ram": 320,

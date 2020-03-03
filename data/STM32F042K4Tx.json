@@ -7,6 +7,10 @@
     "rpn": "STM32F042K4"
   },
   "package": "LQFP32",
+  "silicon": {
+    "core": "Arm Cortex-M0",
+    "die": "DIE445"
+  },
   "info": {
     "flash": 16,
     "ram": 6,

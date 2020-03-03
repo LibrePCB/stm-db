@@ -7,6 +7,10 @@
     "rpn": "STM32F746VE"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE449"
+  },
   "info": {
     "flash": 512,
     "ram": 320,

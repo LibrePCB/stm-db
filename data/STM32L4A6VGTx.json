@@ -7,6 +7,10 @@
     "rpn": "STM32L4A6VG"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE461"
+  },
   "info": {
     "flash": 1024,
     "ram": 320,

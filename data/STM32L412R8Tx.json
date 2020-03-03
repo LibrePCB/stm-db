@@ -7,6 +7,10 @@
     "rpn": "STM32L412R8"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE464"
+  },
   "info": {
     "flash": 64,
     "ram": 40,

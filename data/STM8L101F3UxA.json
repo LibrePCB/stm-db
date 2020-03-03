@@ -7,6 +7,10 @@
     "rpn": "STM8L101F3"
   },
   "package": "UFQFPN20",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE761"
+  },
   "info": {
     "flash": 8,
     "ram": 1,

@@ -7,6 +7,10 @@
     "rpn": "STM32F334K4"
   },
   "package": "UFQFPN32",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE438"
+  },
   "info": {
     "flash": 16,
     "ram": 12,

@@ -7,6 +7,10 @@
     "rpn": "STM32L071VB"
   },
   "package": "UFBGA100",
+  "silicon": {
+    "core": "ARM Cortex-M0+",
+    "die": "DIE447"
+  },
   "info": {
     "flash": 128,
     "ram": 20,

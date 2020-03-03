@@ -7,6 +7,10 @@
     "rpn": "STM32F429ZI"
   },
   "package": "LQFP144",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE419"
+  },
   "info": {
     "flash": 2048,
     "ram": 192,

@@ -7,6 +7,10 @@
     "rpn": "STM32F205RE"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE411"
+  },
   "info": {
     "flash": 128,
     "ram": 64,

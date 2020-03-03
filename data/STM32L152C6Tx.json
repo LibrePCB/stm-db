@@ -7,6 +7,10 @@
     "rpn": "STM32L152C6"
   },
   "package": "LQFP48",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE416"
+  },
   "info": {
     "flash": 32,
     "ram": 10,

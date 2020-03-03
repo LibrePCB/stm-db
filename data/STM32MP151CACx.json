@@ -7,6 +7,10 @@
     "rpn": "STM32MP151C"
   },
   "package": "TFBGA361",
+  "silicon": {
+    "core": "ARM Cortex-A7",
+    "die": "DIE500"
+  },
   "info": {
     "flash": 0,
     "ram": 448,

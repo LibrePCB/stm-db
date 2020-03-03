@@ -7,6 +7,10 @@
     "rpn": "STM32L031F6"
   },
   "package": "TSSOP20",
+  "silicon": {
+    "core": "Arm Cortex-M0+",
+    "die": "DIE425"
+  },
   "info": {
     "flash": 16,
     "ram": 8,

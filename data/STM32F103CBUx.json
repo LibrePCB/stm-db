@@ -7,6 +7,10 @@
     "rpn": "STM32F103CB"
   },
   "package": "UFQFPN48",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE410"
+  },
   "info": {
     "flash": 128,
     "ram": 20,

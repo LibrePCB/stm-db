@@ -7,6 +7,10 @@
     "rpn": "STM32F401VB"
   },
   "package": "UFBGA100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE423"
+  },
   "info": {
     "flash": 128,
     "ram": 64,

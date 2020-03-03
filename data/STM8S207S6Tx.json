@@ -7,6 +7,9 @@
     "rpn": "STM8S207S6"
   },
   "package": "LQFP44",
+  "silicon": {
+    "die": "DIE765"
+  },
   "info": {
     "flash": 32,
     "ram": 6,

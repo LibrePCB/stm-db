@@ -7,6 +7,10 @@
     "rpn": "STM8L152K8"
   },
   "package": "WLCSP32",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE768"
+  },
   "info": {
     "flash": 64,
     "ram": 4,

@@ -7,6 +7,10 @@
     "rpn": "STM32F038C6"
   },
   "package": "LQFP48",
+  "silicon": {
+    "core": "Arm Cortex-M0",
+    "die": "DIE444"
+  },
   "info": {
     "flash": 32,
     "ram": 4,

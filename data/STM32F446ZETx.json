@@ -7,6 +7,10 @@
     "rpn": "STM32F446ZE"
   },
   "package": "LQFP144",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE421"
+  },
   "info": {
     "flash": 256,
     "ram": 128,

@@ -46,12 +46,17 @@ def process_mcu(args, name: str, ref: str, rpn: str):
                 'rpn': rpn,
             },
             'package': mcu.get('Package'),
+            'silicon': {},
             'info': {
                 'flash': int(mcu.find('{*}Flash').text),  # type: ignore
                 'ram': int(mcu.find('{*}Ram').text),  # type: ignore
                 'io': int(mcu.find('{*}IONb').text),  # type: ignore
             },
         }  # type: Dict[str, Any]
+        if mcu.find('{*}Core') is not None:
+            data['silicon']['core'] = mcu.find('{*}Core').text  # type: ignore
+        if mcu.find('{*}Die') is not None:
+            data['silicon']['die'] = mcu.find('{*}Die').text  # type: ignore
         if mcu.find('{*}E2prom') is not None:
             data['info']['eeprom'] = int(mcu.find('{*}E2prom').text)  # type: ignore
         if mcu.find('{*}Frequency') is not None:

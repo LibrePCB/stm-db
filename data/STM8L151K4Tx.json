@@ -7,6 +7,10 @@
     "rpn": "STM8L151K4"
   },
   "package": "LQFP32",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE764"
+  },
   "info": {
     "flash": 16,
     "ram": 2,

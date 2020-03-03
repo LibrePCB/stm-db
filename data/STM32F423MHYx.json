@@ -7,6 +7,10 @@
     "rpn": "STM32F423MH"
   },
   "package": "WLCSP81",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE463"
+  },
   "info": {
     "flash": 1536,
     "ram": 320,

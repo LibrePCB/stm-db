@@ -7,6 +7,10 @@
     "rpn": "STM32F469AG"
   },
   "package": "UFBGA169",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE434"
+  },
   "info": {
     "flash": 512,
     "ram": 320,

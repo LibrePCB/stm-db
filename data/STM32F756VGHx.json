@@ -7,6 +7,10 @@
     "rpn": "STM32F756VG"
   },
   "package": "TFBGA100",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE449"
+  },
   "info": {
     "flash": 1024,
     "ram": 320,

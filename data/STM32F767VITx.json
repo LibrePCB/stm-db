@@ -7,6 +7,10 @@
     "rpn": "STM32F767VI"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE451"
+  },
   "info": {
     "flash": 2048,
     "ram": 384,

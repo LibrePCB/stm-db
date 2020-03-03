@@ -7,6 +7,10 @@
     "rpn": "STM8AF6213"
   },
   "package": "TSSOP20",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE79J"
+  },
   "info": {
     "flash": 4,
     "ram": 1,

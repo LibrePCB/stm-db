@@ -7,6 +7,10 @@
     "rpn": "STM32F412VE"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE441"
+  },
   "info": {
     "flash": 512,
     "ram": 256,

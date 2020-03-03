@@ -7,6 +7,10 @@
     "rpn": "STM32L431KC"
   },
   "package": "UFQFPN32",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE435"
+  },
   "info": {
     "flash": 128,
     "ram": 64,

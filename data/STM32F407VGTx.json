@@ -7,6 +7,10 @@
     "rpn": "STM32F407VG"
   },
   "package": "LQFP100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE413"
+  },
   "info": {
     "flash": 512,
     "ram": 128,

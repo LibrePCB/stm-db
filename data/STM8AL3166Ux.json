@@ -7,6 +7,9 @@
     "rpn": "STM8AL3166"
   },
   "package": "VFQFPN32",
+  "silicon": {
+    "die": "DIE79H"
+  },
   "info": {
     "flash": 32,
     "ram": 2,

@@ -7,6 +7,10 @@
     "rpn": "STM32L152RD"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE436"
+  },
   "info": {
     "flash": 384,
     "ram": 48,

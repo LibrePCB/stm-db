@@ -7,6 +7,10 @@
     "rpn": "STM32G483ME"
   },
   "package": "LQFP80",
+  "silicon": {
+    "core": "ARM Cortex-M4",
+    "die": "DIE469"
+  },
   "info": {
     "flash": 512,
     "ram": 128,

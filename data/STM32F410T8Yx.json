@@ -7,6 +7,10 @@
     "rpn": "STM32F410T8"
   },
   "package": "WLCSP36",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE458"
+  },
   "info": {
     "flash": 64,
     "ram": 32,

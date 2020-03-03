@@ -7,6 +7,9 @@
     "rpn": "STM8S207K8"
   },
   "package": "LQFP32",
+  "silicon": {
+    "die": "DIE765"
+  },
   "info": {
     "flash": 64,
     "ram": 6,

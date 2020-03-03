@@ -7,6 +7,10 @@
     "rpn": "STM8AL31E89"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE79K"
+  },
   "info": {
     "flash": 64,
     "ram": 4,

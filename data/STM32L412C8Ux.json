@@ -7,6 +7,10 @@
     "rpn": "STM32L412C8"
   },
   "package": "UFQFPN48",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE464"
+  },
   "info": {
     "flash": 64,
     "ram": 40,

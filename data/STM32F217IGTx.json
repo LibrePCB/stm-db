@@ -7,6 +7,10 @@
     "rpn": "STM32F217IG"
   },
   "package": "LQFP176",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE411"
+  },
   "info": {
     "flash": 512,
     "ram": 128,

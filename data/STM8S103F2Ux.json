@@ -7,6 +7,9 @@
     "rpn": "STM8S103F2"
   },
   "package": "UFQFPN20",
+  "silicon": {
+    "die": "DIE767"
+  },
   "info": {
     "flash": 4,
     "ram": 1,

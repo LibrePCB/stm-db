@@ -7,6 +7,10 @@
     "rpn": "STM32F334R6"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE438"
+  },
   "info": {
     "flash": 32,
     "ram": 12,

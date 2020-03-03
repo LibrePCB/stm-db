@@ -7,6 +7,10 @@
     "rpn": "STM32L462VE"
   },
   "package": "UFBGA100",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE462"
+  },
   "info": {
     "flash": 512,
     "ram": 160,

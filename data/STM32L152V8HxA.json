@@ -7,6 +7,10 @@
     "rpn": "STM32L152V8-A"
   },
   "package": "UFBGA100",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE429"
+  },
   "info": {
     "flash": 64,
     "ram": 32,

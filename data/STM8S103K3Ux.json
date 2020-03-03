@@ -7,6 +7,9 @@
     "rpn": "STM8S103K3"
   },
   "package": "UFQFPN32",
+  "silicon": {
+    "die": "DIE767"
+  },
   "info": {
     "flash": 8,
     "ram": 1,

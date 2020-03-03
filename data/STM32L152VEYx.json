@@ -7,6 +7,10 @@
     "rpn": "STM32L152VE"
   },
   "package": "WLCSP104",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE437"
+  },
   "info": {
     "flash": 512,
     "ram": 80,

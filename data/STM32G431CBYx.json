@@ -7,6 +7,10 @@
     "rpn": "STM32G431CB"
   },
   "package": "WLCSP49",
+  "silicon": {
+    "core": "ARM Cortex-M4",
+    "die": "DIE468"
+  },
   "info": {
     "flash": 128,
     "ram": 32,

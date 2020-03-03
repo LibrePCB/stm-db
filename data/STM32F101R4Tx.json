@@ -7,6 +7,10 @@
     "rpn": "STM32F101R4"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE412"
+  },
   "info": {
     "flash": 16,
     "ram": 4,

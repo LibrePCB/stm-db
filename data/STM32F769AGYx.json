@@ -7,6 +7,10 @@
     "rpn": "STM32F769AG"
   },
   "package": "WLCSP180",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE451"
+  },
   "info": {
     "flash": 1024,
     "ram": 384,

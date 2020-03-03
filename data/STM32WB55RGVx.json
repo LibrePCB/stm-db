@@ -7,6 +7,10 @@
     "rpn": "STM32WB55RG"
   },
   "package": "VFQFPN68",
+  "silicon": {
+    "core": "ARM Cortex-M4",
+    "die": "DIE495"
+  },
   "info": {
     "flash": 1024,
     "ram": 256,

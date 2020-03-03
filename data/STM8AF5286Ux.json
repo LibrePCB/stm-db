@@ -7,6 +7,10 @@
     "rpn": "STM8AF5286"
   },
   "package": "VFQFPN32",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE79A"
+  },
   "info": {
     "flash": 64,
     "ram": 6,

@@ -7,6 +7,9 @@
     "rpn": "STM8AF62A6"
   },
   "package": "VFQFPN32",
+  "silicon": {
+    "die": "DIE79A"
+  },
   "info": {
     "flash": 128,
     "ram": 6,

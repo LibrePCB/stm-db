@@ -7,6 +7,10 @@
     "rpn": "STM8L151F2"
   },
   "package": "TSSOP20",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE758"
+  },
   "info": {
     "flash": 4,
     "ram": 1,

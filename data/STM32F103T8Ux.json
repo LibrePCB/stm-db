@@ -7,6 +7,10 @@
     "rpn": "STM32F103T8"
   },
   "package": "VFQFPN36",
+  "silicon": {
+    "core": "Arm Cortex-M3",
+    "die": "DIE410"
+  },
   "info": {
     "flash": 64,
     "ram": 20,

@@ -7,6 +7,10 @@
     "rpn": "STM32WB55VC"
   },
   "package": "UFBGA129",
+  "silicon": {
+    "core": "ARM Cortex-M4",
+    "die": "DIE495"
+  },
   "info": {
     "flash": 256,
     "ram": 128,

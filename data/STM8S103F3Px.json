@@ -7,6 +7,9 @@
     "rpn": "STM8S103F3"
   },
   "package": "TSSOP20",
+  "silicon": {
+    "die": "DIE767"
+  },
   "info": {
     "flash": 8,
     "ram": 1,

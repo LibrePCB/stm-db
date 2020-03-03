@@ -7,6 +7,10 @@
     "rpn": "STM32F429II"
   },
   "package": "UFBGA176",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE419"
+  },
   "info": {
     "flash": 512,
     "ram": 192,

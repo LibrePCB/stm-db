@@ -7,6 +7,9 @@
     "rpn": "STM8AF6269"
   },
   "package": "LQFP64",
+  "silicon": {
+    "die": "DIE79B"
+  },
   "info": {
     "flash": 32,
     "ram": 6,

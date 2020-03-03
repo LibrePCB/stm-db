@@ -7,6 +7,9 @@
     "rpn": "STM8S105C6"
   },
   "package": "LQFP48",
+  "silicon": {
+    "die": "DIE766"
+  },
   "info": {
     "flash": 32,
     "ram": 2,

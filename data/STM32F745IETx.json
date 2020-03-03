@@ -7,6 +7,10 @@
     "rpn": "STM32F745IE"
   },
   "package": "LQFP176",
+  "silicon": {
+    "core": "Arm Cortex-M7",
+    "die": "DIE449"
+  },
   "info": {
     "flash": 512,
     "ram": 320,

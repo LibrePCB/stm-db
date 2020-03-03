@@ -7,6 +7,9 @@
     "rpn": "STM8AF528A"
   },
   "package": "LQFP80",
+  "silicon": {
+    "die": "DIE79A"
+  },
   "info": {
     "flash": 64,
     "ram": 6,

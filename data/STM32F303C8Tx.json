@@ -7,6 +7,10 @@
     "rpn": "STM32F303C8"
   },
   "package": "LQFP48",
+  "silicon": {
+    "core": "Arm Cortex-M4",
+    "die": "DIE438"
+  },
   "info": {
     "flash": 32,
     "ram": 12,

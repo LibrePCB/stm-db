@@ -7,6 +7,10 @@
     "rpn": "STM8L162R8"
   },
   "package": "LQFP64",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE768"
+  },
   "info": {
     "flash": 64,
     "ram": 4,

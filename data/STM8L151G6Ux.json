@@ -7,6 +7,10 @@
     "rpn": "STM8L151G6"
   },
   "package": "UFQFPN28",
+  "silicon": {
+    "core": "STM8",
+    "die": "DIE764"
+  },
   "info": {
     "flash": 32,
     "ram": 2,

@@ -7,6 +7,10 @@
     "rpn": "STM32F091CC"
   },
   "package": "UFQFPN48",
+  "silicon": {
+    "core": "Arm Cortex-M0",
+    "die": "DIE442"
+  },
   "info": {
     "flash": 128,
     "ram": 32,
