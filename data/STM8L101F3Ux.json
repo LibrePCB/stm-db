@@ -1,0 +1,204 @@
+{
+  "names": {
+    "name": "STM8L101F3Ux",
+    "ref": "STM8L101F3Ux",
+    "family": "STM8L",
+    "line": "STM8L101",
+    "rpn": "STM8L101F3"
+  },
+  "package": "UFQFPN20",
+  "info": {
+    "flash": 8,
+    "ram": 1,
+    "io": 17,
+    "frequency": 16,
+    "voltage": {
+      "min": 1.65,
+      "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 125.0
+    }
+  },
+  "gpio_version": "",
+  "pinout": [
+    {
+      "name": "NRST/PA1",
+      "position": "1",
+      "type": "Reset",
+      "signals": []
+    },
+    {
+      "name": "PA2",
+      "position": "2",
+      "type": "I/O",
+      "signals": [
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA3",
+      "position": "3",
+      "type": "I/O",
+      "signals": [
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "4",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "5",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PD0",
+      "position": "6",
+      "type": "I/O",
+      "signals": [
+        "COMP1_CH3",
+        "TIM3_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB0",
+      "position": "7",
+      "type": "I/O",
+      "signals": [
+        "COMP1_CH1",
+        "TIM2_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB1",
+      "position": "8",
+      "type": "I/O",
+      "signals": [
+        "COMP1_CH2",
+        "TIM3_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB2",
+      "position": "9",
+      "type": "I/O",
+      "signals": [
+        "COMP2_CH1",
+        "TIM2_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB3",
+      "position": "10",
+      "type": "I/O",
+      "signals": [
+        "COMP2_CH2",
+        "TIM2_ETR",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "11",
+      "type": "I/O",
+      "signals": [
+        "SPI_NSS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB5",
+      "position": "12",
+      "type": "I/O",
+      "signals": [
+        "SPI_SCK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB6",
+      "position": "13",
+      "type": "I/O",
+      "signals": [
+        "SPI_MOSI",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB7",
+      "position": "14",
+      "type": "I/O",
+      "signals": [
+        "SPI_MISO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC0",
+      "position": "15",
+      "type": "I/O",
+      "signals": [
+        "I2C_SDA",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC1",
+      "position": "16",
+      "type": "I/O",
+      "signals": [
+        "I2C_SCL",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC2",
+      "position": "17",
+      "type": "I/O",
+      "signals": [
+        "USART_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC3",
+      "position": "18",
+      "type": "I/O",
+      "signals": [
+        "USART_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC4",
+      "position": "19",
+      "type": "I/O",
+      "signals": [
+        "RCC_CCO",
+        "USART_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA0",
+      "position": "20",
+      "type": "I/O",
+      "signals": [
+        "IR_TIM",
+        "SYS_BEEP",
+        "SYS_SWIM",
+        "GPIO"
+      ]
+    }
+  ]
+}

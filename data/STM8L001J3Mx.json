@@ -1,0 +1,97 @@
+{
+  "names": {
+    "name": "STM8L001J3Mx",
+    "ref": "STM8L001J3Mx",
+    "family": "STM8L",
+    "line": "STM8L Value Line",
+    "rpn": "STM8L001J3"
+  },
+  "package": "SO8",
+  "info": {
+    "flash": 8,
+    "ram": 1,
+    "io": 6,
+    "eeprom": 2048,
+    "frequency": 16
+  },
+  "gpio_version": "",
+  "pinout": [
+    {
+      "name": "PA0xPC3xPC4",
+      "position": "1",
+      "type": "I/O",
+      "signals": [
+        "IR_TIM",
+        "RCC_CCO",
+        "SYS_BEEP",
+        "SYS_SWIM",
+        "USART_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA2xPA4xPA6",
+      "position": "2",
+      "type": "I/O",
+      "signals": [
+        "SYS_COMP_REF",
+        "TIM2_BKIN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "3",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "4",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PD0xPB3xPB5",
+      "position": "5",
+      "type": "I/O",
+      "signals": [
+        "COMP1_CH3",
+        "COMP2_CH2",
+        "SPI_SCK",
+        "TIM2_ETR",
+        "TIM3_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB6",
+      "position": "6",
+      "type": "I/O",
+      "signals": [
+        "SPI_MOSI",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB7xPC0",
+      "position": "7",
+      "type": "I/O",
+      "signals": [
+        "I2C_SDA",
+        "SPI_MISO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC1xPC2",
+      "position": "8",
+      "type": "I/O",
+      "signals": [
+        "I2C_SCL",
+        "USART_RX",
+        "GPIO"
+      ]
+    }
+  ]
+}

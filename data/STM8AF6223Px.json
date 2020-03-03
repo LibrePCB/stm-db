@@ -1,0 +1,210 @@
+{
+  "names": {
+    "name": "STM8AF6223Px",
+    "ref": "STM8AF6223Px",
+    "family": "STM8AF",
+    "line": "STM8AF62",
+    "rpn": "STM8AF6223"
+  },
+  "package": "TSSOP20",
+  "info": {
+    "flash": 8,
+    "ram": 1,
+    "io": 16,
+    "eeprom": 640,
+    "frequency": 16,
+    "voltage": {
+      "min": 3.0,
+      "max": 5.5
+    }
+  },
+  "gpio_version": "",
+  "pinout": [
+    {
+      "name": "PD4",
+      "position": "1",
+      "type": "I/O",
+      "signals": [
+        "LINUART_CK",
+        "SYS_BEEP",
+        "TIM5_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD5",
+      "position": "2",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN5",
+        "LINUART_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD6",
+      "position": "3",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN6",
+        "LINUART_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "NRST",
+      "position": "4",
+      "type": "Reset",
+      "signals": []
+    },
+    {
+      "name": "PA1",
+      "position": "5",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSCIN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA2",
+      "position": "6",
+      "type": "I/O",
+      "signals": [
+        "RCC_OSCOUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "7",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VCAP",
+      "position": "8",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "9",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PA3",
+      "position": "10",
+      "type": "I/O",
+      "signals": [
+        "SPI_NSS",
+        "TIM5_CH3",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB5",
+      "position": "11",
+      "type": "I/O",
+      "signals": [
+        "I2C_SDA",
+        "TIM1_BKIN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "12",
+      "type": "I/O",
+      "signals": [
+        "ADC_ETR",
+        "I2C_SCL",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC3",
+      "position": "13",
+      "type": "I/O",
+      "signals": [
+        "SYS_TLI",
+        "TIM1_CH1N",
+        "TIM1_CH3",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC4",
+      "position": "14",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN2",
+        "RCC_CCO",
+        "TIM1_CH2N",
+        "TIM1_CH4",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC5",
+      "position": "15",
+      "type": "I/O",
+      "signals": [
+        "SPI_SCK",
+        "TIM5_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC6",
+      "position": "16",
+      "type": "I/O",
+      "signals": [
+        "SPI_MOSI",
+        "TIM1_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC7",
+      "position": "17",
+      "type": "I/O",
+      "signals": [
+        "SPI_MISO",
+        "TIM1_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD1",
+      "position": "18",
+      "type": "I/O",
+      "signals": [
+        "SYS_SWIM",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD2",
+      "position": "19",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN3",
+        "TIM5_CH3",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD3",
+      "position": "20",
+      "type": "I/O",
+      "signals": [
+        "ADC_ETR",
+        "ADC_IN4",
+        "TIM5_CH2",
+        "GPIO"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "names": {
+    "name": "STM8S001J3Mx",
+    "ref": "STM8S001J3Mx",
+    "family": "STM8S",
+    "line": "STM8S Value Line",
+    "rpn": "STM8S001J3"
+  },
+  "package": "SO8",
+  "info": {
+    "flash": 8,
+    "ram": 1,
+    "io": 5,
+    "eeprom": 128,
+    "frequency": 16
+  },
+  "gpio_version": "STM8S_767_gpio_v1_0",
+  "pinout": [
+    {
+      "name": "PA1xPD6",
+      "position": "1",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN6",
+        "RCC_OSCIN",
+        "UART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS/VSSA",
+      "position": "2",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VCAP",
+      "position": "3",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "VDD/VDDA",
+      "position": "4",
+      "type": "Power",
+      "signals": []
+    },
+    {
+      "name": "PA3xPB5",
+      "position": "5",
+      "type": "I/O",
+      "signals": [
+        "I2C_SDA",
+        "SPI_NSS",
+        "TIM1_BKIN",
+        "TIM2_CH3",
+        "UART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "6",
+      "type": "I/O",
+      "signals": [
+        "ADC_ETR",
+        "I2C_SCL",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC3xPC4xPC5",
+      "position": "7",
+      "type": "I/O",
+      "signals": [
+        "ADC_IN2",
+        "RCC_CCO",
+        "SPI_SCK",
+        "SYS_TLI",
+        "TIM1_CH1N",
+        "TIM1_CH2N",
+        "TIM1_CH3",
+        "TIM1_CH4",
+        "TIM2_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD1xPD5xPC6xPD3",
+      "position": "8",
+      "type": "I/O",
+      "signals": [
+        "ADC_ETR",
+        "ADC_IN4",
+        "ADC_IN5",
+        "SPI_MOSI",
+        "SYS_SWIM",
+        "TIM1_CH1",
+        "TIM2_CH2",
+        "UART1_TX",
+        "GPIO"
+      ]
+    }
+  ]
+}

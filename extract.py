@@ -62,10 +62,13 @@ def process_mcu(args, name: str, ref: str, rpn: str):
                 'max': float(mcu.find('{*}Voltage').get('Max')),  # type: ignore
             }
         if mcu.find('{*}Temperature') is not None:
-            data['info']['temperature'] = {
-                'min': float(mcu.find('{*}Temperature').get('Min')),  # type: ignore
-                'max': float(mcu.find('{*}Temperature').get('Max')),  # type: ignore
-            }
+            temp_min = mcu.find('{*}Temperature').get('Min')  # type: ignore
+            temp_max = mcu.find('{*}Temperature').get('Max')  # type: ignore
+            if temp_min is not None and temp_max is not None:
+                data['info']['temperature'] = {
+                    'min': float(temp_min),
+                    'max': float(temp_max),
+                }
 
         data['gpio_version'] = mcu.find('./{*}IP[@Name="GPIO"]').get('Version')  # type: ignore
         data['pinout'] = []
