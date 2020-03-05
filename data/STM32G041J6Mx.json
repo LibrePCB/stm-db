@@ -31,6 +31,7 @@
       "name": "PC14-OSC32_IN (PC14)",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "RCC_OSC_IN",
@@ -42,6 +43,7 @@
       "name": "PB7",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN11",
         "I2C1_SDA",
@@ -57,6 +59,7 @@
       "name": "PB8",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SCL",
         "SPI2_SCK",
@@ -68,6 +71,7 @@
       "name": "PB9",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SDA",
         "IR_OUT",
@@ -80,18 +84,21 @@
       "name": "VBAT",
       "position": "2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS/VSSA",
       "position": "3",
       "type": "MonoIO",
+      "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "4",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "RCC_MCO"
       ]
@@ -100,6 +107,7 @@
       "name": "PA0",
       "position": "4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN0",
         "LPTIM1_OUT",
@@ -115,6 +123,7 @@
       "name": "PA1",
       "position": "4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN1",
         "I2C1_SMBA",
@@ -128,6 +137,7 @@
       "name": "PA2",
       "position": "4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN2",
         "I2S1_SD",
@@ -143,6 +153,7 @@
       "name": "PB0",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN8",
         "I2S1_WS",
@@ -157,6 +168,7 @@
       "name": "PB1",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN9",
         "LPTIM2_IN1",
@@ -172,6 +184,7 @@
       "name": "PA8",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LPTIM2_OUT",
         "RCC_MCO",
@@ -184,6 +197,7 @@
       "name": "PA11 [PA9]",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC1_IN15",
@@ -201,6 +215,7 @@
       "name": "PA9 [PA11]",
       "position": "5",
       "type": "I/O",
+      "variant": "PINREMAP",
       "signals": [
         "I2C1_SCL",
         "RCC_MCO",
@@ -214,6 +229,7 @@
       "name": "PA12 [PA10]",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN16",
         "I2C2_SDA",
@@ -231,6 +247,7 @@
       "name": "PA10 [PA12]",
       "position": "6",
       "type": "I/O",
+      "variant": "PINREMAP_10_12",
       "signals": [
         "I2C1_SDA",
         "SPI2_MOSI",
@@ -244,6 +261,7 @@
       "name": "PA13",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN17",
         "IR_OUT",
@@ -255,6 +273,7 @@
       "name": "PA14-BOOT0",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN18",
         "SYS_SWCLK",
@@ -265,6 +284,7 @@
       "name": "PA15",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2S1_WS",
         "SPI1_NSS",
@@ -277,6 +297,7 @@
       "name": "PB5",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SMBA",
         "I2S1_SD",
@@ -292,6 +313,7 @@
       "name": "PB6",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SCL",
         "LPTIM1_ETR",

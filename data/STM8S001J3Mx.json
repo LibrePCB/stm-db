@@ -24,6 +24,7 @@
       "name": "PA1xPD6",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN6",
         "RCC_OSCIN",
@@ -35,24 +36,28 @@
       "name": "VSS/VSSA",
       "position": "2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VCAP",
       "position": "3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD/VDDA",
       "position": "4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA3xPB5",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C_SDA",
         "SPI_NSS",
@@ -66,6 +71,7 @@
       "name": "PB4",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_ETR",
         "I2C_SCL",
@@ -76,6 +82,7 @@
       "name": "PC3xPC4xPC5",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN2",
         "RCC_CCO",
@@ -93,6 +100,7 @@
       "name": "PD1xPD5xPC6xPD3",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_ETR",
         "ADC_IN4",

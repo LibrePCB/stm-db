@@ -24,6 +24,7 @@
       "name": "PA0xPC3xPC4",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "IR_TIM",
         "RCC_CCO",
@@ -37,6 +38,7 @@
       "name": "PA2xPA4xPA6",
       "position": "2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_COMP_REF",
         "TIM2_BKIN",
@@ -47,18 +49,21 @@
       "name": "VSS",
       "position": "3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD0xPB3xPB5",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_CH3",
         "COMP2_CH2",
@@ -72,6 +77,7 @@
       "name": "PB6",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI_MOSI",
         "GPIO"
@@ -81,6 +87,7 @@
       "name": "PB7xPC0",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C_SDA",
         "SPI_MISO",
@@ -91,6 +98,7 @@
       "name": "PC1xPC2",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C_SCL",
         "USART_RX",

@@ -31,12 +31,14 @@
       "name": "VDD",
       "position": "1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC14-OSC32_IN (PC14)",
       "position": "2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "GPIO"
@@ -46,6 +48,7 @@
       "name": "PC15-OSC32_OUT (PC15)",
       "position": "3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "RCC_OSC32_OUT",
@@ -56,18 +59,21 @@
       "name": "NRST",
       "position": "4",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDA/VREF+",
       "position": "5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA0",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN5",
         "COMP1_INM",
@@ -87,6 +93,7 @@
       "name": "PA1",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN6",
         "COMP1_INP",
@@ -104,6 +111,7 @@
       "name": "PA2",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN7",
         "COMP2_INM",
@@ -122,6 +130,7 @@
       "name": "PA3",
       "position": "9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN8",
         "COMP2_INP",
@@ -139,6 +148,7 @@
       "name": "PA4",
       "position": "10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN9",
         "COMP1_INM",
@@ -156,6 +166,7 @@
       "name": "PA5",
       "position": "11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN10",
         "COMP1_INM",
@@ -172,6 +183,7 @@
       "name": "PA6",
       "position": "12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN11",
         "COMP1_OUT",
@@ -188,6 +200,7 @@
       "name": "PA7",
       "position": "13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN12",
         "COMP2_OUT",
@@ -202,6 +215,7 @@
       "name": "PB0",
       "position": "14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN15",
         "COMP1_OUT",
@@ -216,6 +230,7 @@
       "name": "PB1",
       "position": "15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN16",
         "COMP1_INM",
@@ -231,18 +246,21 @@
       "name": "VSS",
       "position": "16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA8",
       "position": "18",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LPTIM2_OUT",
         "RCC_MCO",
@@ -257,6 +275,7 @@
       "name": "PA9",
       "position": "19",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "I2C1_SCL",
@@ -271,6 +290,7 @@
       "name": "PA10",
       "position": "20",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CRS_SYNC",
         "I2C1_SDA",
@@ -284,6 +304,7 @@
       "name": "PA11",
       "position": "21",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "CAN1_RX",
@@ -301,6 +322,7 @@
       "name": "PA12",
       "position": "22",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CAN1_TX",
         "SPI1_MOSI",
@@ -315,6 +337,7 @@
       "name": "PA13 (JTMS-SWDIO)",
       "position": "23",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "IR_OUT",
         "SAI1_SD_B",
@@ -328,6 +351,7 @@
       "name": "PA14 (JTCK-SWCLK)",
       "position": "24",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SMBA",
         "LPTIM1_OUT",
@@ -341,6 +365,7 @@
       "name": "PA15 (JTDI)",
       "position": "25",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "SPI1_NSS",
@@ -357,6 +382,7 @@
       "name": "PB3 (JTDO-TRACESWO)",
       "position": "26",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INM",
         "SAI1_SCK_B",
@@ -373,6 +399,7 @@
       "name": "PB4 (NJTRST)",
       "position": "27",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INP",
         "I2C3_SDA",
@@ -389,6 +416,7 @@
       "name": "PB5",
       "position": "28",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_OUT",
         "I2C1_SMBA",
@@ -406,6 +434,7 @@
       "name": "PB6",
       "position": "29",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INP",
         "I2C1_SCL",
@@ -421,6 +450,7 @@
       "name": "PB7",
       "position": "30",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INM",
         "I2C1_SDA",
@@ -435,6 +465,7 @@
       "name": "PH3-BOOT0",
       "position": "31",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "GPIO"
       ]
@@ -443,6 +474,7 @@
       "name": "VSS",
       "position": "32",
       "type": "Power",
+      "variant": null,
       "signals": []
     }
   ]

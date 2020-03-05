@@ -31,12 +31,14 @@
       "name": "VSS",
       "position": "A1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI6",
       "position": "A2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "FMC_D28",
@@ -50,6 +52,7 @@
       "name": "PI5",
       "position": "A3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_VSYNC",
         "FMC_NBL3",
@@ -63,6 +66,7 @@
       "name": "PI4",
       "position": "A4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D5",
         "FMC_NBL2",
@@ -78,6 +82,7 @@
       "name": "PB5",
       "position": "A5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D10",
         "ETH_PPS_OUT",
@@ -102,18 +107,21 @@
       "name": "VDDLDO",
       "position": "A6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VCAP",
       "position": "A7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PK5",
       "position": "A8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B6",
         "GPIO"
@@ -123,6 +131,7 @@
       "name": "PG10",
       "position": "A9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "FMC_NE3",
@@ -139,6 +148,7 @@
       "name": "PG9",
       "position": "A10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_VSYNC",
@@ -157,6 +167,7 @@
       "name": "PD5",
       "position": "A11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_NWE",
         "HRTIM_EEV3",
@@ -168,6 +179,7 @@
       "name": "PD4",
       "position": "A12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_NOE",
         "HRTIM_FLT3",
@@ -181,6 +193,7 @@
       "name": "PC10",
       "position": "A13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D8",
         "DFSDM1_CKIN5",
@@ -199,6 +212,7 @@
       "name": "PA15 (JTDI)",
       "position": "A14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -224,6 +238,7 @@
       "name": "PI1",
       "position": "A15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D8",
         "FMC_D25",
@@ -240,6 +255,7 @@
       "name": "PI0",
       "position": "A16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D13",
         "FMC_D24",
@@ -254,24 +270,28 @@
       "name": "VSS",
       "position": "A17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VBAT",
       "position": "B1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "B2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI7",
       "position": "B3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D7",
         "FMC_D29",
@@ -285,6 +305,7 @@
       "name": "PE1",
       "position": "B4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D3",
         "FMC_NBL1",
@@ -298,6 +319,7 @@
       "name": "PB6",
       "position": "B5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CEC",
         "DCMI_D5",
@@ -320,12 +342,14 @@
       "name": "VSS",
       "position": "B6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PB4 (NJTRST)",
       "position": "B7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_JTRST",
         "HRTIM_EEV6",
@@ -347,6 +371,7 @@
       "name": "PK4",
       "position": "B8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B5",
         "GPIO"
@@ -356,6 +381,7 @@
       "name": "PG11",
       "position": "B9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -376,6 +402,7 @@
       "name": "PJ15",
       "position": "B10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -388,6 +415,7 @@
       "name": "PD6",
       "position": "B11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D10",
         "DFSDM1_CKIN4",
@@ -409,6 +437,7 @@
       "name": "PD3",
       "position": "B12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D5",
         "DFSDM1_CKOUT",
@@ -425,6 +454,7 @@
       "name": "PC11",
       "position": "B13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -445,6 +475,7 @@
       "name": "PA14 (JTCK/SWCLK)",
       "position": "B14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_JTCK-SWCLK",
         "GPIO"
@@ -454,6 +485,7 @@
       "name": "PI2",
       "position": "B15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D9",
         "FMC_D26",
@@ -468,6 +500,7 @@
       "name": "PH15",
       "position": "B16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -483,6 +516,7 @@
       "name": "PH14",
       "position": "B17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D4",
         "FDCAN1_RX",
@@ -497,6 +531,7 @@
       "name": "PC15-OSC32_OUT (OSC32_OUT)",
       "position": "C1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -509,6 +544,7 @@
       "name": "PC14-OSC32_IN (OSC32_IN)",
       "position": "C2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "GPIO"
@@ -518,6 +554,7 @@
       "name": "PE2",
       "position": "C3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACECLK",
         "ETH_TXD3",
@@ -535,6 +572,7 @@
       "name": "PE0",
       "position": "C4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "FMC_NBL0",
@@ -551,6 +589,7 @@
       "name": "PB7",
       "position": "C5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_VSYNC",
         "DFSDM1_CKIN5",
@@ -570,6 +609,7 @@
       "name": "PB3 (JTDO/TRACESWO)",
       "position": "C6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CRS_SYNC",
         "DEBUG_JTDO-SWO",
@@ -589,6 +629,7 @@
       "name": "PK6",
       "position": "C7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B7",
         "GPIO"
@@ -598,6 +639,7 @@
       "name": "PK3",
       "position": "C8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B4",
         "GPIO"
@@ -607,6 +649,7 @@
       "name": "PG12",
       "position": "C9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ETH_TXD1",
         "FMC_NE4",
@@ -625,12 +668,14 @@
       "name": "VSS",
       "position": "C10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD7",
       "position": "C11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN1",
         "DFSDM1_DATIN4",
@@ -647,6 +692,7 @@
       "name": "PC12",
       "position": "C12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D9",
         "DEBUG_TRACED3",
@@ -663,12 +709,14 @@
       "name": "VSS",
       "position": "C13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI3",
       "position": "C14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D10",
         "FMC_D27",
@@ -682,6 +730,7 @@
       "name": "PA13 (JTMS/SWDIO)",
       "position": "C15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_JTMS-SWDIO",
         "GPIO"
@@ -691,18 +740,21 @@
       "name": "VSS",
       "position": "C16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDLDO",
       "position": "C17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE5",
       "position": "D1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "DEBUG_TRACED2",
@@ -722,6 +774,7 @@
       "name": "PE4",
       "position": "D2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D4",
         "DEBUG_TRACED1",
@@ -741,6 +794,7 @@
       "name": "PE3",
       "position": "D3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED0",
         "FMC_A19",
@@ -754,6 +808,7 @@
       "name": "PB9",
       "position": "D4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D7",
@@ -778,6 +833,7 @@
       "name": "PB8",
       "position": "D5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "DFSDM1_CKIN7",
@@ -799,6 +855,7 @@
       "name": "PG15",
       "position": "D6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -814,6 +871,7 @@
       "name": "PK7",
       "position": "D7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_DE",
         "GPIO"
@@ -823,6 +881,7 @@
       "name": "PG14",
       "position": "D8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED1",
         "ETH_TXD1",
@@ -839,6 +898,7 @@
       "name": "PG13",
       "position": "D9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED0",
         "ETH_TXD0",
@@ -856,6 +916,7 @@
       "name": "PJ14",
       "position": "D10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B2",
         "GPIO"
@@ -865,6 +926,7 @@
       "name": "PJ12",
       "position": "D11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRGOUT",
         "LTDC_B0",
@@ -876,6 +938,7 @@
       "name": "PD2",
       "position": "D12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D11",
         "DEBUG_TRACED2",
@@ -889,6 +952,7 @@
       "name": "PD0",
       "position": "D13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN6",
         "FDCAN1_RX",
@@ -903,6 +967,7 @@
       "name": "PA10",
       "position": "D14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D1",
         "HRTIM_CHC2",
@@ -920,6 +985,7 @@
       "name": "PA9",
       "position": "D15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D0",
@@ -939,6 +1005,7 @@
       "name": "PH13",
       "position": "D16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FDCAN1_TX",
         "FMC_D21",
@@ -952,18 +1019,21 @@
       "name": "VCAP",
       "position": "D17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VLXSMPS",
       "position": "E1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI9",
       "position": "E2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "FDCAN1_RX",
@@ -977,6 +1047,7 @@
       "name": "PC13",
       "position": "E3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "PWR_WKUP2",
         "RTC_OUT_ALARM",
@@ -990,6 +1061,7 @@
       "name": "PI8",
       "position": "E4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "PWR_WKUP3",
         "RTC_TAMP2",
@@ -1000,6 +1072,7 @@
       "name": "PE6",
       "position": "E5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D7",
         "DEBUG_TRACED3",
@@ -1022,30 +1095,35 @@
       "name": "VDD",
       "position": "E6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PDR_ON",
       "position": "E7",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "BOOT0",
       "position": "E8",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "E9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PJ13",
       "position": "E10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_B1",
         "LTDC_B4",
@@ -1056,12 +1134,14 @@
       "name": "VDD",
       "position": "E11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD1",
       "position": "E12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN6",
         "FDCAN1_TX",
@@ -1076,6 +1156,7 @@
       "name": "PC8",
       "position": "E13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "DEBUG_TRACED1",
@@ -1096,6 +1177,7 @@
       "name": "PC9",
       "position": "E14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D3",
@@ -1117,6 +1199,7 @@
       "name": "PA8",
       "position": "E15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "HRTIM_CHB2",
         "I2C3_SCL",
@@ -1137,6 +1220,7 @@
       "name": "PA12",
       "position": "E16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FDCAN1_TX",
         "HRTIM_CHD2",
@@ -1158,6 +1242,7 @@
       "name": "PA11",
       "position": "E17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -1180,18 +1265,21 @@
       "name": "VDDSMPS",
       "position": "F1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSSSMPS",
       "position": "F2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI10",
       "position": "F3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ETH_RX_ER",
         "FMC_D31",
@@ -1203,6 +1291,7 @@
       "name": "PI11",
       "position": "F4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -1217,12 +1306,14 @@
       "name": "VDD",
       "position": "F5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC7",
       "position": "F13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D1",
         "DEBUG_TRGIO",
@@ -1245,6 +1336,7 @@
       "name": "PC6",
       "position": "F14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D0",
         "DFSDM1_CKIN3",
@@ -1266,6 +1358,7 @@
       "name": "PG8",
       "position": "F15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ETH_PPS_OUT",
         "FMC_SDCLK",
@@ -1282,6 +1375,7 @@
       "name": "PG7",
       "position": "F16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D13",
         "FMC_INT",
@@ -1296,12 +1390,14 @@
       "name": "VDD33_USB",
       "position": "F17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF2",
       "position": "G1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A2",
         "I2C2_SMBA",
@@ -1312,12 +1408,14 @@
       "name": "VFBSMPS",
       "position": "G2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF1",
       "position": "G3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A1",
         "I2C2_SCL",
@@ -1328,6 +1426,7 @@
       "name": "PF0",
       "position": "G4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A0",
         "I2C2_SDA",
@@ -1338,48 +1437,56 @@
       "name": "VDD",
       "position": "G5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "G13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PG5",
       "position": "G14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A15",
         "FMC_BA1",
@@ -1391,6 +1498,7 @@
       "name": "PG6",
       "position": "G15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D12",
         "FMC_NE3",
@@ -1405,18 +1513,21 @@
       "name": "VSS",
       "position": "G16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD50_USB",
       "position": "G17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PI12",
       "position": "H1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_HSYNC",
         "GPIO"
@@ -1426,6 +1537,7 @@
       "name": "PI13",
       "position": "H2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_VSYNC",
         "GPIO"
@@ -1435,6 +1547,7 @@
       "name": "PI14",
       "position": "H3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_CLK",
         "GPIO"
@@ -1444,6 +1557,7 @@
       "name": "PF3",
       "position": "H4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP5",
         "FMC_A3",
@@ -1454,48 +1568,56 @@
       "name": "VDD",
       "position": "H5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "H13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PG4",
       "position": "H14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A14",
         "FMC_BA0",
@@ -1509,6 +1631,7 @@
       "name": "PG3",
       "position": "H15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A13",
         "TIM8_BKIN2",
@@ -1521,6 +1644,7 @@
       "name": "PG2",
       "position": "H16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A12",
         "TIM8_BKIN",
@@ -1533,6 +1657,7 @@
       "name": "PK2",
       "position": "H17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_G7",
         "TIM1_BKIN",
@@ -1548,6 +1673,7 @@
       "name": "PH1-OSC_OUT (PH1)",
       "position": "J1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_OUT",
         "GPIO"
@@ -1557,6 +1683,7 @@
       "name": "PH0-OSC_IN (PH0)",
       "position": "J2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_IN",
         "GPIO"
@@ -1566,12 +1693,14 @@
       "name": "VSS",
       "position": "J3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF5",
       "position": "J4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP4",
         "FMC_A5",
@@ -1582,6 +1711,7 @@
       "name": "PF4",
       "position": "J5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN5",
         "ADC3_INP9",
@@ -1593,42 +1723,49 @@
       "name": "VSS",
       "position": "J7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "J13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PK0",
       "position": "J14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_G5",
         "SPI5_SCK",
@@ -1641,6 +1778,7 @@
       "name": "PK1",
       "position": "J15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_G6",
         "SPI5_NSS",
@@ -1653,24 +1791,28 @@
       "name": "VSS",
       "position": "J16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "K1",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF6",
       "position": "K2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN4",
         "ADC3_INP8",
@@ -1687,6 +1829,7 @@
       "name": "PF7",
       "position": "K3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP3",
         "QUADSPI_BK1_IO2",
@@ -1702,6 +1845,7 @@
       "name": "PF8",
       "position": "K4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN3",
         "ADC3_INP7",
@@ -1720,48 +1864,56 @@
       "name": "VDD",
       "position": "K5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "K13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PJ11",
       "position": "K14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -1777,12 +1929,14 @@
       "name": "VSSDSI",
       "position": "K15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DSI_D1P",
       "position": "K16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D1P"
       ]
@@ -1791,6 +1945,7 @@
       "name": "DSI_D1N",
       "position": "K17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D1N"
       ]
@@ -1799,12 +1954,14 @@
       "name": "VDDA",
       "position": "L1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC0",
       "position": "L2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP10",
         "ADC2_INP10",
@@ -1822,6 +1979,7 @@
       "name": "PF10",
       "position": "L3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN2",
         "ADC3_INP6",
@@ -1838,6 +1996,7 @@
       "name": "PF9",
       "position": "L4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP2",
         "DAC1_EXTI9",
@@ -1855,48 +2014,56 @@
       "name": "VDD",
       "position": "L5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "L13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PJ10",
       "position": "L14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_G3",
         "SPI5_MOSI",
@@ -1909,12 +2076,14 @@
       "name": "VSSDSI",
       "position": "L15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DSI_CKP",
       "position": "L16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_CKP"
       ]
@@ -1923,6 +2092,7 @@
       "name": "DSI_CKN",
       "position": "L17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_CKN"
       ]
@@ -1931,6 +2101,7 @@
       "name": "VREF+",
       "position": "M1",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "VREFBUF_OUT"
       ]
@@ -1939,6 +2110,7 @@
       "name": "PC1",
       "position": "M2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN10",
         "ADC1_INP11",
@@ -1967,6 +2139,7 @@
       "name": "PC2",
       "position": "M3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN11",
         "ADC1_INP12",
@@ -1988,6 +2161,7 @@
       "name": "PC3",
       "position": "M4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN12",
         "ADC1_INP13",
@@ -2006,18 +2180,21 @@
       "name": "VDD",
       "position": "M5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "M13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PJ9",
       "position": "M14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "LTDC_G2",
@@ -2031,12 +2208,14 @@
       "name": "VSSDSI",
       "position": "M15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DSI_D0P",
       "position": "M16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D0P"
       ]
@@ -2045,6 +2224,7 @@
       "name": "DSI_D0N",
       "position": "M17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D0N"
       ]
@@ -2053,12 +2233,14 @@
       "name": "VREF-",
       "position": "N1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PH2",
       "position": "N2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP13",
         "ETH_CRS",
@@ -2074,6 +2256,7 @@
       "name": "PA2",
       "position": "N3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP14",
         "ADC2_INP14",
@@ -2094,6 +2277,7 @@
       "name": "PA1",
       "position": "N4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN16",
         "ADC1_INP17",
@@ -2116,6 +2300,7 @@
       "name": "PA0",
       "position": "N5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP16",
         "ETH_CRS",
@@ -2137,6 +2322,7 @@
       "name": "PJ0",
       "position": "N6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R1",
         "LTDC_R7",
@@ -2147,18 +2333,21 @@
       "name": "VDD",
       "position": "N7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE10",
       "position": "N9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INM",
         "DFSDM1_DATIN4",
@@ -2174,24 +2363,28 @@
       "name": "VDD",
       "position": "N10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PJ8",
       "position": "N13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_G1",
         "TIM1_CH3N",
@@ -2204,6 +2397,7 @@
       "name": "PJ7",
       "position": "N14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRGIN",
         "LTDC_G0",
@@ -2215,6 +2409,7 @@
       "name": "PJ6",
       "position": "N15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R7",
         "TIM8_CH2",
@@ -2225,24 +2420,28 @@
       "name": "VSS",
       "position": "N16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VCAPDSI",
       "position": "N17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSSA",
       "position": "P1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PH3",
       "position": "P2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN13",
         "ADC3_INP14",
@@ -2258,6 +2457,7 @@
       "name": "PH4",
       "position": "P3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN14",
         "ADC3_INP15",
@@ -2272,6 +2472,7 @@
       "name": "PH5",
       "position": "P4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN15",
         "ADC3_INP16",
@@ -2285,6 +2486,7 @@
       "name": "PI15",
       "position": "P5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -2298,6 +2500,7 @@
       "name": "PJ1",
       "position": "P6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R2",
         "GPIO"
@@ -2307,6 +2510,7 @@
       "name": "PF13",
       "position": "P7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC2_INP2",
         "DFSDM1_DATIN6",
@@ -2319,6 +2523,7 @@
       "name": "PF14",
       "position": "P8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC2_INN2",
         "ADC2_INP6",
@@ -2332,6 +2537,7 @@
       "name": "PE9",
       "position": "P9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INP",
         "DAC1_EXTI9",
@@ -2350,6 +2556,7 @@
       "name": "PE11",
       "position": "P10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -2369,6 +2576,7 @@
       "name": "PB10",
       "position": "P11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN7",
         "ETH_RX_ER",
@@ -2389,6 +2597,7 @@
       "name": "PB11",
       "position": "P12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -2410,6 +2619,7 @@
       "name": "PH10",
       "position": "P13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D1",
         "FMC_D18",
@@ -2423,6 +2633,7 @@
       "name": "PH11",
       "position": "P14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -2439,6 +2650,7 @@
       "name": "PD15",
       "position": "P15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -2456,6 +2668,7 @@
       "name": "PD14",
       "position": "P16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_D0",
         "FMC_DA0",
@@ -2469,12 +2682,14 @@
       "name": "VDDDSI",
       "position": "P17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC2_C",
       "position": "R1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INN1",
         "ADC3_INP0",
@@ -2485,6 +2700,7 @@
       "name": "PC3_C",
       "position": "R2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC3_INP1",
         "GPIO"
@@ -2494,6 +2710,7 @@
       "name": "PA6",
       "position": "R3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP3",
         "ADC2_INP3",
@@ -2518,12 +2735,14 @@
       "name": "VSS",
       "position": "R4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA7",
       "position": "R5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN3",
         "ADC1_INP7",
@@ -2548,6 +2767,7 @@
       "name": "PB2",
       "position": "R6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_INP",
         "DFSDM1_CKIN1",
@@ -2567,6 +2787,7 @@
       "name": "PF12",
       "position": "R7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN2",
         "ADC1_INP6",
@@ -2578,12 +2799,14 @@
       "name": "VSS",
       "position": "R8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF15",
       "position": "R9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -2597,6 +2820,7 @@
       "name": "PE12",
       "position": "R10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_OUT",
         "DFSDM1_DATIN5",
@@ -2613,6 +2837,7 @@
       "name": "PE15",
       "position": "R11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -2630,6 +2855,7 @@
       "name": "PJ5",
       "position": "R12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R6",
         "GPIO"
@@ -2639,6 +2865,7 @@
       "name": "PH9",
       "position": "R13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D0",
@@ -2653,6 +2880,7 @@
       "name": "PH12",
       "position": "R14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D3",
         "FMC_D20",
@@ -2666,6 +2894,7 @@
       "name": "PD11",
       "position": "R15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -2685,6 +2914,7 @@
       "name": "PD12",
       "position": "R16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A17",
         "FMC_ALE",
@@ -2703,6 +2933,7 @@
       "name": "PD13",
       "position": "R17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A18",
         "I2C4_SDA",
@@ -2717,6 +2948,7 @@
       "name": "PA0_C",
       "position": "T1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN1",
         "ADC1_INP0",
@@ -2729,6 +2961,7 @@
       "name": "PA1_C",
       "position": "T2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP1",
         "ADC2_INP1",
@@ -2739,6 +2972,7 @@
       "name": "PA5",
       "position": "T3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN18",
         "ADC1_INP19",
@@ -2760,6 +2994,7 @@
       "name": "PC4",
       "position": "T4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP4",
         "ADC2_INP4",
@@ -2777,6 +3012,7 @@
       "name": "PB1",
       "position": "T5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP5",
         "ADC2_INP5",
@@ -2796,6 +3032,7 @@
       "name": "PJ2",
       "position": "T6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DSIHOST_TE",
         "LTDC_R3",
@@ -2806,6 +3043,7 @@
       "name": "PF11",
       "position": "T7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC1_INP2",
@@ -2822,6 +3060,7 @@
       "name": "PG0",
       "position": "T8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A10",
         "GPIO"
@@ -2831,6 +3070,7 @@
       "name": "PE8",
       "position": "T9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_OUT",
         "DFSDM1_CKIN2",
@@ -2848,6 +3088,7 @@
       "name": "PE13",
       "position": "T10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_OUT",
         "DFSDM1_CKIN5",
@@ -2864,6 +3105,7 @@
       "name": "PH6",
       "position": "T11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D8",
         "ETH_RXD2",
@@ -2878,12 +3120,14 @@
       "name": "VSS",
       "position": "T12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PH8",
       "position": "T13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_HSYNC",
         "FMC_D16",
@@ -2897,6 +3141,7 @@
       "name": "PB12",
       "position": "T14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN1",
         "ETH_TXD0",
@@ -2918,6 +3163,7 @@
       "name": "PB15",
       "position": "T15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -2940,6 +3186,7 @@
       "name": "PD10",
       "position": "T16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKOUT",
         "FMC_D15",
@@ -2954,6 +3201,7 @@
       "name": "PD9",
       "position": "T17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DFSDM1_DATIN3",
@@ -2968,12 +3216,14 @@
       "name": "VSS",
       "position": "U1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA3",
       "position": "U2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP15",
         "ADC2_INP15",
@@ -2993,6 +3243,7 @@
       "name": "PA4",
       "position": "U3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP18",
         "ADC2_INP18",
@@ -3014,6 +3265,7 @@
       "name": "PC5",
       "position": "U4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN4",
         "ADC1_INP8",
@@ -3035,6 +3287,7 @@
       "name": "PB0",
       "position": "U5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN5",
         "ADC1_INP9",
@@ -3058,6 +3311,7 @@
       "name": "PJ3",
       "position": "U6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R4",
         "GPIO"
@@ -3067,6 +3321,7 @@
       "name": "PJ4",
       "position": "U7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "LTDC_R5",
         "GPIO"
@@ -3076,6 +3331,7 @@
       "name": "PG1",
       "position": "U8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_A11",
         "OPAMP2_VINM",
@@ -3087,6 +3343,7 @@
       "name": "PE7",
       "position": "U9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_INM",
         "DFSDM1_DATIN2",
@@ -3103,6 +3360,7 @@
       "name": "PE14",
       "position": "U10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_D11",
         "FMC_DA11",
@@ -3117,18 +3375,21 @@
       "name": "VCAP",
       "position": "U11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDLDO",
       "position": "U12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PH7",
       "position": "U13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D9",
         "ETH_RXD3",
@@ -3142,6 +3403,7 @@
       "name": "PB13",
       "position": "U14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN1",
         "ETH_TXD1",
@@ -3162,6 +3424,7 @@
       "name": "PB14",
       "position": "U15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN2",
         "I2S2_SDI",
@@ -3183,6 +3446,7 @@
       "name": "PD8",
       "position": "U16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN3",
         "FMC_D13",
@@ -3197,6 +3461,7 @@
       "name": "VSS",
       "position": "U17",
       "type": "Power",
+      "variant": null,
       "signals": []
     }
   ]

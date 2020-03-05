@@ -22,12 +22,14 @@
       "name": "VSS",
       "position": "A1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PG15",
       "position": "A2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -46,6 +48,7 @@
       "name": "PD0",
       "position": "A3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN6",
         "DFSDM1_DATIN7",
@@ -63,6 +66,7 @@
       "name": "PD1",
       "position": "A4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN7",
         "DFSDM1_DATIN6",
@@ -80,6 +84,7 @@
       "name": "PE3",
       "position": "A5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED0",
         "SAI1_SD_B",
@@ -92,6 +97,7 @@
       "name": "PG6",
       "position": "A6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D12",
         "DEBUG_TRACED14",
@@ -105,6 +111,7 @@
       "name": "PB3",
       "position": "A7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED9",
         "I2S1_CK",
@@ -124,6 +131,7 @@
       "name": "PB15",
       "position": "A8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -143,6 +151,7 @@
       "name": "PC7",
       "position": "A9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D1",
         "DFSDM1_DATIN3",
@@ -163,6 +172,7 @@
       "name": "PC9",
       "position": "A10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D3",
@@ -182,6 +192,7 @@
       "name": "PC11",
       "position": "A11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -202,12 +213,14 @@
       "name": "VDD_DSI",
       "position": "A12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DSIHOST_D0N",
       "position": "A13",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D0N"
       ]
@@ -216,6 +229,7 @@
       "name": "DSIHOST_CKN",
       "position": "A14",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_CKN"
       ]
@@ -224,6 +238,7 @@
       "name": "DSIHOST_D1N",
       "position": "A15",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D1N"
       ]
@@ -232,12 +247,14 @@
       "name": "VDD1V2_DSI_PHY",
       "position": "A16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_DQ0",
       "position": "A17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ0"
       ]
@@ -246,6 +263,7 @@
       "name": "DDR_DQ1",
       "position": "A18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ1"
       ]
@@ -254,12 +272,14 @@
       "name": "VSS",
       "position": "A19",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE1",
       "position": "B1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D3",
         "I2S2_MCK",
@@ -273,12 +293,14 @@
       "name": "VSS",
       "position": "B2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE6",
       "position": "B3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D7",
         "DEBUG_TRACED2",
@@ -298,6 +320,7 @@
       "name": "PD7",
       "position": "B4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED6",
         "DFSDM1_CKIN1",
@@ -313,6 +336,7 @@
       "name": "PB7",
       "position": "B5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_VSYNC",
         "DFSDM1_CKIN5",
@@ -329,12 +353,14 @@
       "name": "VSS",
       "position": "B6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE5",
       "position": "B7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "DEBUG_TRACED3",
@@ -355,6 +381,7 @@
       "name": "PA8",
       "position": "B8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C3_SCL",
         "I2S3_SDO",
@@ -376,6 +403,7 @@
       "name": "PB4",
       "position": "B9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED8",
         "I2S1_SDI",
@@ -398,6 +426,7 @@
       "name": "PD2",
       "position": "B10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D11",
         "I2C5_SMBA",
@@ -412,6 +441,7 @@
       "name": "PE4",
       "position": "B11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D4",
         "DEBUG_TRACED1",
@@ -432,12 +462,14 @@
       "name": "VDDA1V8_DSI",
       "position": "B12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DSIHOST_D0P",
       "position": "B13",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D0P"
       ]
@@ -446,6 +478,7 @@
       "name": "DSIHOST_CKP",
       "position": "B14",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_CKP"
       ]
@@ -454,6 +487,7 @@
       "name": "DSIHOST_D1P",
       "position": "B15",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DSIHOST_D1P"
       ]
@@ -462,12 +496,14 @@
       "name": "VDD1V2_DSI_REG",
       "position": "B16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_DQ3",
       "position": "B17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ3"
       ]
@@ -476,6 +512,7 @@
       "name": "DDR_DQ7",
       "position": "B18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ7"
       ]
@@ -484,6 +521,7 @@
       "name": "DDR_DQS0N",
       "position": "B19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQS0N"
       ]
@@ -492,6 +530,7 @@
       "name": "PE11",
       "position": "C1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -510,6 +549,7 @@
       "name": "PE13",
       "position": "C2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "DFSDM1_CKIN5",
@@ -526,12 +566,14 @@
       "name": "VSS",
       "position": "C3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE0",
       "position": "C4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "I2S3_CK",
@@ -549,6 +591,7 @@
       "name": "PD10",
       "position": "C5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKOUT",
         "FMC_D15",
@@ -567,6 +610,7 @@
       "name": "PD3",
       "position": "C6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D5",
         "DFSDM1_CKOUT",
@@ -588,6 +632,7 @@
       "name": "PA15",
       "position": "C7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -617,6 +662,7 @@
       "name": "PA9",
       "position": "C8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D0",
@@ -635,6 +681,7 @@
       "name": "PB14",
       "position": "C9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN2",
         "I2S2_SDI",
@@ -653,6 +700,7 @@
       "name": "PC12",
       "position": "C10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D9",
         "DEBUG_TRACECLK",
@@ -671,6 +719,7 @@
       "name": "PC8",
       "position": "C11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "DEBUG_TRACED0",
@@ -688,42 +737,49 @@
       "name": "VSS_DSI",
       "position": "C12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_DSI",
       "position": "C13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_DSI",
       "position": "C14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_DSI",
       "position": "C15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_DSI",
       "position": "C16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "C17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_DQM0",
       "position": "C18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQM0"
       ]
@@ -732,6 +788,7 @@
       "name": "DDR_DQS0P",
       "position": "C19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQS0P"
       ]
@@ -740,12 +797,14 @@
       "name": "VSS",
       "position": "D1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PE12",
       "position": "D2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN5",
         "FMC_D9",
@@ -761,6 +820,7 @@
       "name": "PE14",
       "position": "D3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_D11",
         "LTDC_CLK",
@@ -778,18 +838,21 @@
       "name": "VSS",
       "position": "D4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "D5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD4",
       "position": "D6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN0",
         "FMC_NOE",
@@ -804,6 +867,7 @@
       "name": "PD5",
       "position": "D7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_NWE",
         "SDMMC3_D2",
@@ -815,12 +879,14 @@
       "name": "VSS",
       "position": "D8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PB9",
       "position": "D9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D7",
@@ -846,6 +912,7 @@
       "name": "PC6",
       "position": "D10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D0",
         "DFSDM1_CKIN3",
@@ -867,6 +934,7 @@
       "name": "PC10",
       "position": "D11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D8",
         "DEBUG_TRACED2",
@@ -886,6 +954,7 @@
       "name": "NJTRST",
       "position": "D12",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DEBUG_JTRST"
       ]
@@ -894,6 +963,7 @@
       "name": "JTDI",
       "position": "D13",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DEBUG_JTDI"
       ]
@@ -902,6 +972,7 @@
       "name": "JTDO-TRACESWO",
       "position": "D14",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DEBUG_JTDO-SWO"
       ]
@@ -910,6 +981,7 @@
       "name": "JTMS-SWDIO",
       "position": "D15",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DEBUG_JTMS-SWDIO"
       ]
@@ -918,6 +990,7 @@
       "name": "JTCK-SWCLK",
       "position": "D16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DEBUG_JTCK-SWCLK"
       ]
@@ -926,6 +999,7 @@
       "name": "DDR_DQ5",
       "position": "D17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ5"
       ]
@@ -934,6 +1008,7 @@
       "name": "DDR_DQ2",
       "position": "D18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ2"
       ]
@@ -942,6 +1017,7 @@
       "name": "DDR_DQ6",
       "position": "D19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ6"
       ]
@@ -950,6 +1026,7 @@
       "name": "PE15",
       "position": "E1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -969,12 +1046,14 @@
       "name": "VSS",
       "position": "E2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD6",
       "position": "E3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D10",
         "DFSDM1_CKIN4",
@@ -994,84 +1073,98 @@
       "name": "VSS",
       "position": "E4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "E7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "E9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "E11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "E13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "E15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A7",
       "position": "E17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A7"
       ]
@@ -1080,6 +1173,7 @@
       "name": "DDR_DQ4",
       "position": "E18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ4"
       ]
@@ -1088,6 +1182,7 @@
       "name": "PG12",
       "position": "F1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ETH1_PHY_INTN",
         "LPTIM1_IN1",
@@ -1106,6 +1201,7 @@
       "name": "PD8",
       "position": "F2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN3",
         "FMC_D13",
@@ -1120,6 +1216,7 @@
       "name": "PD14",
       "position": "F3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_D0",
         "SAI3_MCLK_B",
@@ -1132,78 +1229,91 @@
       "name": "VDDCORE",
       "position": "F4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "F5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "F6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "F7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "F8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "F9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "F10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "F11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "F12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_PLL2",
       "position": "F13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "F14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "F15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A13",
       "position": "F17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A13"
       ]
@@ -1212,6 +1322,7 @@
       "name": "DDR_ZQ",
       "position": "F18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_ZQ"
       ]
@@ -1220,6 +1331,7 @@
       "name": "DDR_A3",
       "position": "F19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A3"
       ]
@@ -1228,6 +1340,7 @@
       "name": "PD15",
       "position": "G1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -1243,12 +1356,14 @@
       "name": "VSS",
       "position": "G2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD9",
       "position": "G3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_HSYNC",
@@ -1264,78 +1379,91 @@
       "name": "VSS",
       "position": "G4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "G5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "G7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "G9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "G11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD_PLL2",
       "position": "G13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "G14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "G15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_RESETN",
       "position": "G16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_RESETN"
       ]
@@ -1344,6 +1472,7 @@
       "name": "DDR_A9",
       "position": "G17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A9"
       ]
@@ -1352,6 +1481,7 @@
       "name": "DDR_A2",
       "position": "G18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A2"
       ]
@@ -1360,6 +1490,7 @@
       "name": "DDR_BA0",
       "position": "G19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_BA0"
       ]
@@ -1368,6 +1499,7 @@
       "name": "PC14-OSC32_IN",
       "position": "H1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "GPIO"
@@ -1377,6 +1509,7 @@
       "name": "PC15-OSC32_OUT",
       "position": "H2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -1388,84 +1521,98 @@
       "name": "VBAT",
       "position": "H3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "H4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "H6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "H8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "H10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "H12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "H14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A5",
       "position": "H17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A5"
       ]
@@ -1474,6 +1621,7 @@
       "name": "DDR_A0",
       "position": "H18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A0"
       ]
@@ -1482,6 +1630,7 @@
       "name": "DDR_ODT",
       "position": "H19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_ODT"
       ]
@@ -1490,96 +1639,112 @@
       "name": "NRST",
       "position": "J1",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "NRST_CORE",
       "position": "J2",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_PLL",
       "position": "J4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD_PLL",
       "position": "J5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "J7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "J9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "J11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "J13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "J14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "J15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_BA2",
       "position": "J16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_BA2"
       ]
@@ -1588,6 +1753,7 @@
       "name": "DDR_WEN",
       "position": "J17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_WEN"
       ]
@@ -1596,6 +1762,7 @@
       "name": "DDR_CSN",
       "position": "J18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_CSN"
       ]
@@ -1604,6 +1771,7 @@
       "name": "DDR_DTO1",
       "position": "J19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DTO1"
       ]
@@ -1612,18 +1780,21 @@
       "name": "BOOT0",
       "position": "K1",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC13",
       "position": "K3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "PWR_WKUP3",
         "RTC_LSCO",
@@ -1640,78 +1811,91 @@
       "name": "BOOT1",
       "position": "K4",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "K6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "K8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "K10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "K12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "K14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "K15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_CASN",
       "position": "K17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_CASN"
       ]
@@ -1720,6 +1904,7 @@
       "name": "DDR_DTO0",
       "position": "K18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DTO0"
       ]
@@ -1728,6 +1913,7 @@
       "name": "DDR_CLKN",
       "position": "K19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_CLKN"
       ]
@@ -1736,96 +1922,112 @@
       "name": "PWR_ON",
       "position": "L1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "BOOT2",
       "position": "L2",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD_ANA",
       "position": "L3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_ANA",
       "position": "L4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "L5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "L7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "L9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "L11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "L13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "L14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "L15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A15",
       "position": "L16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A15"
       ]
@@ -1834,6 +2036,7 @@
       "name": "DDR_A12",
       "position": "L17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A12"
       ]
@@ -1842,6 +2045,7 @@
       "name": "DDR_RASN",
       "position": "L18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_RASN"
       ]
@@ -1850,6 +2054,7 @@
       "name": "DDR_CLKP",
       "position": "L19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_CLKP"
       ]
@@ -1858,6 +2063,7 @@
       "name": "PH0-OSC_IN",
       "position": "M1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_IN",
         "GPIO"
@@ -1867,6 +2073,7 @@
       "name": "PH1-OSC_OUT",
       "position": "M2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_OUT",
         "GPIO"
@@ -1876,84 +2083,98 @@
       "name": "VREF-",
       "position": "M3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDA",
       "position": "M4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "M6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "M8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "M10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "M12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "M14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "M15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A1",
       "position": "M17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A1"
       ]
@@ -1962,6 +2183,7 @@
       "name": "DDR_A11",
       "position": "M18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A11"
       ]
@@ -1970,6 +2192,7 @@
       "name": "DDR_A10",
       "position": "M19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A10"
       ]
@@ -1978,96 +2201,112 @@
       "name": "PDR_ON_CORE",
       "position": "N1",
       "type": "MonoIO",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PDR_ON",
       "position": "N2",
       "type": "MonoIO",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VREF+",
       "position": "N3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSSA",
       "position": "N4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "N6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "N8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "N9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "N10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "N11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "N12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "N13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "N14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "N15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A6",
       "position": "N16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A6"
       ]
@@ -2076,6 +2315,7 @@
       "name": "DDR_BA1",
       "position": "N17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_BA1"
       ]
@@ -2084,6 +2324,7 @@
       "name": "DDR_A14",
       "position": "N18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A14"
       ]
@@ -2092,6 +2333,7 @@
       "name": "DDR_ATO",
       "position": "N19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_ATO"
       ]
@@ -2100,12 +2342,14 @@
       "name": "PWR_LP",
       "position": "P1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA13",
       "position": "P2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_DBTRGI",
         "DEBUG_DBTRGO",
@@ -2118,6 +2362,7 @@
       "name": "PA3",
       "position": "P3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP15",
         "ETH1_COL",
@@ -2136,6 +2381,7 @@
       "name": "PA5",
       "position": "P4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN18",
         "ADC1_INP19",
@@ -2158,72 +2404,84 @@
       "name": "VSSA",
       "position": "P5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "P6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "P7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "P8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "P9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "P10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "P11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "P12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "P13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "P14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "P15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A4",
       "position": "P17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A4"
       ]
@@ -2232,6 +2490,7 @@
       "name": "DDR_DQ8",
       "position": "P18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ8"
       ]
@@ -2240,6 +2499,7 @@
       "name": "DDR_CKE",
       "position": "P19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DDR_CKE"
@@ -2249,6 +2509,7 @@
       "name": "PA14",
       "position": "R1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_DBTRGI",
         "DEBUG_DBTRGO",
@@ -2260,12 +2521,14 @@
       "name": "VSS",
       "position": "R2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA0",
       "position": "R3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP16",
         "ETH1_CRS",
@@ -2287,6 +2550,7 @@
       "name": "PA4",
       "position": "R4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP18",
         "ADC2_INP18",
@@ -2310,78 +2574,91 @@
       "name": "VSSA",
       "position": "R5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "R7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "R9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "R11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDCORE",
       "position": "R13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDDQ_DDR",
       "position": "R15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "R16",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_A8",
       "position": "R17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_A8"
       ]
@@ -2390,6 +2667,7 @@
       "name": "DDR_DQ10",
       "position": "R18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ10"
       ]
@@ -2398,6 +2676,7 @@
       "name": "PE2",
       "position": "T1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACECLK",
         "ETH1_TXD3",
@@ -2413,6 +2692,7 @@
       "name": "PC2",
       "position": "T2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN11",
         "ADC1_INP12",
@@ -2429,6 +2709,7 @@
       "name": "PC3",
       "position": "T3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN12",
         "ADC1_INP13",
@@ -2444,12 +2725,14 @@
       "name": "VSS",
       "position": "T4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA6",
       "position": "T5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP3",
         "ADC2_INP3",
@@ -2471,6 +2754,7 @@
       "name": "PA7",
       "position": "T6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN3",
         "ADC1_INP7",
@@ -2496,6 +2780,7 @@
       "name": "PC0",
       "position": "T7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP10",
         "ADC2_INP10",
@@ -2512,6 +2797,7 @@
       "name": "PB5",
       "position": "T8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D10",
         "ETH1_CLK",
@@ -2537,6 +2823,7 @@
       "name": "PB13",
       "position": "T9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN1",
         "DFSDM1_CKOUT",
@@ -2556,6 +2843,7 @@
       "name": "PE7",
       "position": "T10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN2",
         "FMC_D4",
@@ -2570,6 +2858,7 @@
       "name": "PE8",
       "position": "T11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_CKIN2",
         "FMC_D5",
@@ -2583,6 +2872,7 @@
       "name": "PB6",
       "position": "T12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CEC",
         "DCMI_D5",
@@ -2602,6 +2892,7 @@
       "name": "PB2",
       "position": "T13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED4",
         "DFSDM1_CKIN1",
@@ -2622,6 +2913,7 @@
       "name": "PG9",
       "position": "T14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DCMI_VSYNC",
@@ -2639,12 +2931,14 @@
       "name": "BYPASS_REG1V8",
       "position": "T15",
       "type": "MonoIO",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA10",
       "position": "T16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D1",
         "I2S3_WS",
@@ -2661,6 +2955,7 @@
       "name": "DDR_DQ9",
       "position": "T17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ9"
       ]
@@ -2669,6 +2964,7 @@
       "name": "DDR_DQ13",
       "position": "T18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ13"
       ]
@@ -2677,6 +2973,7 @@
       "name": "DDR_DQS1N",
       "position": "T19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQS1N"
       ]
@@ -2685,6 +2982,7 @@
       "name": "PG14",
       "position": "U1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED1",
         "ETH1_TXD1",
@@ -2702,6 +3000,7 @@
       "name": "PG13",
       "position": "U2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED0",
         "ETH1_TXD0",
@@ -2721,12 +3020,14 @@
       "name": "VSS",
       "position": "U3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA1",
       "position": "U4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN16",
         "ADC1_INP17",
@@ -2750,6 +3051,7 @@
       "name": "PF11",
       "position": "U5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC1_INP2",
@@ -2765,12 +3067,14 @@
       "name": "VSS",
       "position": "U6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PG8",
       "position": "U7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED15",
         "ETH1_CLK",
@@ -2794,12 +3098,14 @@
       "name": "VSS",
       "position": "U8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF10",
       "position": "U9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D11",
         "LTDC_DE",
@@ -2816,6 +3122,7 @@
       "name": "PF8",
       "position": "U10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DEBUG_TRACED12",
         "QUADSPI_BK1_IO0",
@@ -2832,6 +3139,7 @@
       "name": "PD12",
       "position": "U11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FMC_ALE",
         "I2C1_SCL",
@@ -2850,6 +3158,7 @@
       "name": "PD13",
       "position": "U12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DSIHOST_TE",
         "I2C1_SDA",
@@ -2866,18 +3175,21 @@
       "name": "VSS_USBHS",
       "position": "U13",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_USBHS",
       "position": "U14",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "OTG_VBUS",
       "position": "U15",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "USB_OTG_HS_VBUS"
       ]
@@ -2886,6 +3198,7 @@
       "name": "PA12",
       "position": "U16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "FDCAN1_TX",
         "I2C5_SDA",
@@ -2903,12 +3216,14 @@
       "name": "VSS",
       "position": "U17",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_DQM1",
       "position": "U18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQM1"
       ]
@@ -2917,6 +3232,7 @@
       "name": "DDR_DQS1P",
       "position": "U19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQS1P"
       ]
@@ -2925,6 +3241,7 @@
       "name": "PB11",
       "position": "V1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -2944,6 +3261,7 @@
       "name": "PC1",
       "position": "V2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN10",
         "ADC1_INP11",
@@ -2967,6 +3285,7 @@
       "name": "PB1",
       "position": "V3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP5",
         "ADC2_INP5",
@@ -2984,6 +3303,7 @@
       "name": "PC5",
       "position": "V4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN4",
         "ADC1_INP8",
@@ -3003,6 +3323,7 @@
       "name": "PB12",
       "position": "V5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN1",
         "ETH1_TXD0",
@@ -3022,6 +3343,7 @@
       "name": "PG11",
       "position": "V6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -3040,6 +3362,7 @@
       "name": "PG10",
       "position": "V7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D2",
         "DEBUG_TRACED10",
@@ -3055,6 +3378,7 @@
       "name": "PD11",
       "position": "V8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -3073,6 +3397,7 @@
       "name": "PF6",
       "position": "V9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "QUADSPI_BK1_IO3",
         "SAI1_SD_B",
@@ -3087,6 +3412,7 @@
       "name": "PE10",
       "position": "V10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN4",
         "FMC_D7",
@@ -3100,18 +3426,21 @@
       "name": "VDDA1V8_REG",
       "position": "V11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS_USBHS",
       "position": "V12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "USB_DM2",
       "position": "V13",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "USBH_HS2_DM",
         "USB_OTG_HS_DM"
@@ -3121,6 +3450,7 @@
       "name": "USB_DP1",
       "position": "V14",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "USBH_HS1_DP"
       ]
@@ -3129,18 +3459,21 @@
       "name": "VSS_USBHS",
       "position": "V15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "USB_RREF",
       "position": "V16",
       "type": "MonoIO",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA11",
       "position": "V17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -3161,6 +3494,7 @@
       "name": "DDR_DQ14",
       "position": "V18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ14"
       ]
@@ -3169,6 +3503,7 @@
       "name": "DDR_DQ11",
       "position": "V19",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ11"
       ]
@@ -3177,12 +3512,14 @@
       "name": "VSS",
       "position": "W1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA2",
       "position": "W2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP14",
         "ETH1_MDIO",
@@ -3202,6 +3539,7 @@
       "name": "PB0",
       "position": "W3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INN5",
         "ADC1_INP9",
@@ -3222,6 +3560,7 @@
       "name": "PC4",
       "position": "W4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_INP4",
         "ADC2_INP4",
@@ -3236,6 +3575,7 @@
       "name": "PB10",
       "position": "W5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DFSDM1_DATIN7",
         "ETH1_RX_ER",
@@ -3254,6 +3594,7 @@
       "name": "PB8",
       "position": "W6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D6",
         "DFSDM1_CKIN7",
@@ -3277,6 +3618,7 @@
       "name": "PE9",
       "position": "W7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DFSDM1_CKOUT",
@@ -3292,6 +3634,7 @@
       "name": "PF7",
       "position": "W8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "QUADSPI_BK1_IO2",
         "SAI1_MCLK_B",
@@ -3305,6 +3648,7 @@
       "name": "PF9",
       "position": "W9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC1_EXTI9",
         "DEBUG_TRACED13",
@@ -3321,6 +3665,7 @@
       "name": "PG7",
       "position": "W10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DCMI_D13",
         "DEBUG_TRACED5",
@@ -3338,18 +3683,21 @@
       "name": "VDDA1V1_REG",
       "position": "W11",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD3V3_USBHS",
       "position": "W12",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "USB_DP2",
       "position": "W13",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "USBH_HS2_DP",
         "USB_OTG_HS_DP"
@@ -3359,6 +3707,7 @@
       "name": "USB_DM1",
       "position": "W14",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "USBH_HS1_DM"
       ]
@@ -3367,12 +3716,14 @@
       "name": "VDD3V3_USBFS",
       "position": "W15",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "DDR_VREF",
       "position": "W16",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_VREF"
       ]
@@ -3381,6 +3732,7 @@
       "name": "DDR_DQ15",
       "position": "W17",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ15"
       ]
@@ -3389,6 +3741,7 @@
       "name": "DDR_DQ12",
       "position": "W18",
       "type": "MonoIO",
+      "variant": null,
       "signals": [
         "DDR_DQ12"
       ]
@@ -3397,6 +3750,7 @@
       "name": "VSS",
       "position": "W19",
       "type": "Power",
+      "variant": null,
       "signals": []
     }
   ]

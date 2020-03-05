@@ -82,6 +82,7 @@ def process_mcu(args, name: str, ref: str, rpn: str):
                 'name': pin.get('Name'),
                 'position': pin.get('Position'),
                 'type': pin.get('Type'),
+                'variant': pin.get('Variant'),
                 'signals': [signal.get('Name') for signal in pin.iterfind('{*}Signal')],
             })
 

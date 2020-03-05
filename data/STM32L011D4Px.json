@@ -32,6 +32,7 @@
       "name": "PB9-BOOT0",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "GPIO"
       ]
@@ -40,6 +41,7 @@
       "name": "PC14-OSC32_IN",
       "position": "2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "GPIO"
@@ -49,6 +51,7 @@
       "name": "PC15-OSC32_OUT",
       "position": "3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_OUT",
         "GPIO"
@@ -58,12 +61,14 @@
       "name": "NRST",
       "position": "4",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA0-CK_IN",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN0",
         "COMP1_INM",
@@ -84,6 +89,7 @@
       "name": "PA1",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN1",
         "COMP1_INP",
@@ -101,6 +107,7 @@
       "name": "PA4",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN4",
         "COMP1_INM",
@@ -120,6 +127,7 @@
       "name": "PA7",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN7",
         "COMP2_INP",
@@ -135,18 +143,21 @@
       "name": "VSS",
       "position": "9",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "10",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA9",
       "position": "11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_OUT",
         "I2C1_SCL",
@@ -161,6 +172,7 @@
       "name": "PA10",
       "position": "12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_OUT",
         "I2C1_SDA",
@@ -175,6 +187,7 @@
       "name": "PA13",
       "position": "13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP1_OUT",
         "I2C1_SDA",
@@ -189,6 +202,7 @@
       "name": "PA14",
       "position": "14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "COMP2_OUT",
         "I2C1_SMBA",

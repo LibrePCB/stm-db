@@ -31,6 +31,7 @@
       "name": "PA13",
       "position": "A1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "IR_OUT",
         "SYS_SWDIO",
@@ -41,6 +42,7 @@
       "name": "PA14",
       "position": "A2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_SWCLK",
         "USART1_TX",
@@ -51,6 +53,7 @@
       "name": "PB7",
       "position": "A3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SDA",
         "TIM17_CH1N",
@@ -62,12 +65,14 @@
       "name": "BOOT0",
       "position": "A4",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PF0-OSC_IN",
       "position": "A5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_IN",
         "GPIO"
@@ -77,6 +82,7 @@
       "name": "PA10",
       "position": "B1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SDA",
         "TIM17_BKIN",
@@ -89,6 +95,7 @@
       "name": "PB6",
       "position": "B2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SCL",
         "TIM16_CH1N",
@@ -100,6 +107,7 @@
       "name": "PA4",
       "position": "B3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN4",
         "I2S1_WS",
@@ -113,6 +121,7 @@
       "name": "PA0",
       "position": "B4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN0",
         "RTC_TAMP2",
@@ -127,6 +136,7 @@
       "name": "PF1-OSC_OUT",
       "position": "B5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_OUT",
         "GPIO"
@@ -136,6 +146,7 @@
       "name": "PA9",
       "position": "C1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SCL",
         "TIM1_CH2",
@@ -147,6 +158,7 @@
       "name": "PB5",
       "position": "C2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SMBA",
         "I2S1_SD",
@@ -160,6 +172,7 @@
       "name": "PA5",
       "position": "C3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN5",
         "I2S1_CK",
@@ -173,6 +186,7 @@
       "name": "PA1",
       "position": "C4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN1",
         "TIM2_CH2",
@@ -185,18 +199,21 @@
       "name": "NRST",
       "position": "C5",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "D1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA8",
       "position": "D2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_MCO",
         "TIM1_CH1",
@@ -208,6 +225,7 @@
       "name": "PA6",
       "position": "D3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN6",
         "I2S1_MCK",
@@ -222,6 +240,7 @@
       "name": "PA2",
       "position": "D4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN2",
         "TIM2_CH3",
@@ -233,18 +252,21 @@
       "name": "VDDA",
       "position": "D5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "E1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PB1",
       "position": "E2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN9",
         "TIM14_CH1",
@@ -257,6 +279,7 @@
       "name": "PB0",
       "position": "E3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN8",
         "TIM1_CH2N",
@@ -268,6 +291,7 @@
       "name": "PA7",
       "position": "E4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN7",
         "I2S1_SD",
@@ -283,6 +307,7 @@
       "name": "PA3",
       "position": "E5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN3",
         "TIM2_CH4",

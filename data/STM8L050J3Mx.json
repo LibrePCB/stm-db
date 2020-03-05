@@ -32,6 +32,7 @@
       "name": "PA0xPC6xPA2",
       "position": "1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "IR_TIM",
         "RCC_OSC32_OUT",
@@ -50,6 +51,7 @@
       "name": "PA3",
       "position": "2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_OUT",
         "SPI1_MOSI",
@@ -61,18 +63,21 @@
       "name": "VSS/VREF-/VSSA",
       "position": "3",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD/VDDA/VREF+",
       "position": "4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PD0xPB5xPB3",
       "position": "5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN13",
         "ADC1_IN15",
@@ -91,6 +96,7 @@
       "name": "PB6",
       "position": "6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN12",
         "COMP1_INP",
@@ -102,6 +108,7 @@
       "name": "PB7xPC0",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN11",
         "COMP1_INP",
@@ -114,6 +121,7 @@
       "name": "PC1xPC4xPC5",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN4",
         "COMP1_INP",

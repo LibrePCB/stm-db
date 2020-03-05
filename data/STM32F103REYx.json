@@ -31,12 +31,14 @@
       "name": "VDD",
       "position": "A1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC10",
       "position": "A2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SDIO_D2",
         "UART4_TX",
@@ -48,6 +50,7 @@
       "name": "PD2",
       "position": "A3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SDIO_CMD",
         "TIM3_ETR",
@@ -59,6 +62,7 @@
       "name": "PB3",
       "position": "A4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2S3_CK",
         "SPI1_SCK",
@@ -72,6 +76,7 @@
       "name": "PB5",
       "position": "A5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SMBA",
         "I2S3_SD",
@@ -85,30 +90,35 @@
       "name": "BOOT0",
       "position": "A6",
       "type": "Boot",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "A7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "A8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "B1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA14",
       "position": "B2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_JTCK-SWCLK",
         "GPIO"
@@ -118,6 +128,7 @@
       "name": "PC11",
       "position": "B3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -131,6 +142,7 @@
       "name": "PB4",
       "position": "B4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI1_MISO",
         "SPI3_MISO",
@@ -143,6 +155,7 @@
       "name": "PB6",
       "position": "B5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SCL",
         "TIM4_CH1",
@@ -154,6 +167,7 @@
       "name": "PB9",
       "position": "B6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CAN_TX",
         "DAC_EXTI9",
@@ -167,6 +181,7 @@
       "name": "PC15-OSC32_OUT",
       "position": "B7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -178,6 +193,7 @@
       "name": "PC14-OSC32_IN",
       "position": "B8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC32_IN",
         "GPIO"
@@ -187,6 +203,7 @@
       "name": "PA11",
       "position": "C1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -201,6 +218,7 @@
       "name": "PA12",
       "position": "C2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CAN_TX",
         "TIM1_ETR",
@@ -213,6 +231,7 @@
       "name": "PA15",
       "position": "C3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -229,6 +248,7 @@
       "name": "PC12",
       "position": "C4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SDIO_CK",
         "UART5_TX",
@@ -240,6 +260,7 @@
       "name": "PB7",
       "position": "C5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C1_SDA",
         "TIM4_CH2",
@@ -251,18 +272,21 @@
       "name": "VBAT",
       "position": "C6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "C7",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC13-TAMPER-RTC",
       "position": "C8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RTC_OUT",
         "RTC_TAMPER",
@@ -273,6 +297,7 @@
       "name": "PC9",
       "position": "D1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC_EXTI9",
         "SDIO_D1",
@@ -285,6 +310,7 @@
       "name": "PA9",
       "position": "D2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "DAC_EXTI9",
         "TIM1_CH2",
@@ -296,6 +322,7 @@
       "name": "PA10",
       "position": "D3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "TIM1_CH3",
         "USART1_RX",
@@ -306,6 +333,7 @@
       "name": "PA13",
       "position": "D4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_JTMS-SWDIO",
         "GPIO"
@@ -315,6 +343,7 @@
       "name": "PB8",
       "position": "D5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "CAN_RX",
         "I2C1_SCL",
@@ -327,6 +356,7 @@
       "name": "PC2",
       "position": "D6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN12",
         "ADC2_IN12",
@@ -338,6 +368,7 @@
       "name": "PD1-OSC_OUT",
       "position": "D7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_OUT",
         "GPIO"
@@ -347,6 +378,7 @@
       "name": "PD0-OSC_IN",
       "position": "D8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSC_IN",
         "GPIO"
@@ -356,6 +388,7 @@
       "name": "PC6",
       "position": "E1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2S2_MCK",
         "SDIO_D6",
@@ -368,6 +401,7 @@
       "name": "PC7",
       "position": "E2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2S3_MCK",
         "SDIO_D7",
@@ -380,6 +414,7 @@
       "name": "PC8",
       "position": "E3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SDIO_D0",
         "TIM3_CH3",
@@ -391,6 +426,7 @@
       "name": "PA8",
       "position": "E4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_MCO",
         "TIM1_CH1",
@@ -402,6 +438,7 @@
       "name": "PA5",
       "position": "E5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN5",
         "ADC2_IN5",
@@ -414,6 +451,7 @@
       "name": "PA1",
       "position": "E6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN1",
         "ADC2_IN1",
@@ -428,12 +466,14 @@
       "name": "VSSA",
       "position": "E7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC0",
       "position": "E8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN10",
         "ADC2_IN10",
@@ -445,6 +485,7 @@
       "name": "PB15",
       "position": "F1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI15",
         "ADC2_EXTI15",
@@ -458,6 +499,7 @@
       "name": "PB14",
       "position": "F2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI2_MISO",
         "TIM1_CH2N",
@@ -469,6 +511,7 @@
       "name": "PB11",
       "position": "F3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
@@ -482,6 +525,7 @@
       "name": "PB1",
       "position": "F4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN9",
         "ADC2_IN9",
@@ -495,12 +539,14 @@
       "name": "VSS",
       "position": "F5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA0-WKUP",
       "position": "F6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN0",
         "ADC2_IN0",
@@ -518,12 +564,14 @@
       "name": "VREF+",
       "position": "F7",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PC1",
       "position": "F8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN11",
         "ADC2_IN11",
@@ -535,6 +583,7 @@
       "name": "PB13",
       "position": "G1",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2S2_CK",
         "SPI2_SCK",
@@ -547,6 +596,7 @@
       "name": "PB12",
       "position": "G2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C2_SMBA",
         "I2S2_WS",
@@ -560,6 +610,7 @@
       "name": "PB10",
       "position": "G3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C2_SCL",
         "TIM2_CH3",
@@ -571,6 +622,7 @@
       "name": "PA7",
       "position": "G4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN7",
         "ADC2_IN7",
@@ -585,6 +637,7 @@
       "name": "PA6",
       "position": "G5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN6",
         "ADC2_IN6",
@@ -599,12 +652,14 @@
       "name": "VDD",
       "position": "G6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA3",
       "position": "G7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN3",
         "ADC2_IN3",
@@ -619,24 +674,28 @@
       "name": "VDDA",
       "position": "G8",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "H1",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VSS",
       "position": "H2",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PB2",
       "position": "H3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "GPIO"
       ]
@@ -645,6 +704,7 @@
       "name": "PB0",
       "position": "H4",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN8",
         "ADC2_IN8",
@@ -658,6 +718,7 @@
       "name": "PC5",
       "position": "H5",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN15",
         "ADC2_IN15",
@@ -668,6 +729,7 @@
       "name": "PC4",
       "position": "H6",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN14",
         "ADC2_IN14",
@@ -678,6 +740,7 @@
       "name": "PA4",
       "position": "H7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN4",
         "ADC2_IN4",
@@ -691,6 +754,7 @@
       "name": "PA2",
       "position": "H8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC1_IN2",
         "ADC2_IN2",

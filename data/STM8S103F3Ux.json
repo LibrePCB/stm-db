@@ -27,12 +27,14 @@
       "name": "NRST",
       "position": "1",
       "type": "Reset",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA1",
       "position": "2",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSCIN",
         "GPIO"
@@ -42,6 +44,7 @@
       "name": "PA2",
       "position": "3",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "RCC_OSCOUT",
         "GPIO"
@@ -51,24 +54,28 @@
       "name": "VSS",
       "position": "4",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VCAP",
       "position": "5",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "VDD",
       "position": "6",
       "type": "Power",
+      "variant": null,
       "signals": []
     },
     {
       "name": "PA3",
       "position": "7",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI_NSS",
         "TIM2_CH3",
@@ -79,6 +86,7 @@
       "name": "PB5",
       "position": "8",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "I2C_SDA",
         "TIM1_BKIN",
@@ -89,6 +97,7 @@
       "name": "PB4",
       "position": "9",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_ETR",
         "I2C_SCL",
@@ -99,6 +108,7 @@
       "name": "PC3",
       "position": "10",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_TLI",
         "TIM1_CH1N",
@@ -110,6 +120,7 @@
       "name": "PC4",
       "position": "11",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN2",
         "RCC_CCO",
@@ -122,6 +133,7 @@
       "name": "PC5",
       "position": "12",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI_SCK",
         "TIM2_CH1",
@@ -132,6 +144,7 @@
       "name": "PC6",
       "position": "13",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI_MOSI",
         "TIM1_CH1",
@@ -142,6 +155,7 @@
       "name": "PC7",
       "position": "14",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SPI_MISO",
         "TIM1_CH2",
@@ -152,6 +166,7 @@
       "name": "PD1",
       "position": "15",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_SWIM",
         "GPIO"
@@ -161,6 +176,7 @@
       "name": "PD2",
       "position": "16",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN3",
         "TIM2_CH3",
@@ -171,6 +187,7 @@
       "name": "PD3",
       "position": "17",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_ETR",
         "ADC_IN4",
@@ -182,6 +199,7 @@
       "name": "PD4",
       "position": "18",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "SYS_BEEP",
         "TIM2_CH1",
@@ -193,6 +211,7 @@
       "name": "PD5",
       "position": "19",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN5",
         "UART1_TX",
@@ -203,6 +222,7 @@
       "name": "PD6",
       "position": "20",
       "type": "I/O",
+      "variant": null,
       "signals": [
         "ADC_IN6",
         "UART1_RX",
