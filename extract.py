@@ -16,7 +16,7 @@ def _makedir(dirpath: str) -> None:
 def main(args):
     _makedir('data')
 
-    with open(path.join(args.db, 'families.xml'), 'r') as f:
+    with open(path.join(args.db, 'mcu', 'families.xml'), 'r') as f:
         tree = ET.parse(f)
         families = tree.getroot()
         assert families.tag == 'Families'
@@ -33,7 +33,7 @@ def process_mcu(args, name: str, ref: str, rpn: str):
     """
     Fetch pinout information for this MCU and write it to the data dir.
     """
-    with open(path.join(args.db, '{}.xml'.format(name)), 'r') as f:
+    with open(path.join(args.db, 'mcu', '{}.xml'.format(name)), 'r') as f:
         tree = ET.parse(f)
         mcu = tree.getroot()
         assert mcu.tag.endswith('Mcu'), mcu.tag
@@ -94,7 +94,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process the base.csv file')
     parser.add_argument(
         '--db', metavar='path-to-cubemx-db-mcu-dir', required=True,
-        help='path to the mcu directory in the STM32CubeMX database',
+        help='path to the STM32CubeMX database directory',
     )
 
     args = parser.parse_args()
