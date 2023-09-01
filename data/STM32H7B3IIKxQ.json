@@ -14,13 +14,26 @@
   "info": {
     "flash": 2048,
     "ram": 1424,
-    "io": 128,
+    "io": 132,
     "frequency": 280,
     "voltage": {
       "min": 1.62,
       "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32H7B3IIK6Q",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32H7A2_gpio_v1_0",
   "pinout": [
     {
@@ -124,7 +137,7 @@
         "OCTOSPIM_P2_IO7",
         "PSSI_D3",
         "SDMMC2_D2",
-        "SPDIFRX_IN1",
+        "SPDIFRX_IN0",
         "SPI1_SCK",
         "USART10_RX",
         "GPIO"
@@ -145,7 +158,7 @@
         "PSSI_RDY",
         "SAI2_FS_B",
         "SDMMC2_D0",
-        "SPDIFRX_IN4",
+        "SPDIFRX_IN3",
         "SPI1_MISO",
         "USART6_RX",
         "GPIO"
@@ -391,7 +404,7 @@
         "I2S1_SDO",
         "OCTOSPIM_P1_IO7",
         "SDMMC2_CMD",
-        "SPDIFRX_IN1",
+        "SPDIFRX_IN0",
         "SPI1_MOSI",
         "USART2_CK",
         "GPIO"
@@ -859,7 +872,7 @@
         "LTDC_B4",
         "OCTOSPIM_P2_NCS",
         "SDMMC2_D3",
-        "SPDIFRX_IN2",
+        "SPDIFRX_IN1",
         "SPI6_MISO",
         "USART10_TX",
         "USART6_DE",
@@ -1277,7 +1290,7 @@
         "FMC_SDCLK",
         "I2S6_WS",
         "LTDC_G7",
-        "SPDIFRX_IN3",
+        "SPDIFRX_IN2",
         "SPI6_NSS",
         "TIM8_ETR",
         "USART6_DE",
@@ -1848,7 +1861,7 @@
         "DFSDM1_CKIN3",
         "FMC_D13",
         "FMC_DA13",
-        "SPDIFRX_IN2",
+        "SPDIFRX_IN1",
         "USART3_TX",
         "GPIO"
       ]
@@ -1892,6 +1905,7 @@
         "I2S2_SDI",
         "OCTOSPIM_P1_IO2",
         "OCTOSPIM_P1_IO5",
+        "PWR_CSTOP",
         "SPI2_MISO",
         "USB_OTG_HS_ULPI_DIR",
         "GPIO"
@@ -1912,6 +1926,7 @@
         "I2S2_SDO",
         "OCTOSPIM_P1_IO0",
         "OCTOSPIM_P1_IO6",
+        "PWR_CSLEEP",
         "SPI2_MOSI",
         "USB_OTG_HS_ULPI_NXT",
         "GPIO"
@@ -1965,7 +1980,7 @@
         "OPAMP1_VINM",
         "PSSI_D15",
         "SAI1_D3",
-        "SPDIFRX_IN4",
+        "SPDIFRX_IN3",
         "GPIO"
       ]
     },
@@ -2095,6 +2110,15 @@
       "signals": [
         "ADC2_INN1",
         "ADC2_INP0",
+        "DFSDM1_CKIN1",
+        "DFSDM1_CKOUT",
+        "FMC_SDNE0",
+        "I2S2_SDI",
+        "OCTOSPIM_P1_IO2",
+        "OCTOSPIM_P1_IO5",
+        "PWR_CSTOP",
+        "SPI2_MISO",
+        "USB_OTG_HS_ULPI_DIR",
         "GPIO"
       ]
     },
@@ -2105,6 +2129,14 @@
       "variant": null,
       "signals": [
         "ADC2_INP1",
+        "DFSDM1_DATIN1",
+        "FMC_SDCKE0",
+        "I2S2_SDO",
+        "OCTOSPIM_P1_IO0",
+        "OCTOSPIM_P1_IO6",
+        "PWR_CSLEEP",
+        "SPI2_MOSI",
+        "USB_OTG_HS_ULPI_NXT",
         "GPIO"
       ]
     },
@@ -2364,6 +2396,17 @@
       "variant": null,
       "signals": [
         "ADC1_INP1",
+        "LPTIM3_OUT",
+        "LTDC_R2",
+        "OCTOSPIM_P1_DQS",
+        "OCTOSPIM_P1_IO3",
+        "SAI2_MCLK_B",
+        "TIM15_CH1N",
+        "TIM2_CH2",
+        "TIM5_CH2",
+        "UART4_RX",
+        "USART2_DE",
+        "USART2_RTS",
         "GPIO"
       ]
     },
@@ -2416,6 +2459,7 @@
         "I2S6_CK",
         "LTDC_R4",
         "PSSI_D14",
+        "PWR_NDSTOP2",
         "SPI1_SCK",
         "SPI6_SCK",
         "TIM2_CH1",
@@ -2605,6 +2649,18 @@
       "signals": [
         "ADC1_INN1",
         "ADC1_INP0",
+        "I2S6_WS",
+        "SAI2_SD_B",
+        "SDMMC2_CMD",
+        "SPI6_NSS",
+        "TIM15_BKIN",
+        "TIM2_CH1",
+        "TIM2_ETR",
+        "TIM5_CH1",
+        "TIM8_ETR",
+        "UART4_TX",
+        "USART2_CTS",
+        "USART2_NSS",
         "GPIO"
       ]
     },
@@ -2647,7 +2703,7 @@
         "I2S1_MCK",
         "LTDC_R7",
         "OPAMP1_VOUT",
-        "SPDIFRX_IN3",
+        "SPDIFRX_IN2",
         "GPIO"
       ]
     },

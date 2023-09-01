@@ -19,8 +19,21 @@
     "voltage": {
       "min": 1.71,
       "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L4P5CEU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L4P_gpio_v1_0",
   "pinout": [
     {

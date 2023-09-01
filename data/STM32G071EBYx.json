@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G071EBY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G07x_gpio_v1_0",
   "pinout": [
     {
@@ -299,6 +308,7 @@
         "RCC_MCO",
         "SPI2_NSS",
         "TIM1_CH1",
+        "UCPD1_CC1",
         "GPIO"
       ]
     },
@@ -316,6 +326,8 @@
         "TIM17_CH1",
         "TIM1_CH1N",
         "TIM3_CH2",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },
@@ -400,6 +412,8 @@
         "SPI1_NSS",
         "TIM1_CH2N",
         "TIM3_CH3",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART3_RX",
         "GPIO"
       ]
@@ -418,6 +432,8 @@
         "SPI1_SCK",
         "TIM2_CH1",
         "TIM2_ETR",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART3_TX",
         "GPIO"
       ]
@@ -438,6 +454,8 @@
         "SYS_WKUP4",
         "TIM15_CH1",
         "TIM2_CH3",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART2_TX",
         "GPIO"
       ]

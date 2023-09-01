@@ -25,6 +25,15 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F303VEY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F303E_gpio_v1_0",
   "pinout": [
     {
@@ -120,6 +129,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NBL1",
         "TIM17_CH1",
         "TIM20_CH4",
         "USART1_RX",
@@ -178,6 +188,8 @@
       "variant": null,
       "signals": [
         "CAN_RX",
+        "FMC_D2",
+        "FMC_DA2",
         "GPIO"
       ]
     },
@@ -187,6 +199,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_CLK",
         "TIM2_CH1",
         "TIM2_ETR",
         "USART2_CTS",
@@ -235,6 +248,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NBL0",
         "TIM16_CH1",
         "TIM20_ETR",
         "TIM4_ETR",
@@ -255,6 +269,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A21",
         "SPI4_MISO",
         "SYS_TRACED2",
         "TIM20_CH2N",
@@ -276,6 +291,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NIORD",
         "I2C2_SCL",
         "TIM4_CH4",
         "USART3_DE",
@@ -305,6 +321,8 @@
       "variant": null,
       "signals": [
         "CAN_TX",
+        "FMC_D3",
+        "FMC_DA3",
         "TIM8_BKIN2",
         "TIM8_CH4",
         "GPIO"
@@ -316,6 +334,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NOE",
         "TIM2_CH2",
         "USART2_DE",
         "USART2_RTS",
@@ -328,6 +347,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NL",
         "I2C1_SDA",
         "TIM17_CH1N",
         "TIM3_CH4",
@@ -369,6 +389,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A20",
         "SPI4_NSS",
         "SYS_TRACED1",
         "TIM20_CH1N",
@@ -450,6 +471,8 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_NCE2",
+        "FMC_NE1",
         "TIM2_CH3",
         "USART2_CK",
         "GPIO"
@@ -481,6 +504,7 @@
       "signals": [
         "ADC3_EXTI2",
         "ADC4_EXTI2",
+        "FMC_A23",
         "SPI4_SCK",
         "SYS_TRACECK",
         "TIM20_CH1",
@@ -495,6 +519,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A19",
         "SPI4_NSS",
         "SYS_TRACED0",
         "TIM20_CH2",
@@ -531,6 +556,7 @@
       "variant": null,
       "signals": [
         "DAC1_EXTI9",
+        "FMC_CD",
         "SPI2_SCK",
         "TIM15_CH1",
         "TIM20_BKIN",
@@ -634,6 +660,8 @@
         "ADC3_IN6",
         "ADC4_IN6",
         "COMP4_INM",
+        "FMC_D5",
+        "FMC_DA5",
         "TIM1_CH1N",
         "GPIO"
       ]
@@ -644,6 +672,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A22",
         "RTC_TAMP3",
         "SPI4_MOSI",
         "SYS_TRACED3",
@@ -662,6 +691,7 @@
         "ADC2_IN10",
         "ADC3_EXTI2",
         "ADC4_EXTI2",
+        "FMC_A2",
         "TIM20_CH3",
         "GPIO"
       ]
@@ -679,6 +709,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_INTR",
         "SPI2_SCK",
         "TIM15_CH2",
         "TIM20_BKIN2",
@@ -798,6 +829,8 @@
       "variant": null,
       "signals": [
         "ADC3_IN13",
+        "FMC_D4",
+        "FMC_DA4",
         "TIM1_ETR",
         "GPIO"
       ]
@@ -840,6 +873,8 @@
         "ADC3_EXTI15",
         "ADC4_EXTI15",
         "COMP3_INM",
+        "FMC_D1",
+        "FMC_DA1",
         "SPI2_NSS",
         "TIM4_CH4",
         "TSC_G8_IO4",
@@ -854,6 +889,8 @@
       "signals": [
         "ADC3_IN11",
         "ADC4_IN11",
+        "FMC_D0",
+        "FMC_DA0",
         "OPAMP2_VINP",
         "OPAMP2_VINP_SEC",
         "TIM4_CH3",
@@ -870,6 +907,7 @@
         "ADC3_IN10",
         "ADC4_IN10",
         "COMP5_INM",
+        "FMC_A18",
         "TIM4_CH2",
         "TSC_G8_IO2",
         "GPIO"
@@ -883,6 +921,8 @@
       "signals": [
         "ADC4_IN13",
         "DAC1_EXTI9",
+        "FMC_D14",
+        "FMC_DA14",
         "USART3_RX",
         "GPIO"
       ]
@@ -894,6 +934,8 @@
       "variant": null,
       "signals": [
         "ADC3_IN16",
+        "FMC_D9",
+        "FMC_DA9",
         "SPI4_SCK",
         "TIM1_CH3N",
         "GPIO"
@@ -978,6 +1020,8 @@
       "signals": [
         "ADC3_IN9",
         "ADC4_IN9",
+        "FMC_A17",
+        "FMC_ALE",
         "TIM4_CH1",
         "TSC_G8_IO1",
         "USART3_DE",
@@ -995,6 +1039,8 @@
         "ADC2_EXTI11",
         "ADC3_IN8",
         "ADC4_IN8",
+        "FMC_A16",
+        "FMC_CLE",
         "OPAMP4_VINP",
         "OPAMP4_VINP_SEC",
         "USART3_CTS",
@@ -1010,6 +1056,8 @@
         "ADC3_IN7",
         "ADC4_IN7",
         "COMP6_INM",
+        "FMC_D15",
+        "FMC_DA15",
         "USART3_CK",
         "GPIO"
       ]
@@ -1044,6 +1092,8 @@
         "ADC1_EXTI11",
         "ADC2_EXTI11",
         "ADC3_IN15",
+        "FMC_D8",
+        "FMC_DA8",
         "SPI4_NSS",
         "TIM1_CH2",
         "GPIO"

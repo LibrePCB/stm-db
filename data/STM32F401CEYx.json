@@ -4,7 +4,7 @@
     "ref": "STM32F401CEYx",
     "family": "STM32F4",
     "line": "STM32F401",
-    "rpn": "STM32F401CEY6L"
+    "rpn": "STM32F401CE"
   },
   "package": "WLCSP49",
   "silicon": {
@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F401CEY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F401_gpio_v1_0",
   "pinout": [
     {

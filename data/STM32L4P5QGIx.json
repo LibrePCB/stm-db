@@ -19,8 +19,28 @@
     "voltage": {
       "min": 1.71,
       "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L4P5QGI6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L4P5QGI6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L4P_gpio_v1_0",
   "pinout": [
     {

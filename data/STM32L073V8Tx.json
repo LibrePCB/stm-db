@@ -26,6 +26,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L073V8T6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L073V8T7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Proposal"
+    }
+  ],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {
@@ -87,7 +103,7 @@
       ]
     },
     {
-      "name": "VDD",
+      "name": "VLCD",
       "position": "6",
       "type": "Power",
       "variant": null,
@@ -478,7 +494,7 @@
       "variant": null,
       "signals": [
         "I2C3_SMBA",
-        "LCD_VLCD1",
+        "LCD_VLCD2",
         "LPTIM1_OUT",
         "TSC_G3_IO4",
         "GPIO"
@@ -541,7 +557,7 @@
       "variant": null,
       "signals": [
         "ADC_EXTI11",
-        "LCD_VLCD2",
+        "LCD_VLCD1",
         "TIM2_CH3",
         "USART5_RX",
         "GPIO"

@@ -1,6 +1,6 @@
 {
   "names": {
-    "name": "STM32L031C6Ux",
+    "name": "STM32L031C(4-6)Ux",
     "ref": "STM32L031C6Ux",
     "family": "STM32L0",
     "line": "STM32L0x1",
@@ -12,7 +12,7 @@
     "die": "DIE425"
   },
   "info": {
-    "flash": 32,
+    "flash": 16,
     "ram": 8,
     "io": 38,
     "eeprom": 1024,
@@ -26,6 +26,29 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L031C6U3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L031C6U6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L031C6U6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L031_gpio_v1_0",
   "pinout": [
     {

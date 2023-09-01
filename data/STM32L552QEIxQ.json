@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L552QEI6Q",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L55x_gpio_v1_0",
   "pinout": [
     {
@@ -182,7 +191,6 @@
         "SPI3_MISO",
         "TSC_G3_IO3",
         "UART4_RX",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_RX",
         "GPIO"
@@ -893,7 +901,6 @@
         "LPUART1_RTS",
         "OCTOSPI1_DQS",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },
@@ -909,7 +916,6 @@
         "LPUART1_TX",
         "SAI1_CK1",
         "SAI1_MCLK_A",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "GPIO"
       ]
@@ -1345,7 +1351,6 @@
         "TIM2_CH3",
         "TIM5_CH3",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "USART2_TX",
         "GPIO"
       ]
@@ -1382,7 +1387,6 @@
         "OCTOSPI1_DQS",
         "RTC_OUT2",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },
@@ -1473,7 +1477,6 @@
         "TIM15_CH1N",
         "TIM1_CH1N",
         "TSC_G1_IO2",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_CTS",
         "USART3_NSS",

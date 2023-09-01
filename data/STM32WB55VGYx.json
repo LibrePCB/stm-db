@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32WB55VGY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WB55VGY7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WB55x_gpio_v1_0",
   "pinout": [
     {
@@ -332,6 +348,7 @@
         "LCD_COM6",
         "LCD_SEG30",
         "LCD_SEG42",
+        "RCC_LSCO",
         "RTC_TAMP3",
         "SYS_TRACED3",
         "SYS_WKUP3",
@@ -823,8 +840,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT1",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP2",
@@ -926,6 +942,7 @@
       "variant": null,
       "signals": [
         "COMP1_OUT",
+        "RF_TX_MOD_EXT_PA",
         "GPIO"
       ]
     },
@@ -1181,8 +1198,7 @@
         "I2C3_SMBA",
         "LCD_VLCD",
         "LPTIM1_OUT",
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT2",
         "SAI1_EXTCLK",
         "SPI1_NSS",
         "GPIO"

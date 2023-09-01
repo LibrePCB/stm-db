@@ -25,6 +25,22 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L431RBT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L431RBT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L43x_gpio_v1_0",
   "pinout": [
     {
@@ -653,7 +669,7 @@
       "signals": []
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "48",
       "type": "Power",
       "variant": null,

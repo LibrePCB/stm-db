@@ -25,10 +25,11 @@
       "max": 125.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32L45x_gpio_v1_0",
   "pinout": [
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "A1",
       "type": "Power",
       "variant": null,

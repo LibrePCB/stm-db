@@ -14,7 +14,7 @@
   "info": {
     "flash": 32,
     "ram": 8,
-    "io": 26,
+    "io": 17,
     "frequency": 64,
     "voltage": {
       "min": 2.0,
@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G030F6P6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tube",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G030F6P6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G03x_gpio_v1_0",
   "pinout": [
     {
@@ -92,7 +108,7 @@
       ]
     },
     {
-      "name": "VBAT",
+      "name": "VDD/VDDA",
       "position": "4",
       "type": "Power",
       "variant": null,
@@ -101,18 +117,16 @@
     {
       "name": "VSS/VSSA",
       "position": "5",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "6",
-      "type": "MonoIO",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",

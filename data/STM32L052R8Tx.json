@@ -26,10 +26,26 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L052R8T6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L052R8T7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L051_gpio_v1_0",
   "pinout": [
     {
-      "name": "VLCD",
+      "name": "VDD",
       "position": "1",
       "type": "Power",
       "variant": null,

@@ -25,6 +25,36 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G474VET6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G474VET3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G474VET6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G474VET3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G47x_gpio_v1_0",
   "pinout": [
     {
@@ -366,7 +396,6 @@
         "OPAMP3_VINP_SEC",
         "OPAMP6_VINM",
         "OPAMP6_VINM0",
-        "OPAMP6_VINM1",
         "OPAMP6_VINM_SEC",
         "RTC_REFIN",
         "TIM15_CH1N",
@@ -431,12 +460,10 @@
         "LPUART1_RX",
         "OPAMP1_VINM",
         "OPAMP1_VINM0",
-        "OPAMP1_VINM1",
         "OPAMP1_VINM_SEC",
         "OPAMP1_VINP",
         "OPAMP1_VINP_SEC",
         "OPAMP5_VINM",
-        "OPAMP5_VINM0",
         "OPAMP5_VINM1",
         "OPAMP5_VINM_SEC",
         "QUADSPI1_CLK",
@@ -478,7 +505,6 @@
         "DAC1_OUT2",
         "OPAMP2_VINM",
         "OPAMP2_VINM0",
-        "OPAMP2_VINM1",
         "OPAMP2_VINM_SEC",
         "SPI1_SCK",
         "TIM2_CH1",
@@ -555,11 +581,9 @@
         "ADC2_IN11",
         "HRTIM1_EEV10",
         "OPAMP1_VINM",
-        "OPAMP1_VINM0",
         "OPAMP1_VINM1",
         "OPAMP1_VINM_SEC",
         "OPAMP2_VINM",
-        "OPAMP2_VINM0",
         "OPAMP2_VINM1",
         "OPAMP2_VINM_SEC",
         "SAI1_D3",
@@ -608,7 +632,6 @@
         "LPUART1_RTS",
         "OPAMP3_VOUT",
         "OPAMP6_VINM",
-        "OPAMP6_VINM0",
         "OPAMP6_VINM1",
         "OPAMP6_VINM_SEC",
         "QUADSPI1_BK1_IO0",
@@ -634,7 +657,6 @@
         "LPTIM1_OUT",
         "OPAMP3_VINM",
         "OPAMP3_VINM0",
-        "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "QUADSPI1_BK2_IO1",
         "RTC_OUT2",
@@ -838,12 +860,10 @@
         "HRTIM1_FLT3",
         "LPUART1_RX",
         "OPAMP3_VINM",
-        "OPAMP3_VINM0",
         "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "OPAMP4_VINM",
         "OPAMP4_VINM0",
-        "OPAMP4_VINM1",
         "OPAMP4_VINM_SEC",
         "QUADSPI1_CLK",
         "SAI1_SCK_A",
@@ -978,7 +998,6 @@
         "I2S2_SD",
         "OPAMP5_VINM",
         "OPAMP5_VINM0",
-        "OPAMP5_VINM1",
         "OPAMP5_VINM_SEC",
         "RTC_REFIN",
         "SPI2_MOSI",
@@ -999,7 +1018,6 @@
         "FMC_D13",
         "FMC_DA13",
         "OPAMP4_VINM",
-        "OPAMP4_VINM0",
         "OPAMP4_VINM1",
         "OPAMP4_VINM_SEC",
         "USART3_TX",

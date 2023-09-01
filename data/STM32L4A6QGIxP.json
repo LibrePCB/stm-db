@@ -21,10 +21,19 @@
       "max": 3.6
     },
     "temperature": {
-      "min": 0.0,
-      "max": 0.0
+      "min": -40.0,
+      "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L4A6QGI6P",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L49x_gpio_v1_0",
   "pinout": [
     {

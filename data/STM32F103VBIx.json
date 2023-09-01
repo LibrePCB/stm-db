@@ -14,7 +14,7 @@
   "info": {
     "flash": 128,
     "ram": 20,
-    "io": 82,
+    "io": 80,
     "frequency": 72,
     "voltage": {
       "min": 2.0,
@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F103VBI6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F103VBI6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F103x8_gpio_v1_0",
   "pinout": [
     {
@@ -507,7 +523,7 @@
     {
       "name": "OSC_IN",
       "position": "F1",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_IN"
@@ -537,7 +553,7 @@
     {
       "name": "OSC_OUT",
       "position": "G1",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_OUT"

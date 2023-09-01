@@ -22,9 +22,39 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F100CBT6B",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F100CBT6BTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F100CBT7B",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F100CBT7BTR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F100x8_gpio_v1_0",
   "pinout": [
     {

@@ -25,6 +25,22 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F413MHY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F413MHY3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": null,
+      "status": "Proposal"
+    }
+  ],
   "gpio_version": "STM32F413_gpio_v1_0",
   "pinout": [
     {

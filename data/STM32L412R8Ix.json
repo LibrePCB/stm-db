@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L412R8I6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L41x_gpio_v1_0",
   "pinout": [
     {
@@ -809,6 +818,7 @@
         "ADC1_IN14",
         "ADC2_IN14",
         "COMP1_INP",
+        "SYS_WKUP5",
         "USART3_RX",
         "GPIO"
       ]

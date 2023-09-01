@@ -25,6 +25,22 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G474CCU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G474CCU3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G47x_gpio_v1_0",
   "pinout": [
     {
@@ -153,7 +169,6 @@
         "OPAMP3_VINP_SEC",
         "OPAMP6_VINM",
         "OPAMP6_VINM0",
-        "OPAMP6_VINM1",
         "OPAMP6_VINM_SEC",
         "RTC_REFIN",
         "TIM15_CH1N",
@@ -204,12 +219,10 @@
         "LPUART1_RX",
         "OPAMP1_VINM",
         "OPAMP1_VINM0",
-        "OPAMP1_VINM1",
         "OPAMP1_VINM_SEC",
         "OPAMP1_VINP",
         "OPAMP1_VINP_SEC",
         "OPAMP5_VINM",
-        "OPAMP5_VINM0",
         "OPAMP5_VINM1",
         "OPAMP5_VINM_SEC",
         "QUADSPI1_CLK",
@@ -251,7 +264,6 @@
         "DAC1_OUT2",
         "OPAMP2_VINM",
         "OPAMP2_VINM0",
-        "OPAMP2_VINM1",
         "OPAMP2_VINM_SEC",
         "SPI1_SCK",
         "TIM2_CH1",
@@ -357,7 +369,6 @@
         "LPUART1_RTS",
         "OPAMP3_VOUT",
         "OPAMP6_VINM",
-        "OPAMP6_VINM0",
         "OPAMP6_VINM1",
         "OPAMP6_VINM_SEC",
         "QUADSPI1_BK1_IO0",
@@ -383,7 +394,6 @@
         "LPTIM1_OUT",
         "OPAMP3_VINM",
         "OPAMP3_VINM0",
-        "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "QUADSPI1_BK2_IO1",
         "RTC_OUT2",
@@ -422,12 +432,10 @@
         "HRTIM1_FLT3",
         "LPUART1_RX",
         "OPAMP3_VINM",
-        "OPAMP3_VINM0",
         "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "OPAMP4_VINM",
         "OPAMP4_VINM0",
-        "OPAMP4_VINM1",
         "OPAMP4_VINM_SEC",
         "QUADSPI1_CLK",
         "SAI1_SCK_A",
@@ -555,7 +563,6 @@
         "I2S2_SD",
         "OPAMP5_VINM",
         "OPAMP5_VINM0",
-        "OPAMP5_VINM1",
         "OPAMP5_VINM_SEC",
         "RTC_REFIN",
         "SPI2_MOSI",
@@ -759,6 +766,8 @@
         "TIM2_CH1",
         "TIM2_ETR",
         "TIM8_CH1",
+        "UART4_DE",
+        "UART4_RTS",
         "USART2_RX",
         "GPIO"
       ]
@@ -777,6 +786,7 @@
         "I2S3_CK",
         "SPI3_SCK",
         "TIM8_CH1N",
+        "UART4_TX",
         "USART3_TX",
         "GPIO"
       ]
@@ -793,6 +803,7 @@
         "I2C3_SDA",
         "SPI3_MISO",
         "TIM8_CH2N",
+        "UART4_RX",
         "USART3_RX",
         "GPIO"
       ]
@@ -905,6 +916,7 @@
         "TIM3_CH4",
         "TIM4_CH2",
         "TIM8_BKIN",
+        "UART4_CTS",
         "USART1_RX",
         "GPIO"
       ]

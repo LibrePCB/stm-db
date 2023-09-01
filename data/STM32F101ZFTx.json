@@ -14,7 +14,7 @@
   "info": {
     "flash": 768,
     "ram": 80,
-    "io": 114,
+    "io": 112,
     "frequency": 36,
     "voltage": {
       "min": 2.0,
@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F101ZFT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F103xF_gpio_v1_0",
   "pinout": [
     {
@@ -255,7 +264,7 @@
     {
       "name": "OSC_IN",
       "position": "23",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_IN"
@@ -264,7 +273,7 @@
     {
       "name": "OSC_OUT",
       "position": "24",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_OUT"

@@ -8,7 +8,7 @@
   },
   "package": "UFBGA100",
   "silicon": {
-    "core": "ARM Cortex-M0+",
+    "core": "Arm Cortex-M0+",
     "die": "DIE447"
   },
   "info": {
@@ -17,6 +17,7 @@
     "io": 84,
     "eeprom": 6144
   },
+  "parts": [],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {

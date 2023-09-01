@@ -14,7 +14,7 @@
   "info": {
     "flash": 768,
     "ram": 96,
-    "io": 114,
+    "io": 112,
     "frequency": 72,
     "voltage": {
       "min": 2.0,
@@ -25,6 +25,29 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F103ZGT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F103ZGT6J",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32F103ZGT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F103xF_gpio_v1_0",
   "pinout": [
     {
@@ -261,7 +284,7 @@
     {
       "name": "OSC_IN",
       "position": "23",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_IN"
@@ -270,7 +293,7 @@
     {
       "name": "OSC_OUT",
       "position": "24",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_OUT"

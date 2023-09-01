@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F479VGT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F469_gpio_v1_0",
   "pinout": [
     {
@@ -363,6 +372,7 @@
       "signals": [
         "ADC1_IN7",
         "ADC2_IN7",
+        "FMC_SDNWE",
         "QUADSPI_CLK",
         "SPI1_MOSI",
         "TIM14_CH1",

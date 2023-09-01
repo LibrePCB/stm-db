@@ -25,6 +25,29 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G431CBU3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G431CBU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G431CBU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32G43x_gpio_v1_0",
   "pinout": [
     {
@@ -188,7 +211,6 @@
         "LPUART1_RX",
         "OPAMP1_VINM",
         "OPAMP1_VINM0",
-        "OPAMP1_VINM1",
         "OPAMP1_VINM_SEC",
         "OPAMP1_VINP",
         "OPAMP1_VINP_SEC",
@@ -229,7 +251,6 @@
         "DAC1_OUT2",
         "OPAMP2_VINM",
         "OPAMP2_VINM0",
-        "OPAMP2_VINM1",
         "OPAMP2_VINM_SEC",
         "SPI1_SCK",
         "TIM2_CH1",
@@ -343,7 +364,6 @@
         "LPTIM1_OUT",
         "OPAMP3_VINM",
         "OPAMP3_VINM0",
-        "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "RTC_OUT2",
         "GPIO"
@@ -375,7 +395,6 @@
         "DAC3_EXTI10",
         "LPUART1_RX",
         "OPAMP3_VINM",
-        "OPAMP3_VINM0",
         "OPAMP3_VINM1",
         "OPAMP3_VINM_SEC",
         "SAI1_SCK_A",

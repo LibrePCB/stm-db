@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F733IEK6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F733IEK7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": null,
+      "status": "Proposal"
+    }
+  ],
   "gpio_version": "STM32F72x_gpio_v1_0",
   "pinout": [
     {
@@ -611,8 +627,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP4",

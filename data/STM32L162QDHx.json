@@ -23,9 +23,32 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 150.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L162QDH6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L162QDH6DTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L162QDH6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    }
+  ],
   "gpio_version": "STM32L162xD_gpio_v1_0",
   "pinout": [
     {
@@ -861,7 +884,6 @@
       "variant": null,
       "signals": [
         "ADC_IN27",
-        "COMP1_INP",
         "TIM5_CH1",
         "TIM5_ETR",
         "TS_G11_IO1",

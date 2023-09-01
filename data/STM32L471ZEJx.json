@@ -22,9 +22,39 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L471ZEJ6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L471ZEJ6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L471ZEJ3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L471ZEJ3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L47x_gpio_v1_0",
   "pinout": [
     {
@@ -772,7 +802,7 @@
       "signals": []
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "E9",
       "type": "Power",
       "variant": null,

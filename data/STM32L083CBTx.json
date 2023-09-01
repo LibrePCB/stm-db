@@ -26,10 +26,19 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L083CBT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {
-      "name": "VDD",
+      "name": "VLCD",
       "position": "1",
       "type": "Power",
       "variant": null,
@@ -288,7 +297,7 @@
       "variant": null,
       "signals": [
         "I2C3_SMBA",
-        "LCD_VLCD1",
+        "LCD_VLCD2",
         "LPTIM1_OUT",
         "TSC_G3_IO4",
         "GPIO"

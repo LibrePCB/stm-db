@@ -14,7 +14,7 @@
   "info": {
     "flash": 16,
     "ram": 8,
-    "io": 43,
+    "io": 44,
     "frequency": 64,
     "voltage": {
       "min": 1.7,
@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G031C4T6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G03x_gpio_v1_0",
   "pinout": [
     {
@@ -84,14 +93,14 @@
     {
       "name": "VDD/VDDA",
       "position": "6",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
       "name": "VSS/VSSA",
       "position": "7",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
@@ -118,12 +127,13 @@
       ]
     },
     {
-      "name": "NRST",
+      "name": "PF2 - NRST",
       "position": "10",
-      "type": "MonoIO",
+      "type": "I/O",
       "variant": null,
       "signals": [
-        "RCC_MCO"
+        "RCC_MCO",
+        "GPIO"
       ]
     },
     {
@@ -463,7 +473,6 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
-        "ADC1_IN15",
         "I2C2_SCL",
         "I2S1_MCK",
         "SPI1_MISO",
@@ -494,7 +503,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "ADC1_IN16",
         "I2C2_SDA",
         "I2S1_SD",
         "I2S_CKIN",
@@ -672,7 +680,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "ADC1_IN11",
         "I2C1_SDA",
         "LPTIM1_IN2",
         "SPI2_MOSI",

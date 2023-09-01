@@ -13,9 +13,25 @@
   },
   "info": {
     "flash": 0,
-    "ram": 448,
+    "ram": 708,
     "io": 148
   },
+  "parts": [
+    {
+      "mpn": "STM32MP153CAC3",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32MP153CAC3T",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MPU_gpio_v1_0",
   "pinout": [
     {
@@ -46,6 +62,7 @@
         "DCMI_D6",
         "DFSDM1_CKIN5",
         "FMC_D10",
+        "FMC_DA10",
         "HDP_HDP2",
         "LTDC_DE",
         "SAI2_FS_B",
@@ -65,6 +82,7 @@
         "DCMI_D4",
         "DFSDM1_CKIN4",
         "FMC_D8",
+        "FMC_DA8",
         "LTDC_G3",
         "SAI2_SD_B",
         "SPI4_NSS",
@@ -79,6 +97,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A1",
         "I2C2_SCL",
         "SDMMC3_CDIR",
         "SDMMC3_CMD",
@@ -178,6 +197,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A2",
         "I2C2_SMBA",
         "SDMMC1_D0DIR",
         "SDMMC2_D0DIR",
@@ -291,6 +311,7 @@
       "signals": [
         "DFSDM1_DATIN5",
         "FMC_D9",
+        "FMC_DA9",
         "LTDC_B4",
         "SAI2_SCK_B",
         "SDMMC1_D0DIR",
@@ -307,6 +328,7 @@
       "signals": [
         "DFSDM1_CKOUT",
         "FMC_D15",
+        "FMC_DA15",
         "I2C5_SMBA",
         "I2S3_SDI",
         "LTDC_B3",
@@ -362,6 +384,7 @@
         "DFSDM1_DATIN7",
         "FDCAN1_RX",
         "FMC_D2",
+        "FMC_DA2",
         "I2C5_SDA",
         "I2C6_SDA",
         "SAI3_SCK_A",
@@ -380,6 +403,7 @@
         "DFSDM1_DATIN6",
         "FDCAN1_TX",
         "FMC_D3",
+        "FMC_DA3",
         "I2C5_SCL",
         "I2C6_SCL",
         "SAI3_SD_A",
@@ -651,6 +675,7 @@
       "variant": null,
       "signals": [
         "FMC_D11",
+        "FMC_DA11",
         "LTDC_CLK",
         "LTDC_G0",
         "SAI2_MCLK_B",
@@ -676,6 +701,7 @@
       "variant": null,
       "signals": [
         "DCMI_D3",
+        "FMC_NBL1",
         "I2S2_MCK",
         "LPTIM1_IN2",
         "SAI3_SD_B",
@@ -690,6 +716,7 @@
       "variant": null,
       "signals": [
         "DEBUG_TRACED0",
+        "FMC_A19",
         "SAI1_SD_B",
         "SDMMC2_CK",
         "TIM15_BKIN",
@@ -704,6 +731,7 @@
       "signals": [
         "DCMI_D7",
         "DEBUG_TRACED2",
+        "FMC_A22",
         "LTDC_G1",
         "SAI1_D1",
         "SAI1_SD_A",
@@ -725,6 +753,7 @@
         "DCMI_D6",
         "DEBUG_TRACED3",
         "DFSDM1_CKIN3",
+        "FMC_A21",
         "LTDC_G0",
         "SAI1_CK2",
         "SAI1_SCK_A",
@@ -904,6 +933,7 @@
         "ADC1_EXTI15",
         "ADC2_EXTI15",
         "FMC_D12",
+        "FMC_DA12",
         "FMC_NCE2",
         "HDP_HDP3",
         "LTDC_R7",
@@ -942,6 +972,7 @@
       "variant": null,
       "signals": [
         "DCMI_D2",
+        "FMC_NBL0",
         "I2S3_CK",
         "LPTIM1_ETR",
         "LPTIM2_ETR",
@@ -959,6 +990,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A5",
         "SDMMC3_D2",
         "USART2_TX",
         "GPIO"
@@ -970,6 +1002,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A0",
         "I2C2_SDA",
         "SDMMC3_CKIN",
         "SDMMC3_D0",
@@ -982,6 +1015,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A4",
         "SDMMC3_D1",
         "SDMMC3_D123DIR",
         "USART2_RX",
@@ -997,6 +1031,7 @@
         "DEBUG_TRACED6",
         "DFSDM1_CKIN1",
         "DFSDM1_DATIN4",
+        "FMC_NE1",
         "I2C2_SCL",
         "SDMMC3_D3",
         "SPDIFRX_IN0",
@@ -1012,6 +1047,7 @@
       "signals": [
         "DCMI_VSYNC",
         "DFSDM1_CKIN5",
+        "FMC_NL",
         "I2C1_SDA",
         "I2C4_SDA",
         "SDMMC2_D1",
@@ -1064,6 +1100,7 @@
         "DCMI_D5",
         "DFSDM1_CKOUT",
         "DFSDM1_DATIN0",
+        "FMC_CLK",
         "HDP_HDP5",
         "I2S2_CK",
         "LTDC_G7",
@@ -1165,6 +1202,7 @@
         "DCMI_D4",
         "DEBUG_TRACED1",
         "DFSDM1_DATIN3",
+        "FMC_A20",
         "LTDC_B0",
         "SAI1_D2",
         "SAI1_FS_A",
@@ -1562,6 +1600,7 @@
         "ADC1_EXTI15",
         "ADC2_EXTI15",
         "FMC_D1",
+        "FMC_DA1",
         "LTDC_R1",
         "SAI3_MCLK_A",
         "TIM4_CH4",
@@ -1635,6 +1674,7 @@
         "DCMI_HSYNC",
         "DFSDM1_DATIN3",
         "FMC_D14",
+        "FMC_DA14",
         "LTDC_B0",
         "SAI3_SD_B",
         "USART3_RX",
@@ -1649,8 +1689,6 @@
       "signals": [
         "PWR_WKUP3",
         "RTC_LSCO",
-        "RTC_OUT_ALARM1",
-        "RTC_OUT_CALIB1",
         "RTC_TS",
         "TAMP_IN1",
         "TAMP_OUT2",
@@ -1666,6 +1704,7 @@
       "signals": [
         "DFSDM1_CKIN3",
         "FMC_D13",
+        "FMC_DA13",
         "LTDC_B7",
         "SAI3_SCK_B",
         "SPDIFRX_IN1",
@@ -1680,6 +1719,7 @@
       "variant": null,
       "signals": [
         "ETH1_PHY_INTN",
+        "FMC_NE4",
         "LPTIM1_IN1",
         "LTDC_B1",
         "LTDC_B4",
@@ -1755,6 +1795,7 @@
       "variant": null,
       "signals": [
         "FMC_D0",
+        "FMC_DA0",
         "SAI3_MCLK_B",
         "TIM4_CH3",
         "UART8_CTS",
@@ -1769,8 +1810,6 @@
       "signals": [
         "PWR_WKUP4",
         "RTC_LSCO",
-        "RTC_OUT_ALARM2",
-        "RTC_OUT_CALIB2",
         "TAMP_IN2",
         "TAMP_OUT3",
         "GPIO"
@@ -2096,6 +2135,7 @@
         "DEBUG_TRACED3",
         "DFSDM1_CKIN1",
         "ETH1_TXD7",
+        "FMC_A13",
         "TIM8_BKIN2",
         "GPIO"
       ]
@@ -2143,6 +2183,7 @@
       "variant": null,
       "signals": [
         "ETH1_TX_ER",
+        "FMC_A3",
         "GPIO"
       ]
     },
@@ -2231,6 +2272,7 @@
       "signals": [
         "DEBUG_TRACED2",
         "ETH1_TXD6",
+        "FMC_A12",
         "RCC_MCO_2",
         "TIM8_BKIN",
         "GPIO"
@@ -2316,6 +2358,7 @@
       "signals": [
         "DEBUG_TRACED1",
         "ETH1_TXD5",
+        "FMC_A11",
         "GPIO"
       ]
     },
@@ -2399,6 +2442,7 @@
       "signals": [
         "DEBUG_TRACECLK",
         "ETH1_TXD3",
+        "FMC_A23",
         "I2C4_SCL",
         "QUADSPI_BK1_IO2",
         "SAI1_CK1",
@@ -2453,6 +2497,7 @@
         "ADC2_EXTI15",
         "DEBUG_TRACED7",
         "ETH1_RXD7",
+        "FMC_A9",
         "I2C1_SDA",
         "I2C4_SDA",
         "GPIO"
@@ -2469,6 +2514,7 @@
         "DFSDM1_DATIN3",
         "DFSDM1_DATIN6",
         "ETH1_RXD5",
+        "FMC_A7",
         "I2C1_SMBA",
         "I2C4_SMBA",
         "GPIO"
@@ -2481,6 +2527,7 @@
       "variant": null,
       "signals": [
         "ETH1_CLK125",
+        "FMC_A15",
         "TIM1_ETR",
         "GPIO"
       ]
@@ -2540,6 +2587,7 @@
         "ADC1_INP6",
         "DEBUG_TRACED4",
         "ETH1_RXD4",
+        "FMC_A6",
         "GPIO"
       ]
     },
@@ -2600,6 +2648,7 @@
         "DCMI_VSYNC",
         "DEBUG_DBTRGO",
         "FMC_NCE",
+        "FMC_NE2",
         "LTDC_R1",
         "QUADSPI_BK2_IO2",
         "SAI2_FS_B",
@@ -2636,6 +2685,7 @@
       "signals": [
         "DFSDM1_DATIN4",
         "FMC_D7",
+        "FMC_DA7",
         "QUADSPI_BK2_IO3",
         "TIM1_CH2N",
         "UART7_CTS",
@@ -2653,8 +2703,6 @@
         "I2S3_SDO",
         "I2S_CKIN",
         "QUADSPI_CLK",
-        "RTC_OUT_ALARM2",
-        "RTC_OUT_CALIB2",
         "SAI1_D1",
         "SAI1_SD_A",
         "SPI3_MOSI",
@@ -2686,6 +2734,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A17",
         "FMC_ALE",
         "I2C1_SCL",
         "I2C4_SCL",
@@ -2752,6 +2801,7 @@
       "signals": [
         "DEBUG_TRACED1",
         "ETH1_TXD1",
+        "FMC_A25",
         "LPTIM1_ETR",
         "LTDC_B0",
         "QUADSPI_BK2_IO3",
@@ -2770,6 +2820,7 @@
       "signals": [
         "DEBUG_TRACED0",
         "ETH1_TXD0",
+        "FMC_A24",
         "LPTIM1_OUT",
         "LTDC_R0",
         "SAI1_CK2",
@@ -2885,6 +2936,7 @@
         "DAC1_EXTI9",
         "DFSDM1_CKOUT",
         "FMC_D6",
+        "FMC_DA6",
         "QUADSPI_BK2_IO2",
         "TIM1_CH1",
         "UART7_DE",
@@ -2920,6 +2972,7 @@
       "signals": [
         "DFSDM1_DATIN2",
         "FMC_D4",
+        "FMC_DA4",
         "QUADSPI_BK2_IO0",
         "TIM1_ETR",
         "TIM3_ETR",
@@ -3014,6 +3067,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "FMC_A18",
         "I2C1_SDA",
         "I2C4_SDA",
         "I2S3_MCK",
@@ -3084,6 +3138,7 @@
       "variant": null,
       "signals": [
         "ETH1_GTX_CLK",
+        "FMC_A14",
         "TIM1_BKIN2",
         "GPIO"
       ]
@@ -3264,6 +3319,7 @@
       "signals": [
         "DCMI_D2",
         "DEBUG_TRACED10",
+        "FMC_NE3",
         "LTDC_B2",
         "LTDC_G3",
         "QUADSPI_BK2_IO2",
@@ -3403,6 +3459,7 @@
         "DEBUG_TRACED0",
         "DFSDM1_DATIN0",
         "ETH1_TXD4",
+        "FMC_A10",
         "GPIO"
       ]
     },
@@ -3437,6 +3494,7 @@
         "DEBUG_TRACED6",
         "DFSDM1_CKIN6",
         "ETH1_RXD6",
+        "FMC_A8",
         "I2C1_SCL",
         "I2C4_SCL",
         "GPIO"
@@ -3507,6 +3565,7 @@
       "signals": [
         "ADC1_EXTI11",
         "ADC2_EXTI11",
+        "FMC_A16",
         "FMC_CLE",
         "I2C1_SMBA",
         "I2C4_SMBA",
@@ -3543,6 +3602,7 @@
       "signals": [
         "DFSDM1_CKIN2",
         "FMC_D5",
+        "FMC_DA5",
         "QUADSPI_BK2_IO1",
         "TIM1_CH1N",
         "UART7_TX",

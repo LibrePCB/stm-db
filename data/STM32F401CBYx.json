@@ -4,7 +4,7 @@
     "ref": "STM32F401CBYx",
     "family": "STM32F4",
     "line": "STM32F401",
-    "rpn": "STM32F401CB"
+    "rpn": "STM32F401CBY6"
   },
   "package": "WLCSP49",
   "silicon": {
@@ -15,16 +15,12 @@
     "flash": 128,
     "ram": 64,
     "io": 36,
-    "frequency": 84,
-    "voltage": {
-      "min": 1.7,
-      "max": 3.6
-    },
     "temperature": {
       "min": -40.0,
-      "max": 125.0
+      "max": 85.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32F401_gpio_v1_0",
   "pinout": [
     {

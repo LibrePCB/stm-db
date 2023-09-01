@@ -23,9 +23,32 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 150.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L152RCT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L152RCT6D",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L152RCT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    }
+  ],
   "gpio_version": "STM32L152xC_gpio_v1_0",
   "pinout": [
     {
@@ -393,7 +416,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "COMP1_INP",
         "TS_G3_IO3",
         "GPIO"
       ]

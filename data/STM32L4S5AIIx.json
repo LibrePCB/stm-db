@@ -22,9 +22,32 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L4S5AII6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L4S5AII3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L4S5AII3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L4Rx_gpio_v1_0",
   "pinout": [
     {

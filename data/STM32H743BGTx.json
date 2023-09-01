@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32H743BGT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32H747_gpio_v1_0",
   "pinout": [
     {
@@ -146,7 +155,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "PWR_WKUP2",
+        "PWR_WKUP4",
         "RTC_OUT_ALARM",
         "RTC_OUT_CALIB",
         "RTC_TAMP1",
@@ -213,7 +222,7 @@
         "ADC2_EXTI11",
         "ADC3_EXTI11",
         "LTDC_G6",
-        "PWR_WKUP4",
+        "PWR_WKUP5",
         "USB_OTG_HS_ULPI_DIR",
         "GPIO"
       ]
@@ -493,7 +502,7 @@
         "ETH_MDC",
         "I2S2_SDO",
         "MDIOS_MDC",
-        "PWR_WKUP5",
+        "PWR_WKUP6",
         "RTC_TAMP3",
         "SAI1_D1",
         "SAI1_SD_A",
@@ -517,6 +526,7 @@
         "ETH_TXD2",
         "FMC_SDNE0",
         "I2S2_SDI",
+        "PWR_CSTOP",
         "SPI2_MISO",
         "USB_OTG_HS_ULPI_DIR",
         "GPIO"
@@ -533,6 +543,7 @@
         "ETH_TX_CLK",
         "FMC_SDCKE0",
         "I2S2_SDO",
+        "PWR_CSLEEP",
         "SPI2_MOSI",
         "USB_OTG_HS_ULPI_NXT",
         "GPIO"
@@ -576,7 +587,7 @@
       "signals": [
         "ADC1_INP16",
         "ETH_CRS",
-        "PWR_WKUP0",
+        "PWR_WKUP1",
         "SAI2_SD_B",
         "SDMMC2_CMD",
         "TIM15_BKIN",
@@ -625,7 +636,7 @@
         "LPTIM4_OUT",
         "LTDC_R1",
         "MDIOS_MDIO",
-        "PWR_WKUP1",
+        "PWR_WKUP2",
         "SAI2_SCK_B",
         "TIM15_CH1",
         "TIM2_CH3",
@@ -764,6 +775,7 @@
         "DAC1_OUT2",
         "I2S1_CK",
         "LTDC_R4",
+        "PWR_NDSTOP2",
         "SPI1_SCK",
         "SPI6_SCK",
         "TIM2_CH1",

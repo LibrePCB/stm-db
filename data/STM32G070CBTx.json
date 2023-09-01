@@ -14,7 +14,7 @@
   "info": {
     "flash": 128,
     "ram": 36,
-    "io": 44,
+    "io": 43,
     "frequency": 64,
     "voltage": {
       "min": 2.0,
@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G070CBT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G070CBT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G07x_gpio_v1_0",
   "pinout": [
     {
@@ -120,12 +136,9 @@
     {
       "name": "NRST",
       "position": "10",
-      "type": "I/O",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO",
-        "GPIO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",
