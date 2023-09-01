@@ -84,14 +84,14 @@
     {
       "name": "VDD/VDDA",
       "position": "6",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
       "name": "VSS/VSSA",
       "position": "7",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
@@ -120,11 +120,9 @@
     {
       "name": "NRST",
       "position": "10",
-      "type": "MonoIO",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",
@@ -435,7 +433,6 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
-        "ADC1_IN15",
         "I2C2_SCL",
         "I2S1_MCK",
         "SPI1_MISO",
@@ -466,7 +463,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "ADC1_IN16",
         "I2C2_SDA",
         "I2S1_SD",
         "I2S_CKIN",
@@ -639,7 +635,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "ADC1_IN11",
         "I2C1_SDA",
         "SPI2_MOSI",
         "SYS_PVD_IN",

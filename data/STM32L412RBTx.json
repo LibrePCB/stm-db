@@ -340,6 +340,7 @@
         "ADC1_IN14",
         "ADC2_IN14",
         "COMP1_INP",
+        "SYS_WKUP5",
         "USART3_RX",
         "GPIO"
       ]

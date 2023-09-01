@@ -1,6 +1,6 @@
 {
   "names": {
-    "name": "STM32L031C6Ux",
+    "name": "STM32L031C(4-6)Ux",
     "ref": "STM32L031C6Ux",
     "family": "STM32L0",
     "line": "STM32L0x1",
@@ -12,7 +12,7 @@
     "die": "DIE425"
   },
   "info": {
-    "flash": 32,
+    "flash": 16,
     "ram": 8,
     "io": 38,
     "eeprom": 1024,

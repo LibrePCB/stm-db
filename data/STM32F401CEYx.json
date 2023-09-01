@@ -4,7 +4,7 @@
     "ref": "STM32F401CEYx",
     "family": "STM32F4",
     "line": "STM32F401",
-    "rpn": "STM32F401CEY6L"
+    "rpn": "STM32F401CE"
   },
   "package": "WLCSP49",
   "silicon": {

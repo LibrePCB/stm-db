@@ -19,6 +19,10 @@
     "voltage": {
       "min": 1.71,
       "max": 3.6
+    },
+    "temperature": {
+      "min": -40.0,
+      "max": 85.0
     }
   },
   "gpio_version": "STM32L4P_gpio_v1_0",
@@ -133,6 +137,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "LTDC_HSYNC",
         "SAI2_FS_B",
         "SPI1_NSS",
@@ -356,6 +361,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "DCMI_D11",
         "OCTOSPIM_P2_IO6",
         "PSSI_D11",
@@ -397,6 +403,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "OCTOSPIM_P2_IO0",
         "PSSI_D15",
         "GPIO"
@@ -453,6 +460,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "DCMI_D13",
         "I2C1_SMBA",
         "LPTIM1_OUT",
@@ -836,6 +844,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "LPTIM1_IN2",
         "OCTOSPIM_P1_IO5",
         "SAI2_MCLK_A",
@@ -893,6 +902,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "DCMI_D2",
         "DCMI_D4",
         "OCTOSPIM_P1_NCS",
@@ -947,6 +957,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "CAN1_RX",
         "LTDC_DE",
         "SPI1_MISO",
@@ -1140,6 +1151,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "RCC_OSC32_OUT",
         "GPIO"
       ]
@@ -1350,6 +1362,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN13",
+        "ADC2_IN13",
         "COMP1_INM",
         "OCTOSPIM_P1_IO7",
         "OCTOSPIM_P2_NCS",
@@ -1392,6 +1405,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "COMP2_OUT",
         "I2C2_SDA",
         "I2C4_SDA",
@@ -1437,6 +1451,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "FMC_D1",
         "FMC_DA1",
         "LTDC_B3",
@@ -1475,6 +1490,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN1",
+        "ADC2_IN1",
         "I2C3_SCL",
         "LPTIM1_IN1",
         "LPTIM2_IN1",
@@ -1493,6 +1509,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN2",
+        "ADC2_IN2",
         "I2C3_SDA",
         "LPTIM1_OUT",
         "LPUART1_TX",
@@ -1510,6 +1527,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN3",
+        "ADC2_IN3",
         "DFSDM1_CKOUT",
         "LPTIM1_IN2",
         "LTDC_HSYNC",
@@ -1525,6 +1543,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN14",
+        "ADC2_IN14",
         "COMP1_INP",
         "LTDC_CLK",
         "PSSI_D15",
@@ -1570,6 +1589,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "FMC_D12",
         "FMC_DA12",
         "LTDC_R2",
@@ -1654,6 +1674,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN4",
+        "ADC2_IN4",
         "LPTIM1_ETR",
         "LPTIM2_ETR",
         "OCTOSPIM_P1_IO6",
@@ -1677,6 +1698,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN5",
+        "ADC2_IN5",
         "OPAMP1_VINP",
         "RTC_TAMP2",
         "SAI1_EXTCLK",
@@ -1698,6 +1720,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN10",
+        "ADC2_IN10",
         "DAC1_OUT2",
         "LPTIM2_ETR",
         "LTDC_R7",
@@ -1716,6 +1739,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN15",
+        "ADC2_IN15",
         "COMP1_OUT",
         "LTDC_B6",
         "OCTOSPIM_P1_IO1",
@@ -1736,6 +1760,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "FMC_A9",
         "I2C4_SDA",
         "LTDC_G1",
@@ -1825,6 +1850,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "FMC_A16",
         "FMC_CLE",
         "I2C4_SMBA",
@@ -1874,6 +1900,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN9",
+        "ADC2_IN9",
         "DAC1_OUT1",
         "DCMI_HSYNC",
         "LPTIM2_OUT",
@@ -1894,6 +1921,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN12",
+        "ADC2_IN12",
         "I2C3_SCL",
         "OCTOSPIM_P1_IO2",
         "OPAMP2_VINM",
@@ -1912,6 +1940,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN16",
+        "ADC2_IN16",
         "COMP1_INM",
         "DFSDM1_DATIN0",
         "LPTIM2_IN1",
@@ -2045,6 +2074,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN8",
+        "ADC2_IN8",
         "LPUART1_RX",
         "OCTOSPIM_P1_CLK",
         "OPAMP1_VOUT",
@@ -2071,6 +2101,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN11",
+        "ADC2_IN11",
         "DCMI_PIXCLK",
         "LPUART1_CTS",
         "OCTOSPIM_P1_IO3",
@@ -2093,6 +2124,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "DCMI_D12",
         "LTDC_DE",
         "OCTOSPIM_P1_NCLK",
@@ -2155,6 +2187,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "DCMI_D2",
         "OCTOSPIM_P2_IO6",
         "PSSI_D2",
@@ -2176,6 +2209,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI15",
+        "ADC2_EXTI15",
         "DFSDM1_CKIN2",
         "OCTOSPIM_P1_IO7",
         "RTC_REFIN",
@@ -2217,6 +2251,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN7",
+        "ADC2_IN7",
         "LPUART1_TX",
         "OCTOSPIM_P1_NCS",
         "RCC_LSCO",
@@ -2236,6 +2271,7 @@
       "variant": null,
       "signals": [
         "ADC1_IN6",
+        "ADC2_IN6",
         "I2C1_SMBA",
         "OCTOSPIM_P1_DQS",
         "OPAMP1_VINM",
@@ -2307,6 +2343,7 @@
       "variant": null,
       "signals": [
         "ADC1_EXTI11",
+        "ADC2_EXTI11",
         "FMC_D8",
         "FMC_DA8",
         "LTDC_G4",

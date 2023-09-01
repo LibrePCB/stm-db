@@ -367,7 +367,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "COMP1_INP",
         "GPIO"
       ]
     },

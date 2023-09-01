@@ -14,7 +14,7 @@
   "info": {
     "flash": 128,
     "ram": 36,
-    "io": 30,
+    "io": 29,
     "frequency": 64,
     "voltage": {
       "min": 2.0,
@@ -83,12 +83,9 @@
     {
       "name": "NRST",
       "position": "6",
-      "type": "I/O",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO",
-        "GPIO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",

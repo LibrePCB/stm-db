@@ -1482,6 +1482,7 @@
       "signals": [
         "ADC1_IN7",
         "ADC2_IN7",
+        "FMC_SDNWE",
         "QUADSPI_CLK",
         "SPI1_MOSI",
         "TIM14_CH1",

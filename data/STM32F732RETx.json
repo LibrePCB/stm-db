@@ -40,8 +40,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP4",
@@ -165,7 +164,7 @@
       "signals": []
     },
     {
-      "name": "VREF+",
+      "name": "VDDA",
       "position": "13",
       "type": "Power",
       "variant": null,

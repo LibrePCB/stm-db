@@ -133,7 +133,7 @@
       ]
     },
     {
-      "name": "VLCD",
+      "name": "VDD",
       "position": "B2",
       "type": "Power",
       "variant": null,

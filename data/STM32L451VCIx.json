@@ -473,7 +473,7 @@
       ]
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "C11",
       "type": "Power",
       "variant": null,

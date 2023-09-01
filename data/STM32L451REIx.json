@@ -492,7 +492,7 @@
       "signals": []
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "E5",
       "type": "Power",
       "variant": null,

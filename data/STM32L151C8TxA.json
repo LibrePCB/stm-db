@@ -4,7 +4,7 @@
     "ref": "STM32L151C8TxA",
     "family": "STM32L1",
     "line": "STM32L151/152",
-    "rpn": "STM32L151C8"
+    "rpn": "STM32L151C8-A"
   },
   "package": "LQFP48",
   "silicon": {
@@ -276,7 +276,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "COMP1_INP",
         "TS_G3_IO3",
         "GPIO"
       ]

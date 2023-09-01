@@ -816,7 +816,6 @@
       "variant": null,
       "signals": [
         "ADC_IN27",
-        "COMP1_INP",
         "TIM5_CH1",
         "TIM5_ETR",
         "TS_G11_IO1",

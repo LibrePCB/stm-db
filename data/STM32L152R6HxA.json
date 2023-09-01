@@ -185,6 +185,7 @@
       "signals": [
         "LCD_COM7",
         "LCD_SEG31",
+        "LCD_SEG43",
         "TIM3_ETR",
         "TIMX_IC3",
         "GPIO"
@@ -199,6 +200,7 @@
         "ADC_EXTI11",
         "LCD_COM5",
         "LCD_SEG29",
+        "LCD_SEG41",
         "TIMX_IC4",
         "USART3_RX",
         "GPIO"
@@ -212,6 +214,7 @@
       "signals": [
         "LCD_COM4",
         "LCD_SEG28",
+        "LCD_SEG40",
         "TIMX_IC3",
         "USART3_TX",
         "GPIO"
@@ -284,6 +287,7 @@
       "signals": [
         "LCD_COM6",
         "LCD_SEG30",
+        "LCD_SEG42",
         "TIMX_IC1",
         "USART3_CK",
         "GPIO"
@@ -686,7 +690,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "COMP1_INP",
         "TS_G3_IO3",
         "GPIO"
       ]

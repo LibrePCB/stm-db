@@ -299,6 +299,7 @@
         "RCC_MCO",
         "SPI2_NSS",
         "TIM1_CH1",
+        "UCPD1_CC1",
         "GPIO"
       ]
     },
@@ -316,6 +317,8 @@
         "TIM17_CH1",
         "TIM1_CH1N",
         "TIM3_CH2",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },
@@ -400,6 +403,8 @@
         "SPI1_NSS",
         "TIM1_CH2N",
         "TIM3_CH3",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART3_RX",
         "GPIO"
       ]
@@ -418,6 +423,8 @@
         "SPI1_SCK",
         "TIM2_CH1",
         "TIM2_ETR",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART3_TX",
         "GPIO"
       ]
@@ -438,6 +445,8 @@
         "SYS_WKUP4",
         "TIM15_CH1",
         "TIM2_CH3",
+        "UCPD1_FRSTX1",
+        "UCPD1_FRSTX2",
         "USART2_TX",
         "GPIO"
       ]

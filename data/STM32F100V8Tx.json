@@ -14,7 +14,7 @@
   "info": {
     "flash": 64,
     "ram": 8,
-    "io": 82,
+    "io": 80,
     "frequency": 24,
     "voltage": {
       "min": 2.0,
@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 85.0
     }
   },
   "gpio_version": "STM32F100x8_gpio_v1_0",
@@ -133,7 +133,7 @@
     {
       "name": "OSC_IN",
       "position": "12",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_IN"
@@ -142,7 +142,7 @@
     {
       "name": "OSC_OUT",
       "position": "13",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_OUT"

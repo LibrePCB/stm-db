@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 125.0
     }
   },
   "gpio_version": "STM32L47x_gpio_v1_0",
@@ -520,7 +520,7 @@
       ]
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "C11",
       "type": "Power",
       "variant": null,

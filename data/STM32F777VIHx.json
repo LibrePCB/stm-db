@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 105.0
     }
   },
   "gpio_version": "STM32F76x_gpio_v1_0",
@@ -43,8 +43,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP4",

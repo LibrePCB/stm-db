@@ -290,7 +290,6 @@
         "SPI3_MISO",
         "TSC_G3_IO3",
         "UART4_RX",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_RX",
         "GPIO"
@@ -669,7 +668,6 @@
         "TIM15_CH1N",
         "TIM1_CH1N",
         "TSC_G1_IO2",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_CTS",
         "USART3_NSS",
@@ -899,7 +897,6 @@
         "TIM2_CH3",
         "TIM5_CH3",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "USART2_TX",
         "GPIO"
       ]
@@ -1118,7 +1115,6 @@
         "OCTOSPI1_DQS",
         "RTC_OUT2",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },

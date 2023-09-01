@@ -14,7 +14,7 @@
   "info": {
     "flash": 768,
     "ram": 96,
-    "io": 114,
+    "io": 112,
     "frequency": 72,
     "voltage": {
       "min": 2.0,
@@ -261,7 +261,7 @@
     {
       "name": "OSC_IN",
       "position": "23",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_IN"
@@ -270,7 +270,7 @@
     {
       "name": "OSC_OUT",
       "position": "24",
-      "type": "I/O",
+      "type": "MonoIO",
       "variant": null,
       "signals": [
         "RCC_OSC_OUT"

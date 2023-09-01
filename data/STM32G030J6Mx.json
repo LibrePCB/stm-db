@@ -14,7 +14,7 @@
   "info": {
     "flash": 32,
     "ram": 8,
-    "io": 17,
+    "io": 6,
     "frequency": 64,
     "voltage": {
       "min": 2.0,
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "name": "VBAT",
+      "name": "VDD/VDDA",
       "position": "2",
       "type": "Power",
       "variant": null,
@@ -89,18 +89,16 @@
     {
       "name": "VSS/VSSA",
       "position": "3",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "4",
-      "type": "MonoIO",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",
@@ -112,6 +110,8 @@
         "RTC_TAMP_IN2",
         "SPI2_SCK",
         "SYS_WKUP1",
+        "USART2_CTS",
+        "USART2_NSS",
         "GPIO"
       ]
     },
@@ -125,6 +125,9 @@
         "I2C1_SMBA",
         "I2S1_CK",
         "SPI1_SCK",
+        "USART2_CK",
+        "USART2_DE",
+        "USART2_RTS",
         "GPIO"
       ]
     },
@@ -139,6 +142,7 @@
         "RCC_LSCO",
         "SPI1_MOSI",
         "SYS_WKUP4",
+        "USART2_TX",
         "GPIO"
       ]
     },
@@ -265,6 +269,7 @@
       "signals": [
         "ADC1_IN18",
         "SYS_SWCLK",
+        "USART2_TX",
         "GPIO"
       ]
     },
@@ -276,6 +281,7 @@
       "signals": [
         "I2S1_WS",
         "SPI1_NSS",
+        "USART2_RX",
         "GPIO"
       ]
     },

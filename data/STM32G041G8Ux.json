@@ -14,15 +14,15 @@
   "info": {
     "flash": 32,
     "ram": 8,
-    "io": 25,
+    "io": 26,
     "frequency": 64,
     "voltage": {
       "min": 1.7,
       "max": 3.6
     },
     "temperature": {
-      "min": 0.0,
-      "max": 0.0
+      "min": -40.0,
+      "max": 85.0
     }
   },
   "gpio_version": "STM32G03x_gpio_v1_0",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "VBAT",
+      "name": "VDD/VDDA",
       "position": "3",
       "type": "Power",
       "variant": null,
@@ -61,17 +61,18 @@
     {
       "name": "VSS/VSSA",
       "position": "4",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
-      "name": "NRST",
+      "name": "PF2 - NRST",
       "position": "5",
-      "type": "MonoIO",
+      "type": "I/O",
       "variant": null,
       "signals": [
-        "RCC_MCO"
+        "RCC_MCO",
+        "GPIO"
       ]
     },
     {

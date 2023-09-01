@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 105.0
     }
   },
   "gpio_version": "STM32F410_gpio_v1_0",

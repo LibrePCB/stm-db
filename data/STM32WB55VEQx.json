@@ -674,8 +674,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT1",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP2",
@@ -1186,6 +1185,7 @@
       "variant": null,
       "signals": [
         "COMP1_OUT",
+        "RF_TX_MOD_EXT_PA",
         "GPIO"
       ]
     },
@@ -1399,8 +1399,7 @@
         "I2C3_SMBA",
         "LCD_VLCD",
         "LPTIM1_OUT",
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT2",
         "SAI1_EXTCLK",
         "SPI1_NSS",
         "GPIO"

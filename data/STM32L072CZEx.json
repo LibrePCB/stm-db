@@ -23,7 +23,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 125.0
+      "max": 150.0
     }
   },
   "gpio_version": "STM32L071_gpio_v1_0",

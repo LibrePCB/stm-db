@@ -8,7 +8,7 @@
   },
   "package": "UFQFPN32",
   "silicon": {
-    "core": "ARM Cortex-M4",
+    "core": "Arm Cortex-M4",
     "die": "DIE438"
   },
   "info": {

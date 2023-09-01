@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 105.0
     }
   },
   "gpio_version": "STM32F469_gpio_v1_0",
@@ -686,6 +686,7 @@
         "ADC2_IN7",
         "ETH_CRS_DV",
         "ETH_RX_DV",
+        "FMC_SDNWE",
         "QUADSPI_CLK",
         "SPI1_MOSI",
         "TIM14_CH1",

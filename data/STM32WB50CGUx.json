@@ -21,7 +21,7 @@
       "max": 3.6
     },
     "temperature": {
-      "min": -10.0,
+      "min": -40.0,
       "max": 85.0
     }
   },
@@ -241,8 +241,7 @@
       "variant": null,
       "signals": [
         "LPTIM1_OUT",
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT2",
         "SPI1_NSS",
         "GPIO"
       ]
@@ -315,6 +314,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
+        "RF_TX_MOD_EXT_PA",
         "GPIO"
       ]
     },
@@ -338,28 +338,28 @@
       ]
     },
     {
-      "name": "VFBSMPS",
+      "name": "VDD",
       "position": "31",
       "type": "Power",
       "variant": null,
       "signals": []
     },
     {
-      "name": "VSSSMPS",
+      "name": "VSS",
       "position": "32",
       "type": "Power",
       "variant": null,
       "signals": []
     },
     {
-      "name": "VLXSMPS",
+      "name": "VDD",
       "position": "33",
       "type": "Power",
       "variant": null,
       "signals": []
     },
     {
-      "name": "VDDSMPS",
+      "name": "VDD",
       "position": "34",
       "type": "Power",
       "variant": null,
@@ -378,7 +378,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "CRS_SYNC",
         "I2C1_SDA",
         "TIM17_BKIN",
         "TIM1_CH3",
@@ -426,7 +425,7 @@
       ]
     },
     {
-      "name": "VDDUSB",
+      "name": "VDD",
       "position": "40",
       "type": "Power",
       "variant": null,

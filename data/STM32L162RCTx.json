@@ -393,7 +393,6 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "COMP1_INP",
         "TS_G3_IO3",
         "GPIO"
       ]

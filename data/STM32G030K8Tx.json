@@ -65,7 +65,7 @@
       ]
     },
     {
-      "name": "VBAT",
+      "name": "VDD/VDDA",
       "position": "4",
       "type": "Power",
       "variant": null,
@@ -74,18 +74,16 @@
     {
       "name": "VSS/VSSA",
       "position": "5",
-      "type": "MonoIO",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
     {
       "name": "NRST",
       "position": "6",
-      "type": "MonoIO",
+      "type": "Reset",
       "variant": null,
-      "signals": [
-        "RCC_MCO"
-      ]
+      "signals": []
     },
     {
       "name": "PA0",
