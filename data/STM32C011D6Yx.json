@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32C011D6Y6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32C011D6Y3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32C0xx_gpio_v1_0",
   "pinout": [
     {

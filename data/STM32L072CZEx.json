@@ -26,6 +26,15 @@
       "max": 150.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L072CZE6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Obsolete"
+    }
+  ],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {

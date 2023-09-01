@@ -25,6 +25,7 @@
       "max": 85.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32G03x_gpio_v1_0",
   "pinout": [
     {

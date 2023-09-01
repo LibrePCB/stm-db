@@ -16,6 +16,22 @@
     "ram": 2514,
     "io": 79
   },
+  "parts": [
+    {
+      "mpn": "STM32U595VIT6Q",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Preview"
+    },
+    {
+      "mpn": "STM32U595VIT6QTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32U59x_gpio_v1_0",
   "pinout": [
     {

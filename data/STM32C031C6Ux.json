@@ -25,6 +25,36 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32C031C6U6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32C031C6U3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32C031C6U7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32C031C6U7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32C0xx_453_gpio_v1_0",
   "pinout": [
     {

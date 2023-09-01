@@ -26,6 +26,43 @@
       "max": 150.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L151VET6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151VET6D",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151VET6DTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151VET6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151VET7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    }
+  ],
   "gpio_version": "STM32L162xE_gpio_v1_0",
   "pinout": [
     {

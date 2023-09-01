@@ -16,6 +16,15 @@
     "ram": 640,
     "io": 136
   },
+  "parts": [
+    {
+      "mpn": "STM32H563AGI6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32H56x_gpio_v1_0",
   "pinout": [
     {

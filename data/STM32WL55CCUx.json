@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32WL55CCU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WL55CCU7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WL_gpio_v1_0",
   "pinout": [
     {

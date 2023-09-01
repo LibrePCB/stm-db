@@ -16,6 +16,15 @@
     "ram": 274,
     "io": 82
   },
+  "parts": [
+    {
+      "mpn": "STM32U535VCI6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32U53x_gpio_v1_0",
   "pinout": [
     {

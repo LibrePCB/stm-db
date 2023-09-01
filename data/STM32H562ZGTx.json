@@ -16,6 +16,15 @@
     "ram": 640,
     "io": 112
   },
+  "parts": [
+    {
+      "mpn": "STM32H562ZGT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Evaluation"
+    }
+  ],
   "gpio_version": "STM32H56x_gpio_v1_0",
   "pinout": [
     {

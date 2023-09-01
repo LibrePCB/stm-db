@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F446ZCT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F446ZCT7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": null,
+      "status": "Proposal"
+    }
+  ],
   "gpio_version": "STM32F446_gpio_v1_0",
   "pinout": [
     {

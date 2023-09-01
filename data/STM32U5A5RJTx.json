@@ -16,6 +16,15 @@
     "ram": 2514,
     "io": 51
   },
+  "parts": [
+    {
+      "mpn": "STM32U5A5RJT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Evaluation"
+    }
+  ],
   "gpio_version": "STM32U59x_gpio_v1_0",
   "pinout": [
     {

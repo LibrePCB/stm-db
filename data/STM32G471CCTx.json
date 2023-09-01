@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G471CCT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32G47x_gpio_v1_0",
   "pinout": [
     {

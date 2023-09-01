@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G4A1KEU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G4A1KEU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32G49x_gpio_v1_0",
   "pinout": [
     {

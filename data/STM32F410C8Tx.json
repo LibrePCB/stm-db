@@ -25,6 +25,7 @@
       "max": 125.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32F410_gpio_v1_0",
   "pinout": [
     {

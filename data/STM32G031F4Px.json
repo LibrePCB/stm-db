@@ -25,6 +25,22 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G031F4P3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tube",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G031F4P6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tube",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G03x_gpio_v1_0",
   "pinout": [
     {

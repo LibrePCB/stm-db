@@ -20,6 +20,7 @@
       "max": 85.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32F401_gpio_v1_0",
   "pinout": [
     {

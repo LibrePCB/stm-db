@@ -16,6 +16,22 @@
     "ram": 708,
     "io": 98
   },
+  "parts": [
+    {
+      "mpn": "STM32MP157CAB3",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32MP157CAB3T",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MPU_gpio_v1_0",
   "pinout": [
     {

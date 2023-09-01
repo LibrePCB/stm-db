@@ -16,6 +16,22 @@
     "ram": 168,
     "io": 136
   },
+  "parts": [
+    {
+      "mpn": "STM32MP131FAF7",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32MP131FAF7T",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MP13x_gpio_v1_0",
   "pinout": [
     {

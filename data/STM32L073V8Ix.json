@@ -17,6 +17,7 @@
     "io": 84,
     "eeprom": 3072
   },
+  "parts": [],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {

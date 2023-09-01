@@ -26,6 +26,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L151V8H6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    }
+  ],
   "gpio_version": "STM32L152x8_gpio_v1_0",
   "pinout": [
     {

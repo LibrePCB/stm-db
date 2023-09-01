@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L4R5QGI6S",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L4R5QGI6STR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L4Rx_gpio_v1_0",
   "pinout": [
     {

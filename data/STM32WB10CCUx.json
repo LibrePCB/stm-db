@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32WB10CCU5",
+      "temperature_min": -10.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WB35x_gpio_v1_0",
   "pinout": [
     {

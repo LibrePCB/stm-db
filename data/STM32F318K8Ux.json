@@ -25,6 +25,22 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F318K8U6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F318K8U7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F302_gpio_v1_0",
   "pinout": [
     {

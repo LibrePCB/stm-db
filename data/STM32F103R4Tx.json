@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F103R4T6A",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F103x4_gpio_v1_0",
   "pinout": [
     {

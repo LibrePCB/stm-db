@@ -25,6 +25,43 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F103VGT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F103VGT6J",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32F103VGT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F103VGT7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F103VGT7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F103xF_gpio_v1_0",
   "pinout": [
     {

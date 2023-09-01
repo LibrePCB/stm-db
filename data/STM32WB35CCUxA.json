@@ -16,6 +16,29 @@
     "ram": 96,
     "io": 30
   },
+  "parts": [
+    {
+      "mpn": "STM32WB35CCU6A",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WB35CCU7A",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WB35CCU6ATR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WB3x_gpio_v1_0",
   "pinout": [
     {

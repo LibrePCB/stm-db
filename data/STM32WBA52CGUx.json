@@ -25,6 +25,29 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32WBA52CGU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WBA52CGU6T",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WBA52CGU7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32WBAx_gpio_v1_0",
   "pinout": [
     {

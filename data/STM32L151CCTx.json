@@ -26,6 +26,43 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L151CCT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151CCT6J",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151CCT6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151CCT7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "NRND"
+    },
+    {
+      "mpn": "STM32L151CCT7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "NRND"
+    }
+  ],
   "gpio_version": "STM32L152xC_gpio_v1_0",
   "pinout": [
     {

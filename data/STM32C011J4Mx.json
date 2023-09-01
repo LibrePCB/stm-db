@@ -25,6 +25,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32C011J4M6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tube",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32C011J4M3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32C0xx_gpio_v1_0",
   "pinout": [
     {

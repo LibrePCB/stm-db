@@ -16,6 +16,15 @@
     "ram": 274,
     "io": 37
   },
+  "parts": [
+    {
+      "mpn": "STM32U545CEU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Evaluation"
+    }
+  ],
   "gpio_version": "STM32U53x_gpio_v1_0",
   "pinout": [
     {

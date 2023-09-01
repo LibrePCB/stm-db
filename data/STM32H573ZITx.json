@@ -21,6 +21,15 @@
       "max": 3.6
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32H573ZIT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Evaluation"
+    }
+  ],
   "gpio_version": "STM32H56x_gpio_v1_0",
   "pinout": [
     {

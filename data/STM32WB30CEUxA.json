@@ -16,6 +16,15 @@
     "ram": 96,
     "io": 30
   },
+  "parts": [
+    {
+      "mpn": "STM32WB30CEU5A",
+      "temperature_min": -10.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WB3x_gpio_v1_0",
   "pinout": [
     {

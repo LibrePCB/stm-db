@@ -25,6 +25,29 @@
       "max": 125.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G0B1KCU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G0B1KCU7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32G0B1KCU7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G0Bx_gpio_v1_0",
   "pinout": [
     {

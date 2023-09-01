@@ -16,6 +16,7 @@
     "ram": 12,
     "io": 24
   },
+  "parts": [],
   "gpio_version": "STM32F333_gpio_v1_0",
   "pinout": [
     {
