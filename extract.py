@@ -1,8 +1,84 @@
 import argparse
 import json
+import sqlite3
+import zipfile
 from os import makedirs, path
-from typing import Any, Dict
+from typing import Any, Dict, List, Optional
 import xml.etree.ElementTree as ET
+
+
+class CubeFinderDbPart:
+    """
+    Class representing a part from the Cube Finder Database
+    """
+    def __init__(self, mpn: str, t_min: Optional[float], t_max: Optional[float],
+                 packing_type: Optional[str], status: Optional[str]):
+        self.mpn = mpn
+        self.t_min = t_min
+        self.t_max = t_max
+        self.packing_type = packing_type
+        self.status = status
+
+    def to_json(self) -> dict:
+        """
+        Generate the JSON data to be included in generated files
+        """
+        return dict(
+            mpn=self.mpn,
+            temperature_min=self.t_min,
+            temperature_max=self.t_max,
+            packing_type=self.packing_type,
+            status=self.status,
+        )
+
+
+class CubeFinderDb:
+    """
+    Helper class to extract information from ST's Cube Finder Database
+    """
+    def __init__(self, db_file: str):
+        self._db = sqlite3.connect(db_file)
+        self._cur = self._db.cursor()
+
+    def get_parts_for_ref(self, ref: str) -> List[str]:
+        """
+        Get a list of all parts for a given MCU ref
+        """
+        res = self._cur.execute(
+            "SELECT id, cpn FROM cpn WHERE refname = :refname",
+            dict(refname=ref),
+        )
+        return [
+            CubeFinderDbPart(
+                mpn=row[1],
+                t_min=self._get_attribute(row[0], 'temperatureMin', is_num=True),
+                t_max=self._get_attribute(row[0], 'temperatureMax', is_num=True),
+                packing_type=self._get_attribute(row[0], 'packing_type'),
+                status=self._get_attribute(row[0], 'marketingStatus'),
+            )
+            for row in res.fetchall()
+        ]
+
+    def _get_attribute(self, cpn_id: int, attribute_name: str,
+                       is_num: bool = False) -> str:
+        """
+        Extract a specific attribute of a given cpn_id
+        """
+        res = self._cur.execute(
+            "SELECT strValue, numValue FROM cpn_has_attribute "
+            "LEFT JOIN attribute "
+            "ON attribute.id = cpn_has_attribute.attribute_id "
+            "WHERE cpn_id = :cpn_id "
+            "AND attribute.name = :attribute_name",
+            dict(
+                cpn_id=cpn_id,
+                attribute_name=attribute_name,
+            ),
+        ).fetchone()
+        if res is not None:
+            return res[1 if is_num else 0]
+        else:
+            return None
 
 
 def _makedir(dirpath: str) -> None:
@@ -15,6 +91,13 @@ def _makedir(dirpath: str) -> None:
 
 def main(args):
     _makedir('data')
+    _makedir('tmp')
+
+    # Extract MCU Finder SQLite database into the local directory and load it.
+    cube_finder_zip = path.join(args.db, 'plugins', 'mcufinder', 'mcu', 'cube-finder-db.zip')
+    with zipfile.ZipFile(cube_finder_zip, 'r') as f:
+        f.extract('cube-finder-db.db', 'tmp')
+    db = CubeFinderDb('tmp/cube-finder-db.db')
 
     with open(path.join(args.db, 'mcu', 'families.xml'), 'r') as f:
         tree = ET.parse(f)
@@ -26,10 +109,10 @@ def main(args):
                 print(' Processing subfamily {}'.format(subfamily.get('Name')))
                 for mcu in subfamily:
                     print('  Processing MCU {}'.format(mcu.get('Name')))
-                    process_mcu(args, mcu.get('Name'), mcu.get('RefName'), mcu.get('RPN'))
+                    process_mcu(args, db, mcu.get('Name'), mcu.get('RefName'), mcu.get('RPN'))
 
 
-def process_mcu(args, name: str, ref: str, rpn: str):
+def process_mcu(args, db: CubeFinderDb, name: str, ref: str, rpn: str):
     """
     Fetch pinout information for this MCU and write it to the data dir.
     """
@@ -52,6 +135,7 @@ def process_mcu(args, name: str, ref: str, rpn: str):
                 'ram': int(mcu.find('{*}Ram').text),  # type: ignore
                 'io': int(mcu.find('{*}IONb').text),  # type: ignore
             },
+            'parts': [part.to_json() for part in db.get_parts_for_ref(ref)],
         }  # type: Dict[str, Any]
         if mcu.find('{*}Core') is not None:
             data['silicon']['core'] = mcu.find('{*}Core').text  # type: ignore
