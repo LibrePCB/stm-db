@@ -12,9 +12,9 @@
     "die": "DIE423"
   },
   "info": {
-    "flash": 128,
     "ram": 64,
     "io": 81,
+    "flash": 128,
     "frequency": 84,
     "voltage": {
       "min": 1.7,

@@ -12,9 +12,9 @@
     "die": "DIE445"
   },
   "info": {
-    "flash": 32,
     "ram": 6,
     "io": 22,
+    "flash": 32,
     "frequency": 48,
     "voltage": {
       "min": 1.65,

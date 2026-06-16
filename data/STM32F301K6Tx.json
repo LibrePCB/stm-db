@@ -12,9 +12,9 @@
     "die": "DIE439"
   },
   "info": {
-    "flash": 32,
     "ram": 16,
     "io": 25,
+    "flash": 32,
     "frequency": 72,
     "voltage": {
       "min": 2.0,

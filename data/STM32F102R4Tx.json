@@ -12,9 +12,9 @@
     "die": "DIE412"
   },
   "info": {
-    "flash": 16,
     "ram": 4,
     "io": 51,
+    "flash": 16,
     "frequency": 48,
     "voltage": {
       "min": 2.0,

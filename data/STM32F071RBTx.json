@@ -12,9 +12,9 @@
     "die": "DIE448"
   },
   "info": {
-    "flash": 128,
     "ram": 16,
     "io": 51,
+    "flash": 128,
     "frequency": 48,
     "voltage": {
       "min": 2.0,

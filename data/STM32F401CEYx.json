@@ -4,7 +4,7 @@
     "ref": "STM32F401CEYx",
     "family": "STM32F4",
     "line": "STM32F401",
-    "rpn": "STM32F401CEY6L"
+    "rpn": "STM32F401CE"
   },
   "package": "WLCSP49",
   "silicon": {
@@ -12,9 +12,9 @@
     "die": "DIE433"
   },
   "info": {
-    "flash": 384,
     "ram": 96,
     "io": 36,
+    "flash": 384,
     "frequency": 84,
     "voltage": {
       "min": 1.7,

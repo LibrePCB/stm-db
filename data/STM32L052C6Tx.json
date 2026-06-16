@@ -12,9 +12,9 @@
     "die": "DIE417"
   },
   "info": {
-    "flash": 32,
     "ram": 8,
     "io": 37,
+    "flash": 32,
     "eeprom": 2048,
     "frequency": 32,
     "voltage": {
@@ -29,7 +29,7 @@
   "gpio_version": "STM32L051_gpio_v1_0",
   "pinout": [
     {
-      "name": "VLCD",
+      "name": "VDD",
       "position": "1",
       "type": "Power",
       "variant": null,

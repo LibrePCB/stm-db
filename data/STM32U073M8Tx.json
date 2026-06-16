@@ -1,0 +1,1185 @@
+{
+  "names": {
+    "name": "STM32U073M8Tx",
+    "ref": "STM32U073M8Tx",
+    "family": "STM32U0",
+    "line": "STM32U0x3",
+    "rpn": "STM32U073M8"
+  },
+  "package": "LQFP80",
+  "silicon": {
+    "core": "ARM Cortex-M0+",
+    "die": "DIE489"
+  },
+  "info": {
+    "ram": 40,
+    "io": 68,
+    "flash": 64
+  },
+  "gpio_version": "STM32U073x_gpio_v1_0",
+  "pinout": [
+    {
+      "name": "VSS",
+      "position": "1",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "2",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VBAT",
+      "position": "3",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PC13",
+      "position": "4",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LPTIM1_CH3",
+        "LPTIM3_CH3",
+        "PWR_WKUP2",
+        "RTC_OUT1",
+        "RTC_TS",
+        "TAMP_IN1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC14-OSC32_IN",
+      "position": "5",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "RCC_OSC32_IN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC15-OSC32_OUT",
+      "position": "6",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "RCC_OSC32_EN",
+        "RCC_OSC32_OUT",
+        "RCC_OSC_EN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PF0-OSC_IN",
+      "position": "7",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "RCC_OSC_IN",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PF1-OSC_OUT",
+      "position": "8",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "RCC_OSC_EN",
+        "RCC_OSC_OUT",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PF2-NRST",
+      "position": "9",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "RCC_MCO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC0",
+      "position": "10",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN0",
+        "I2C3_SCL",
+        "I2C4_SCL",
+        "LCD_SEG18",
+        "LPTIM1_IN1",
+        "LPTIM2_IN1",
+        "LPUART1_RX",
+        "LPUART2_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC1",
+      "position": "11",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN1",
+        "I2C3_SDA",
+        "I2C4_SDA",
+        "LCD_SEG19",
+        "LPTIM1_CH1",
+        "LPUART1_TX",
+        "LPUART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC2",
+      "position": "12",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN2",
+        "LCD_SEG20",
+        "LPTIM1_IN2",
+        "RCC_MCO2",
+        "SPI2_MISO",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC3",
+      "position": "13",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN3",
+        "LCD_VLCD",
+        "LPTIM1_ETR",
+        "LPTIM2_ETR",
+        "LPTIM3_CH1",
+        "SPI2_MOSI",
+        "USART4_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSSA/VREF-",
+      "position": "14",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VREF+",
+      "position": "15",
+      "type": "MonoIO",
+      "variant": null,
+      "signals": [
+        "VREFBUF_OUT"
+      ]
+    },
+    {
+      "name": "VDDA",
+      "position": "16",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PA0",
+      "position": "17",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN4",
+        "COMP1_INM",
+        "COMP1_OUT",
+        "LCD_SEG42",
+        "OPAMP1_VINP",
+        "PWR_WKUP1",
+        "TAMP_IN2",
+        "TIM2_CH1",
+        "TIM2_ETR",
+        "USART2_CTS",
+        "USART4_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA1",
+      "position": "18",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN5",
+        "COMP1_INP",
+        "LCD_SEG0",
+        "LPTIM1_CH2",
+        "OPAMP1_VINM",
+        "PWR_WKUP3",
+        "SPI1_SCK",
+        "SPI2_SCK",
+        "TAMP_IN5",
+        "TIM15_CH1N",
+        "TIM2_CH2",
+        "USART2_DE",
+        "USART2_RTS",
+        "USART4_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA2",
+      "position": "19",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN6",
+        "COMP2_INM",
+        "COMP2_OUT",
+        "LCD_SEG1",
+        "LPUART1_TX",
+        "PWR_WKUP4",
+        "RCC_LSCO",
+        "TIM15_CH1",
+        "TIM2_CH3",
+        "USART2_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA3",
+      "position": "20",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN7",
+        "COMP2_INP",
+        "LCD_SEG2",
+        "LPUART1_RX",
+        "OPAMP1_VOUT",
+        "TIM15_CH2",
+        "TIM2_CH4",
+        "USART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "21",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "22",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PA4",
+      "position": "23",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN8",
+        "COMP1_INM",
+        "COMP2_INM",
+        "DAC1_OUT1",
+        "LCD_SEG43",
+        "LPTIM2_CH1",
+        "LPUART3_TX",
+        "SPI1_NSS",
+        "SPI3_NSS",
+        "USART2_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA5",
+      "position": "24",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN9",
+        "COMP1_INM",
+        "COMP2_INM",
+        "LCD_SEG44",
+        "LPTIM2_ETR",
+        "LPUART3_RX",
+        "SPI1_SCK",
+        "TIM2_CH1",
+        "TIM2_ETR",
+        "USART3_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA6",
+      "position": "25",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN10",
+        "COMP1_OUT",
+        "I2C2_SDA",
+        "I2C3_SDA",
+        "LCD_SEG3",
+        "LPUART1_CTS",
+        "SPI1_MISO",
+        "TIM16_CH1",
+        "TIM1_BKIN",
+        "TIM3_CH1",
+        "TSC_G5_IO1",
+        "USART3_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA7",
+      "position": "26",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN14",
+        "COMP2_OUT",
+        "I2C2_SCL",
+        "I2C3_SCL",
+        "LCD_SEG4",
+        "LPTIM2_CH2",
+        "SPI1_MOSI",
+        "TIM1_CH1N",
+        "TIM3_CH2",
+        "USART3_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC4",
+      "position": "27",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN15",
+        "COMP1_INM",
+        "LCD_SEG22",
+        "LPUART3_TX",
+        "USART3_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC5",
+      "position": "28",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN16",
+        "COMP1_INP",
+        "LCD_SEG23",
+        "LPTIM3_CH3",
+        "LPUART3_RX",
+        "PWR_WKUP5",
+        "TAMP_IN4",
+        "USART3_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB0",
+      "position": "29",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN17",
+        "COMP1_OUT",
+        "LCD_SEG5",
+        "LPTIM3_CH1",
+        "LPUART2_CTS",
+        "SPI1_NSS",
+        "TIM1_CH2N",
+        "TIM3_CH3",
+        "TSC_G5_IO2",
+        "USART3_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB1",
+      "position": "30",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_IN18",
+        "COMP1_INM",
+        "LCD_SEG6",
+        "LPTIM2_IN1",
+        "LPTIM3_CH2",
+        "LPUART1_DE",
+        "LPUART1_RTS",
+        "LPUART2_DE",
+        "LPUART2_RTS",
+        "TIM1_CH3N",
+        "TIM3_CH4",
+        "TSC_SYNC",
+        "USART3_DE",
+        "USART3_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB2",
+      "position": "31",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP1_INP",
+        "LCD_VLCD",
+        "LPTIM1_CH1",
+        "RTC_OUT2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PE7",
+      "position": "32",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG45",
+        "TIM1_ETR",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PE8",
+      "position": "33",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG46",
+        "TIM1_CH1N",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PE9",
+      "position": "34",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DAC1_EXTI9",
+        "LCD_SEG47",
+        "LPTIM1_CH3",
+        "TIM1_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB10",
+      "position": "35",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP1_OUT",
+        "I2C2_SCL",
+        "I2C4_SCL",
+        "LCD_SEG10",
+        "LPTIM3_CH1",
+        "LPUART1_RX",
+        "LPUART2_RX",
+        "SPI2_SCK",
+        "TIM2_CH3",
+        "TSC_G5_IO3",
+        "USART3_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB11",
+      "position": "36",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_EXTI11",
+        "COMP2_OUT",
+        "I2C2_SDA",
+        "I2C4_SDA",
+        "LCD_SEG11",
+        "LPUART1_TX",
+        "LPUART2_TX",
+        "TIM2_CH4",
+        "TSC_G5_IO4",
+        "USART3_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "37",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "38",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PB12",
+      "position": "39",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG12",
+        "LPUART1_DE",
+        "LPUART1_RTS",
+        "SPI2_NSS",
+        "TIM15_BKIN",
+        "TIM1_BKIN",
+        "TSC_G1_IO1",
+        "USART3_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB13",
+      "position": "40",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C2_SCL",
+        "LCD_SEG13",
+        "LPTIM3_IN1",
+        "LPUART1_CTS",
+        "SPI2_SCK",
+        "TIM15_CH1N",
+        "TIM1_CH1N",
+        "TSC_G1_IO2",
+        "USART3_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB14",
+      "position": "41",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C2_SDA",
+        "LCD_SEG14",
+        "LPTIM3_ETR",
+        "SPI2_MISO",
+        "TIM15_CH1",
+        "TIM1_CH2N",
+        "TSC_G1_IO3",
+        "USART3_DE",
+        "USART3_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB15",
+      "position": "42",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG15",
+        "PWR_WKUP7",
+        "RTC_REFIN",
+        "SPI2_MOSI",
+        "TAMP_IN3",
+        "TIM15_CH2",
+        "TIM1_CH3N",
+        "TSC_G1_IO4",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD8",
+      "position": "43",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG28",
+        "LPUART3_TX",
+        "USART3_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD9",
+      "position": "44",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DAC1_EXTI9",
+        "LCD_SEG29",
+        "LPTIM3_IN1",
+        "LPUART3_RX",
+        "USART3_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD10",
+      "position": "45",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_INP",
+        "LCD_SEG30",
+        "LPTIM2_CH2",
+        "LPTIM3_ETR",
+        "TSC_G6_IO1",
+        "USART3_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD11",
+      "position": "46",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_EXTI11",
+        "LCD_SEG31",
+        "LPTIM2_ETR",
+        "LPUART3_CTS",
+        "TSC_G6_IO2",
+        "USART3_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD12",
+      "position": "47",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C4_SCL",
+        "LCD_SEG32",
+        "LPTIM2_IN1",
+        "LPUART3_DE",
+        "LPUART3_RTS",
+        "TSC_G6_IO3",
+        "USART3_DE",
+        "USART3_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD13",
+      "position": "48",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C4_SDA",
+        "LCD_SEG33",
+        "LPTIM2_CH1",
+        "TSC_G6_IO4",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC6",
+      "position": "49",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP1_INP",
+        "LCD_SEG24",
+        "LPUART2_TX",
+        "TIM3_CH1",
+        "TSC_G4_IO1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC7",
+      "position": "50",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG25",
+        "LPTIM2_CH2",
+        "LPTIM3_CH4",
+        "LPUART2_RX",
+        "TIM3_CH2",
+        "TSC_G4_IO2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC8",
+      "position": "51",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG26",
+        "LPTIM3_CH1",
+        "TIM3_CH3",
+        "TSC_G4_IO3",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC9",
+      "position": "52",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DAC1_EXTI9",
+        "LCD_SEG27",
+        "LPTIM3_CH2",
+        "TIM3_CH4",
+        "TSC_G4_IO4",
+        "USB_NOE",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA8",
+      "position": "53",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_COM0",
+        "LPTIM2_CH1",
+        "RCC_MCO",
+        "RCC_MCO2",
+        "TIM1_CH1",
+        "TSC_G7_IO1",
+        "USART1_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA9",
+      "position": "54",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP1_INP",
+        "DAC1_EXTI9",
+        "I2C1_SCL",
+        "I2C2_SCL",
+        "LCD_COM1",
+        "RCC_MCO",
+        "TIM15_BKIN",
+        "TIM1_CH2",
+        "TSC_G7_IO2",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA10",
+      "position": "55",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "CRS_SYNC",
+        "I2C1_SDA",
+        "I2C2_SDA",
+        "LCD_COM2",
+        "RCC_MCO2",
+        "SPI2_NSS",
+        "TIM1_CH3",
+        "TSC_G7_IO3",
+        "USART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA11 [PA9]",
+      "position": "56",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_EXTI11",
+        "COMP1_OUT",
+        "SPI1_MISO",
+        "SPI2_MISO",
+        "TIM1_BKIN2",
+        "TIM1_CH4",
+        "USART1_CTS",
+        "USB_DM",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA12 [PA10]",
+      "position": "57",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "SPI1_MOSI",
+        "SPI2_MOSI",
+        "TIM1_ETR",
+        "USART1_DE",
+        "USART1_RTS",
+        "USB_DP",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA13 (SWDIO)",
+      "position": "58",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DEBUG_JTMS-SWDIO",
+        "IR_OUT",
+        "LCD_SEG40",
+        "TSC_G7_IO4",
+        "USB_NOE",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSS",
+      "position": "59",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDDUSB",
+      "position": "60",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PA14 (SWCLK)",
+      "position": "61",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DEBUG_JTCK-SWCLK",
+        "LCD_SEG41",
+        "LPTIM1_CH1",
+        "TSC_G3_IO4",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA15",
+      "position": "62",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DEBUG_JTDI",
+        "LCD_SEG17",
+        "LPTIM3_CH3",
+        "LPTIM3_IN2",
+        "SPI1_NSS",
+        "SPI3_NSS",
+        "TIM2_CH1",
+        "TIM2_ETR",
+        "TSC_G3_IO1",
+        "USART2_RX",
+        "USART3_DE",
+        "USART3_RTS",
+        "USART4_DE",
+        "USART4_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC10",
+      "position": "63",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_COM4",
+        "LCD_SEG28",
+        "LCD_SEG48",
+        "LPTIM3_ETR",
+        "SPI3_SCK",
+        "TSC_G3_IO2",
+        "USART3_TX",
+        "USART4_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC11",
+      "position": "64",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_EXTI11",
+        "LCD_COM5",
+        "LCD_SEG29",
+        "LCD_SEG49",
+        "LPTIM3_IN1",
+        "SPI3_MISO",
+        "TSC_G3_IO3",
+        "USART3_RX",
+        "USART4_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PC12",
+      "position": "65",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_COM6",
+        "LCD_SEG30",
+        "LCD_SEG50",
+        "LPTIM3_CH3",
+        "SPI3_MOSI",
+        "USART3_CK",
+        "USART4_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD0",
+      "position": "66",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG34",
+        "SPI2_NSS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD1",
+      "position": "67",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG35",
+        "LPTIM1_CH4",
+        "SPI2_SCK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD2",
+      "position": "68",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_COM7",
+        "LCD_SEG31",
+        "LCD_SEG51",
+        "TIM3_ETR",
+        "TSC_SYNC",
+        "USART3_DE",
+        "USART3_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD3",
+      "position": "69",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG36",
+        "SPI2_MISO",
+        "USART2_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD4",
+      "position": "70",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG37",
+        "LPTIM1_CH3",
+        "SPI2_MOSI",
+        "USART2_DE",
+        "USART2_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD5",
+      "position": "71",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG38",
+        "USART2_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PD6",
+      "position": "72",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LCD_SEG39",
+        "USART2_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB3",
+      "position": "73",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_INM",
+        "DEBUG_JTDO-SWO",
+        "I2C2_SCL",
+        "I2C3_SCL",
+        "LCD_SEG7",
+        "LPTIM1_CH3",
+        "SPI1_SCK",
+        "SPI3_SCK",
+        "TIM2_CH2",
+        "USART1_DE",
+        "USART1_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "74",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_INP",
+        "I2C2_SDA",
+        "I2C3_SDA",
+        "LCD_SEG8",
+        "LPTIM1_CH4",
+        "LPUART3_DE",
+        "LPUART3_RTS",
+        "SPI1_MISO",
+        "SPI3_MISO",
+        "TIM3_CH1",
+        "TSC_G2_IO1",
+        "USART1_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB5",
+      "position": "75",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_OUT",
+        "LCD_SEG9",
+        "LPTIM1_IN1",
+        "LPUART3_CTS",
+        "SPI1_MOSI",
+        "SPI3_MOSI",
+        "TIM16_BKIN",
+        "TIM3_CH2",
+        "TSC_G2_IO2",
+        "USART1_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB6",
+      "position": "76",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_INP",
+        "I2C1_SCL",
+        "I2C2_SCL",
+        "I2C4_SCL",
+        "LPTIM1_ETR",
+        "LPUART2_TX",
+        "LPUART3_TX",
+        "TIM16_CH1N",
+        "TSC_G2_IO3",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB7",
+      "position": "77",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "COMP2_INM",
+        "I2C1_SDA",
+        "I2C2_SDA",
+        "I2C4_SDA",
+        "LCD_SEG21",
+        "LPTIM1_IN2",
+        "LPUART2_RX",
+        "LPUART3_RX",
+        "PWR_PVD_IN",
+        "TSC_G2_IO4",
+        "USART1_RX",
+        "USART4_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PF3-BOOT0 (BOOT0)",
+      "position": "78",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB8",
+      "position": "79",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SCL",
+        "I2C2_SCL",
+        "LCD_SEG16",
+        "LPTIM1_IN2",
+        "LPTIM3_IN2",
+        "TIM16_CH1",
+        "USART3_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB9",
+      "position": "80",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "DAC1_EXTI9",
+        "I2C1_SDA",
+        "I2C2_SDA",
+        "IR_OUT",
+        "LCD_COM3",
+        "LPTIM1_CH4",
+        "LPTIM3_CH4",
+        "SPI2_NSS",
+        "USART3_RX",
+        "GPIO"
+      ]
+    }
+  ]
+}

@@ -12,9 +12,9 @@
     "die": "DIE444"
   },
   "info": {
-    "flash": 32,
     "ram": 4,
     "io": 14,
+    "flash": 32,
     "frequency": 48,
     "voltage": {
       "min": 1.65,

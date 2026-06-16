@@ -12,9 +12,9 @@
     "die": "DIE436"
   },
   "info": {
-    "flash": 384,
     "ram": 48,
     "io": 112,
+    "flash": 384,
     "eeprom": 12288,
     "frequency": 32,
     "voltage": {
@@ -861,7 +861,6 @@
       "variant": null,
       "signals": [
         "ADC_IN27",
-        "COMP1_INP",
         "TIM5_CH1",
         "TIM5_ETR",
         "TS_G11_IO1",

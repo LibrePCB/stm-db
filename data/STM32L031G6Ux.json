@@ -12,9 +12,9 @@
     "die": "DIE425"
   },
   "info": {
-    "flash": 16,
     "ram": 8,
     "io": 21,
+    "flash": 16,
     "eeprom": 1024,
     "frequency": 32,
     "voltage": {

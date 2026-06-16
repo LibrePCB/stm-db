@@ -12,9 +12,9 @@
     "die": "DIE495"
   },
   "info": {
-    "flash": 256,
     "ram": 128,
     "io": 30,
+    "flash": 256,
     "frequency": 64,
     "voltage": {
       "min": 1.71,
@@ -289,8 +289,7 @@
         "I2C3_SMBA",
         "LCD_VLCD",
         "LPTIM1_OUT",
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT2",
         "SAI1_EXTCLK",
         "SPI1_NSS",
         "GPIO"
@@ -365,6 +364,7 @@
       "variant": null,
       "signals": [
         "COMP1_OUT",
+        "RF_TX_MOD_EXT_PA",
         "GPIO"
       ]
     },

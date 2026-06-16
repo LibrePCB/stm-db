@@ -12,9 +12,9 @@
     "die": "DIE432"
   },
   "info": {
-    "flash": 64,
     "ram": 16,
     "io": 84,
+    "flash": 64,
     "frequency": 72,
     "voltage": {
       "min": 2.0,

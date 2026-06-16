@@ -12,9 +12,9 @@
     "die": "DIE436"
   },
   "info": {
-    "flash": 384,
     "ram": 48,
     "io": 51,
+    "flash": 384,
     "eeprom": 12288,
     "frequency": 32,
     "voltage": {

@@ -12,9 +12,9 @@
     "die": "DIE464"
   },
   "info": {
-    "flash": 128,
     "ram": 40,
     "io": 52,
+    "flash": 128,
     "frequency": 80,
     "voltage": {
       "min": 1.71,
@@ -340,6 +340,7 @@
         "ADC1_IN14",
         "ADC2_IN14",
         "COMP1_INP",
+        "SYS_WKUP5",
         "USART3_RX",
         "GPIO"
       ]

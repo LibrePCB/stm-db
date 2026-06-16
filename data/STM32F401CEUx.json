@@ -12,9 +12,9 @@
     "die": "DIE433"
   },
   "info": {
-    "flash": 384,
     "ram": 96,
     "io": 36,
+    "flash": 384,
     "frequency": 84,
     "voltage": {
       "min": 1.7,

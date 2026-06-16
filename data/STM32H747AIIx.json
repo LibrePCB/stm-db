@@ -12,9 +12,9 @@
     "die": "DIE450"
   },
   "info": {
-    "flash": 1024,
     "ram": 864,
     "io": 114,
+    "flash": 1024,
     "frequency": 480,
     "voltage": {
       "min": 1.62,
@@ -211,7 +211,7 @@
     {
       "name": "PDR_ON",
       "position": "B3",
-      "type": "Reset",
+      "type": "Power",
       "variant": null,
       "signals": []
     },
@@ -709,6 +709,7 @@
       "signals": [
         "DAC1_EXTI9",
         "DCMI_D0",
+        "ETH_TX_ER",
         "HRTIM_CHC1",
         "I2C3_SMBA",
         "I2S2_CK",
@@ -786,7 +787,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "PWR_WKUP2",
+        "PWR_WKUP4",
         "RTC_OUT_ALARM",
         "RTC_OUT_CALIB",
         "RTC_TAMP1",
@@ -1442,7 +1443,7 @@
       ]
     },
     {
-      "name": "VSS",
+      "name": "VSSDSI",
       "position": "H11",
       "type": "Power",
       "variant": null,
@@ -1504,7 +1505,7 @@
         "ETH_MDC",
         "I2S2_SDO",
         "MDIOS_MDC",
-        "PWR_WKUP5",
+        "PWR_WKUP6",
         "RTC_TAMP3",
         "SAI1_D1",
         "SAI1_SD_A",
@@ -1546,6 +1547,7 @@
         "DAC1_OUT2",
         "I2S1_CK",
         "LTDC_R4",
+        "PWR_NDSTOP2",
         "SPI1_SCK",
         "SPI6_SCK",
         "TIM2_CH1",
@@ -1631,7 +1633,7 @@
       ]
     },
     {
-      "name": "VSS",
+      "name": "VSSDSI",
       "position": "J11",
       "type": "Power",
       "variant": null,
@@ -1668,6 +1670,7 @@
         "ETH_TXD2",
         "FMC_SDNE0",
         "I2S2_SDI",
+        "PWR_CSTOP",
         "SPI2_MISO",
         "USB_OTG_HS_ULPI_DIR",
         "GPIO"
@@ -1684,6 +1687,7 @@
         "ETH_TX_CLK",
         "FMC_SDCKE0",
         "I2S2_SDO",
+        "PWR_CSLEEP",
         "SPI2_MOSI",
         "USB_OTG_HS_ULPI_NXT",
         "GPIO"
@@ -1697,7 +1701,7 @@
       "signals": [
         "ADC1_INP16",
         "ETH_CRS",
-        "PWR_WKUP0",
+        "PWR_WKUP1",
         "SAI2_SD_B",
         "SDMMC2_CMD",
         "TIM15_BKIN",
@@ -1852,7 +1856,7 @@
       ]
     },
     {
-      "name": "VSS",
+      "name": "VSSDSI",
       "position": "K11",
       "type": "Power",
       "variant": null,
@@ -1939,6 +1943,7 @@
       "signals": [
         "COMP1_INP",
         "DFSDM1_CKIN1",
+        "ETH_TX_ER",
         "I2S3_SDO",
         "QUADSPI_CLK",
         "RTC_OUT_ALARM",
@@ -2073,7 +2078,7 @@
         "LPTIM4_OUT",
         "LTDC_R1",
         "MDIOS_MDIO",
-        "PWR_WKUP1",
+        "PWR_WKUP2",
         "SAI2_SCK_B",
         "TIM15_CH1",
         "TIM2_CH3",

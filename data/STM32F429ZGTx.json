@@ -12,9 +12,9 @@
     "die": "DIE419"
   },
   "info": {
-    "flash": 512,
     "ram": 192,
     "io": 114,
+    "flash": 512,
     "frequency": 180,
     "voltage": {
       "min": 1.8,

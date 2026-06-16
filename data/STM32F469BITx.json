@@ -12,9 +12,9 @@
     "die": "DIE434"
   },
   "info": {
-    "flash": 512,
     "ram": 320,
     "io": 159,
+    "flash": 512,
     "frequency": 180,
     "voltage": {
       "min": 1.7,
@@ -716,6 +716,7 @@
         "ADC2_IN7",
         "ETH_CRS_DV",
         "ETH_RX_DV",
+        "FMC_SDNWE",
         "QUADSPI_CLK",
         "SPI1_MOSI",
         "TIM14_CH1",

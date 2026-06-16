@@ -12,9 +12,9 @@
     "die": "DIE472"
   },
   "info": {
-    "flash": 512,
     "ram": 256,
     "io": 61,
+    "flash": 512,
     "frequency": 110,
     "voltage": {
       "min": 1.71,
@@ -199,7 +199,7 @@
       "variant": null,
       "signals": [
         "COMP2_INP",
-        "DEBUG_JTRST",
+        "DEBUG_NJTRST",
         "I2C3_SDA",
         "SAI1_MCLK_B",
         "SPI1_MISO",
@@ -290,7 +290,6 @@
         "SPI3_MISO",
         "TSC_G3_IO3",
         "UART4_RX",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_RX",
         "GPIO"
@@ -669,7 +668,6 @@
         "TIM15_CH1N",
         "TIM1_CH1N",
         "TSC_G1_IO2",
-        "UCPD1_FRSTX1",
         "UCPD1_FRSTX2",
         "USART3_CTS",
         "USART3_NSS",
@@ -899,7 +897,6 @@
         "TIM2_CH3",
         "TIM5_CH3",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "USART2_TX",
         "GPIO"
       ]
@@ -1137,7 +1134,6 @@
         "OCTOSPI1_DQS",
         "RTC_OUT2",
         "UCPD1_FRSTX1",
-        "UCPD1_FRSTX2",
         "GPIO"
       ]
     },

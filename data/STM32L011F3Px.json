@@ -12,9 +12,9 @@
     "die": "DIE457"
   },
   "info": {
-    "flash": 8,
     "ram": 2,
     "io": 16,
+    "flash": 8,
     "eeprom": 512,
     "frequency": 32,
     "voltage": {

@@ -12,9 +12,9 @@
     "die": "DIE437"
   },
   "info": {
-    "flash": 512,
     "ram": 80,
     "io": 83,
+    "flash": 512,
     "eeprom": 16384,
     "frequency": 32,
     "voltage": {
@@ -23,7 +23,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 150.0
     }
   },
   "gpio_version": "STM32L162xE_gpio_v1_0",

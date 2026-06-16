@@ -8,13 +8,13 @@
   },
   "package": "TSSOP20",
   "silicon": {
-    "core": "ARM Cortex-M0+",
+    "core": "Arm Cortex-M0+",
     "die": "DIE457"
   },
   "info": {
-    "flash": 16,
     "ram": 2,
     "io": 16,
+    "flash": 16,
     "eeprom": 512
   },
   "gpio_version": "STM32L021_gpio_v1_0",

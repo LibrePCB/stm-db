@@ -12,9 +12,9 @@
     "die": "DIE430"
   },
   "info": {
-    "flash": 768,
     "ram": 80,
     "io": 51,
+    "flash": 768,
     "frequency": 36,
     "voltage": {
       "min": 2.0,

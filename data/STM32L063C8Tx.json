@@ -12,9 +12,9 @@
     "die": "DIE417"
   },
   "info": {
-    "flash": 64,
     "ram": 8,
     "io": 37,
+    "flash": 64,
     "eeprom": 2048,
     "frequency": 32,
     "voltage": {
@@ -278,7 +278,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "LCD_VLCD1",
+        "LCD_VLCD2",
         "LPTIM1_OUT",
         "TSC_G3_IO4",
         "GPIO"
@@ -336,7 +336,7 @@
       "signals": [
         "I2S2_WS",
         "LCD_SEG12",
-        "LCD_VLCD2",
+        "LCD_VLCD1",
         "LPUART1_DE",
         "LPUART1_RTS",
         "SPI2_NSS",

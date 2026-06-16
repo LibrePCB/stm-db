@@ -12,9 +12,9 @@
     "die": "DIE461"
   },
   "info": {
-    "flash": 1024,
     "ram": 320,
     "io": 83,
+    "flash": 1024,
     "frequency": 80,
     "voltage": {
       "min": 1.71,
