@@ -16,6 +16,22 @@
     "io": 144,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32MP255CAK3",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32MP255CAK3T",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MP2_gpio_v1_0",
   "pinout": [
     {

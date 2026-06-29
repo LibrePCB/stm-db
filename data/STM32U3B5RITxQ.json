@@ -16,6 +16,15 @@
     "io": 47,
     "flash": 2048
   },
+  "parts": [
+    {
+      "mpn": "STM32U3B5RIT6Q",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32U3(B-C)x_gpio_v1_0",
   "pinout": [
     {

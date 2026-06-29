@@ -16,6 +16,22 @@
     "io": 66,
     "flash": 128
   },
+  "parts": [
+    {
+      "mpn": "STM32G411MBT3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Restricted"
+    },
+    {
+      "mpn": "STM32G411MBT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Restricted"
+    }
+  ],
   "gpio_version": "STM32G43x_gpio_v1_0",
   "pinout": [
     {

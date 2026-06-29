@@ -25,6 +25,29 @@
       "max": 105.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32F410CBU3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F410CBU3TR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32F410CBU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32F410_gpio_v1_0",
   "pinout": [
     {

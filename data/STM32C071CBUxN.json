@@ -16,6 +16,15 @@
     "io": 45,
     "flash": 128
   },
+  "parts": [
+    {
+      "mpn": "STM32C071CBU6N",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32C071xx_gpio_v1_0",
   "pinout": [
     {

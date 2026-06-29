@@ -16,6 +16,15 @@
     "io": 66,
     "flash": 1024
   },
+  "parts": [
+    {
+      "mpn": "STM32L476VGY6PTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32L47x_gpio_v1_0",
   "pinout": [
     {

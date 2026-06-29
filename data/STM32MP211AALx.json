@@ -16,6 +16,15 @@
     "io": 124,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32MP211AAL3",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MP21_gpio_v1_0",
   "pinout": [
     {

@@ -16,6 +16,15 @@
     "io": 112,
     "flash": 512
   },
+  "parts": [
+    {
+      "mpn": "STM32H523ZEJ6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32H52x_gpio_v1_0",
   "pinout": [
     {

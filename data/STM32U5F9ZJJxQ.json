@@ -16,6 +16,22 @@
     "io": 101,
     "flash": 4096
   },
+  "parts": [
+    {
+      "mpn": "STM32U5F9ZJJ6QTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32U5F9ZJJ6Q",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32U5FG_gpio_v1_0",
   "pinout": [
     {

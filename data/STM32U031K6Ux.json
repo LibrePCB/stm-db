@@ -16,6 +16,22 @@
     "io": 27,
     "flash": 32
   },
+  "parts": [
+    {
+      "mpn": "STM32U031K6U6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32U031K6U3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32U031x_gpio_v1_0",
   "pinout": [
     {

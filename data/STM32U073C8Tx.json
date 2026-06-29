@@ -16,6 +16,15 @@
     "io": 39,
     "flash": 64
   },
+  "parts": [
+    {
+      "mpn": "STM32U073C8T6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32U073x_gpio_v1_0",
   "pinout": [
     {

@@ -26,6 +26,22 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32L082KZU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32L082KZU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32L071_gpio_v1_0",
   "pinout": [
     {
