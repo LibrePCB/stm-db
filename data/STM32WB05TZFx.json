@@ -1,0 +1,443 @@
+{
+  "names": {
+    "name": "STM32WB05TZFx",
+    "ref": "STM32WB05TZFx",
+    "family": "STM32WB0",
+    "line": "STM32WBx5",
+    "rpn": "STM32WB05TZ"
+  },
+  "package": "WLCSP36",
+  "silicon": {
+    "core": "ARM Cortex-M0+",
+    "die": "DIE028"
+  },
+  "info": {
+    "ram": 24,
+    "io": 20,
+    "flash": 192
+  },
+  "gpio_version": "STM32WB05x_gpio_v1_0",
+  "pinout": [
+    {
+      "name": "VSSSD",
+      "position": "A2",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDDA_VCAP",
+      "position": "A4",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDD",
+      "position": "A6",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDDSD",
+      "position": "B1",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VFBSD",
+      "position": "B3",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "RSTN",
+      "position": "B5",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VSSA",
+      "position": "B7",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PB12",
+      "position": "C2",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "LPUART1_CTS",
+        "PWR_WKUP16",
+        "RCC_LCO",
+        "RCC_OSC32_OUT",
+        "TIM2_CH3",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB6",
+      "position": "C4",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SCL",
+        "LPUART1_TX",
+        "PWR_WKUP6",
+        "RADIO_ANTENNA_ID_6",
+        "TIM17_CH1",
+        "TIM2_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB3",
+      "position": "C6",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINP0",
+        "I2S3_SCK",
+        "LPUART1_TX",
+        "PWR_WKUP3",
+        "RADIO_ANTENNA_ID_3",
+        "SPI3_SCK",
+        "TIM17_CH1",
+        "TIM2_CH4",
+        "USART1_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VLXSD",
+      "position": "D1",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PB13",
+      "position": "D3",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "PWR_WKUP17",
+        "RCC_OSC32_IN",
+        "TIM2_CH4",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB2",
+      "position": "D5",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINM0",
+        "PWR_WKUP2",
+        "RADIO_ANTENNA_ID_2",
+        "TIM16_BK",
+        "TIM2_CH3",
+        "USART1_DE",
+        "USART1_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB0",
+      "position": "D7",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINM1",
+        "LPUART1_DE",
+        "LPUART1_RTS",
+        "PWR_WKUP0",
+        "RADIO_ANTENNA_ID_0",
+        "TIM16_CH1",
+        "USART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB14",
+      "position": "E2",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SDA",
+        "I2C1_SMBA",
+        "PWR_PVD_IN",
+        "PWR_WKUP18",
+        "RADIO_TX_SEQUENCE",
+        "RCC_MCO",
+        "TIM2_ETR",
+        "USART1_RX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB7",
+      "position": "E4",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SDA",
+        "LPUART1_RX",
+        "PWR_WKUP7",
+        "RADIO_ACTIVITY",
+        "TIM2_CH2",
+        "USART1_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB1",
+      "position": "E6",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINP1",
+        "PWR_WKUP1",
+        "RADIO_ANTENNA_ID_1",
+        "TIM16_CH1N",
+        "TIM2_ETR",
+        "USART1_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB15",
+      "position": "F3",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "PWR_WKUP19",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB4",
+      "position": "F5",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINM3",
+        "LPUART1_TX",
+        "PWR_WKUP4",
+        "RADIO_ANTENNA_ID_4",
+        "TIM17_CH1N",
+        "TIM2_CH1",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA1",
+      "position": "F7",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SDA",
+        "IR_OUT",
+        "PWR_WKUP13",
+        "TIM2_CH4",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PB5",
+      "position": "G4",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINP3",
+        "LPUART1_RX",
+        "PWR_WKUP5",
+        "RADIO_ANTENNA_ID_5",
+        "TIM17_BK",
+        "TIM2_CH2",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA2",
+      "position": "G6",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINM2",
+        "DEBUG_SWDIO",
+        "I2S3_MCK",
+        "PWR_WKUP14",
+        "TIM16_CH1",
+        "TIM2_CH1",
+        "USART1_CK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSSSX",
+      "position": "H1",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "PA3",
+      "position": "H5",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "ADC1_VINP2",
+        "DEBUG_SWCLK",
+        "I2S3_SCK",
+        "PWR_WKUP15",
+        "SPI3_SCK",
+        "TIM16_CH1N",
+        "TIM2_CH2",
+        "USART1_DE",
+        "USART1_RTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA0",
+      "position": "H7",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2C1_SCL",
+        "IR_OUT",
+        "PWR_WKUP12",
+        "TIM2_CH3",
+        "USART1_CTS",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA11",
+      "position": "J4",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2S3_SD",
+        "PWR_WKUP11",
+        "RADIO_RX_SEQUENCE",
+        "RCC_MCO",
+        "SPI3_MOSI",
+        "TIM17_BK",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "PA9",
+      "position": "J6",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2S3_WS",
+        "PWR_WKUP9",
+        "RTC_OUT",
+        "SPI3_NSS",
+        "TIM17_CH1",
+        "TIM2_CH4",
+        "USART1_TX",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "OSCIN",
+      "position": "K1",
+      "type": "MonoIO",
+      "variant": null,
+      "signals": [
+        "RCC_OSC_IN"
+      ]
+    },
+    {
+      "name": "PA10",
+      "position": "K5",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "I2S3_MCK",
+        "LPUART1_CTS",
+        "PWR_WKUP10",
+        "RADIO_TX_SEQUENCE",
+        "RCC_LCO",
+        "TIM17_CH1N",
+        "GPIO"
+      ]
+    },
+    {
+      "name": "VSSIO",
+      "position": "K7",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VDDRF",
+      "position": "L2",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VSSFTRX",
+      "position": "L4",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "VSSIFADC1",
+      "position": "L6",
+      "type": "Power",
+      "variant": null,
+      "signals": []
+    },
+    {
+      "name": "OSCOUT",
+      "position": "M1",
+      "type": "MonoIO",
+      "variant": null,
+      "signals": [
+        "RCC_OSC_OUT"
+      ]
+    },
+    {
+      "name": "RF1",
+      "position": "M5",
+      "type": "MonoIO",
+      "variant": null,
+      "signals": [
+        "RADIO_RF1"
+      ]
+    },
+    {
+      "name": "PA8",
+      "position": "M7",
+      "type": "I/O",
+      "variant": null,
+      "signals": [
+        "PWR_WKUP8",
+        "RADIO_RX_SEQUENCE",
+        "RTC_OUT",
+        "SPI3_MISO",
+        "TIM16_BK",
+        "TIM2_CH3",
+        "USART1_RX",
+        "GPIO"
+      ]
+    }
+  ]
+}

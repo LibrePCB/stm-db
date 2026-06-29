@@ -12,9 +12,9 @@
     "die": "DIE437"
   },
   "info": {
-    "flash": 512,
     "ram": 80,
     "io": 51,
+    "flash": 512,
     "eeprom": 16384,
     "frequency": 32,
     "voltage": {

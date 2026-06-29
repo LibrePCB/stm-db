@@ -12,9 +12,9 @@
     "die": "DIE447"
   },
   "info": {
-    "flash": 64,
     "ram": 20,
     "io": 23,
+    "flash": 64,
     "eeprom": 3072,
     "frequency": 32,
     "voltage": {

@@ -12,9 +12,9 @@
     "die": "DIE440"
   },
   "info": {
-    "flash": 64,
     "ram": 8,
     "io": 55,
+    "flash": 64,
     "frequency": 48,
     "voltage": {
       "min": 2.0,

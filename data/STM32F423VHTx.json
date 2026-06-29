@@ -12,9 +12,9 @@
     "die": "DIE463"
   },
   "info": {
-    "flash": 1536,
     "ram": 320,
     "io": 81,
+    "flash": 1536,
     "frequency": 100,
     "voltage": {
       "min": 1.7,

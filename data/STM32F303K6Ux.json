@@ -8,13 +8,13 @@
   },
   "package": "UFQFPN32",
   "silicon": {
-    "core": "ARM Cortex-M4",
+    "core": "Arm Cortex-M4",
     "die": "DIE438"
   },
   "info": {
-    "flash": 32,
     "ram": 12,
-    "io": 24
+    "io": 24,
+    "flash": 32
   },
   "gpio_version": "STM32F333_gpio_v1_0",
   "pinout": [

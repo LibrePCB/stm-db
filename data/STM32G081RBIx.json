@@ -12,9 +12,9 @@
     "die": "DIE460"
   },
   "info": {
-    "flash": 128,
     "ram": 36,
     "io": 60,
+    "flash": 128,
     "frequency": 64,
     "voltage": {
       "min": 1.7,
@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 85.0
+      "max": 125.0
     }
   },
   "gpio_version": "STM32G07x_gpio_v1_0",

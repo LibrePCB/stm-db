@@ -12,9 +12,9 @@
     "die": "DIE451"
   },
   "info": {
-    "flash": 2048,
     "ram": 384,
     "io": 114,
+    "flash": 2048,
     "frequency": 216,
     "voltage": {
       "min": 1.7,
@@ -118,8 +118,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP4",

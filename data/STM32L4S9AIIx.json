@@ -12,9 +12,9 @@
     "die": "DIE470"
   },
   "info": {
-    "flash": 2048,
     "ram": 640,
     "io": 131,
+    "flash": 2048,
     "frequency": 120,
     "voltage": {
       "min": 1.71,

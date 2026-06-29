@@ -12,9 +12,9 @@
     "die": "DIE417"
   },
   "info": {
-    "flash": 32,
     "ram": 8,
     "io": 50,
+    "flash": 32,
     "eeprom": 2048,
     "frequency": 32,
     "voltage": {
@@ -137,7 +137,7 @@
       ]
     },
     {
-      "name": "VLCD",
+      "name": "VDD",
       "position": "B2",
       "type": "Power",
       "variant": null,

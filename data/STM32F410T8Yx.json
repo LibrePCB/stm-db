@@ -12,9 +12,9 @@
     "die": "DIE458"
   },
   "info": {
-    "flash": 64,
     "ram": 32,
     "io": 23,
+    "flash": 64,
     "frequency": 100,
     "voltage": {
       "min": 1.7,

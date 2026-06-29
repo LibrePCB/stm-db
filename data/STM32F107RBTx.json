@@ -12,9 +12,9 @@
     "die": "DIE418"
   },
   "info": {
-    "flash": 128,
     "ram": 64,
     "io": 51,
+    "flash": 128,
     "frequency": 72,
     "voltage": {
       "min": 2.0,

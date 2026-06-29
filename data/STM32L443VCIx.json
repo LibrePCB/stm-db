@@ -12,9 +12,9 @@
     "die": "DIE435"
   },
   "info": {
-    "flash": 256,
     "ram": 64,
     "io": 83,
+    "flash": 256,
     "frequency": 80,
     "voltage": {
       "min": 1.71,

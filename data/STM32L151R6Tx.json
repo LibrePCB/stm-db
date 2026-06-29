@@ -12,9 +12,9 @@
     "die": "DIE416"
   },
   "info": {
-    "flash": 32,
     "ram": 10,
     "io": 51,
+    "flash": 32,
     "eeprom": 4096,
     "frequency": 32,
     "voltage": {

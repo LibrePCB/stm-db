@@ -12,9 +12,9 @@
     "die": "DIE415"
   },
   "info": {
-    "flash": 512,
     "ram": 128,
     "io": 65,
+    "flash": 512,
     "frequency": 80,
     "voltage": {
       "min": 1.71,

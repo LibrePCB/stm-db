@@ -12,9 +12,9 @@
     "die": "DIE457"
   },
   "info": {
-    "flash": 8,
     "ram": 2,
     "io": 26,
+    "flash": 8,
     "eeprom": 512,
     "frequency": 32,
     "voltage": {
@@ -23,7 +23,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 125.0
+      "max": 150.0
     }
   },
   "gpio_version": "STM32L021_gpio_v1_0",

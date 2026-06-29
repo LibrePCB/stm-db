@@ -12,9 +12,9 @@
     "die": "DIE446"
   },
   "info": {
-    "flash": 512,
     "ram": 64,
     "io": 85,
+    "flash": 512,
     "frequency": 72,
     "voltage": {
       "min": 1.65,

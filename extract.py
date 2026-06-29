@@ -48,11 +48,12 @@ def process_mcu(args, name: str, ref: str, rpn: str):
             'package': mcu.get('Package'),
             'silicon': {},
             'info': {
-                'flash': int(mcu.find('{*}Flash').text),  # type: ignore
                 'ram': int(mcu.find('{*}Ram').text),  # type: ignore
                 'io': int(mcu.find('{*}IONb').text),  # type: ignore
             },
         }  # type: Dict[str, Any]
+        if mcu.find('{*}Flash') is not None:
+            data['info']['flash'] = int(mcu.find('{*}Flash').text)  # type: ignore
         if mcu.find('{*}Core') is not None:
             data['silicon']['core'] = mcu.find('{*}Core').text  # type: ignore
         if mcu.find('{*}Die') is not None:
@@ -62,10 +63,13 @@ def process_mcu(args, name: str, ref: str, rpn: str):
         if mcu.find('{*}Frequency') is not None:
             data['info']['frequency'] = int(mcu.find('{*}Frequency').text)  # type: ignore
         if mcu.find('{*}Voltage') is not None:
-            data['info']['voltage'] = {
-                'min': float(mcu.find('{*}Voltage').get('Min')),  # type: ignore
-                'max': float(mcu.find('{*}Voltage').get('Max')),  # type: ignore
-            }
+            voltage_min = mcu.find('{*}Voltage').get('Min')  # type: ignore
+            voltage_max = mcu.find('{*}Voltage').get('Max')  # type: ignore
+            if voltage_min is not None and voltage_max is not None:
+                data['info']['voltage'] = {
+                    'min': float(voltage_min),
+                    'max': float(voltage_max),
+                }
         if mcu.find('{*}Temperature') is not None:
             temp_min = mcu.find('{*}Temperature').get('Min')  # type: ignore
             temp_max = mcu.find('{*}Temperature').get('Max')  # type: ignore

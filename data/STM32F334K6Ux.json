@@ -12,9 +12,9 @@
     "die": "DIE438"
   },
   "info": {
-    "flash": 16,
     "ram": 12,
     "io": 24,
+    "flash": 16,
     "frequency": 72,
     "voltage": {
       "min": 2.0,

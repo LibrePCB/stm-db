@@ -12,9 +12,9 @@
     "die": "DIE449"
   },
   "info": {
-    "flash": 1024,
     "ram": 320,
     "io": 140,
+    "flash": 1024,
     "frequency": 216,
     "voltage": {
       "min": 1.7,
@@ -128,8 +128,7 @@
       "type": "I/O",
       "variant": null,
       "signals": [
-        "RTC_OUT_ALARM",
-        "RTC_OUT_CALIB",
+        "RTC_OUT",
         "RTC_TAMP1",
         "RTC_TS",
         "SYS_WKUP4",

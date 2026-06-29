@@ -12,9 +12,9 @@
     "die": "DIE410"
   },
   "info": {
-    "flash": 64,
     "ram": 20,
     "io": 50,
+    "flash": 64,
     "frequency": 72,
     "voltage": {
       "min": 2.0,

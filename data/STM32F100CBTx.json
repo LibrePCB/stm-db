@@ -12,9 +12,9 @@
     "die": "DIE420"
   },
   "info": {
-    "flash": 64,
     "ram": 8,
     "io": 37,
+    "flash": 64,
     "frequency": 24,
     "voltage": {
       "min": 2.0,
@@ -22,7 +22,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 85.0
     }
   },
   "gpio_version": "STM32F100x8_gpio_v1_0",

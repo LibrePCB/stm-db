@@ -12,9 +12,9 @@
     "die": "DIE425"
   },
   "info": {
-    "flash": 32,
     "ram": 8,
     "io": 25,
+    "flash": 32,
     "eeprom": 1024,
     "frequency": 32,
     "voltage": {
@@ -23,7 +23,7 @@
     },
     "temperature": {
       "min": -40.0,
-      "max": 105.0
+      "max": 150.0
     }
   },
   "gpio_version": "STM32L031_gpio_v1_0",
