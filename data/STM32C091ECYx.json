@@ -16,6 +16,15 @@
     "io": 28,
     "flash": 256
   },
+  "parts": [
+    {
+      "mpn": "STM32C091ECY6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32C091xx_gpio_v1_0",
   "pinout": [
     {

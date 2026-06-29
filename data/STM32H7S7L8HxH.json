@@ -16,6 +16,22 @@
     "io": 150,
     "flash": 64
   },
+  "parts": [
+    {
+      "mpn": "STM32H7S7L8H6H",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32H7S7L8H6HTR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32H7RS_gpio_v1_0",
   "pinout": [
     {

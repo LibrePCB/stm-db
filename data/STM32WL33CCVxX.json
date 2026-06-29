@@ -16,6 +16,15 @@
     "io": 32,
     "flash": 256
   },
+  "parts": [
+    {
+      "mpn": "STM32WL33CCV6X",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32WL33_gpio_v1_0",
   "pinout": [
     {

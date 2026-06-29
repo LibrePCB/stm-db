@@ -16,6 +16,15 @@
     "io": 148,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32MP233CAL3",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MP23_gpio_v1_0",
   "pinout": [
     {

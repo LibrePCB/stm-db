@@ -25,6 +25,7 @@
       "max": 105.0
     }
   },
+  "parts": [],
   "gpio_version": "STM32F469_gpio_v1_0",
   "pinout": [
     {

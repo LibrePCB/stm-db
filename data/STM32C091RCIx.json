@@ -16,6 +16,22 @@
     "io": 63,
     "flash": 256
   },
+  "parts": [
+    {
+      "mpn": "STM32C091RCI6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32C091RCI6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32C091xx_gpio_v1_0",
   "pinout": [
     {

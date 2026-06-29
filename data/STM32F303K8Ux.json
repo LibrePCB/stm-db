@@ -16,6 +16,7 @@
     "io": 24,
     "flash": 32
   },
+  "parts": [],
   "gpio_version": "STM32F333_gpio_v1_0",
   "pinout": [
     {

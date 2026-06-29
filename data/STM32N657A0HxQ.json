@@ -16,6 +16,22 @@
     "io": 90,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32N657A0H3Q",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32N657A0H3QTR",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32N6_gpio_v1_0",
   "pinout": [
     {

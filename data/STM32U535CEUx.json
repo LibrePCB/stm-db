@@ -16,6 +16,22 @@
     "io": 37,
     "flash": 512
   },
+  "parts": [
+    {
+      "mpn": "STM32U535CEU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32U535CEU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32U53x_gpio_v1_0",
   "pinout": [
     {

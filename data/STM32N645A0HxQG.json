@@ -16,6 +16,15 @@
     "io": 104,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32N645A0H3QG",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32N6_gpio_v1_0",
   "pinout": [
     {

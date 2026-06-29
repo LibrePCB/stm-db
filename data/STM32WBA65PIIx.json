@@ -16,6 +16,22 @@
     "io": 84,
     "flash": 2048
   },
+  "parts": [
+    {
+      "mpn": "STM32WBA65PII6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WBA65PII7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WBA6_gpio_v1_0",
   "pinout": [
     {

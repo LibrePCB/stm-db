@@ -25,6 +25,15 @@
       "max": 85.0
     }
   },
+  "parts": [
+    {
+      "mpn": "STM32G431C6U6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32G43x_gpio_v1_0",
   "pinout": [
     {

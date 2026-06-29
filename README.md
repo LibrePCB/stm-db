@@ -11,7 +11,7 @@ STM8CubeMX / STM32CubeMX database.
 
 2. Unpack or install the software to a directory on your computer
 
-3. Run `python3 extract.py --db path/to/cubemx/db/mcu/`
+3. Run `python3 extract.py --db path/to/cubemx/db/`
 
 [stm8cubemx]: https://www.st.com/en/development-tools/stm8cubemx.html
 [stm32cubemx]: https://www.st.com/en/development-tools/stm32cubemx.html

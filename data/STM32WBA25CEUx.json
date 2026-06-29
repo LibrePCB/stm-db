@@ -16,6 +16,36 @@
     "io": 26,
     "flash": 512
   },
+  "parts": [
+    {
+      "mpn": "STM32WBA25CEU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WBA25CEU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WBA25CEU7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WBA25CEU7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32WBA2_gpio_v1_0",
   "pinout": [
     {

@@ -16,6 +16,15 @@
     "io": 98,
     "flash": 0
   },
+  "parts": [
+    {
+      "mpn": "STM32MP153FAB1",
+      "temperature_min": null,
+      "temperature_max": null,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32MPU_gpio_v1_0",
   "pinout": [
     {

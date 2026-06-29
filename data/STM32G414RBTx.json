@@ -16,6 +16,22 @@
     "io": 52,
     "flash": 128
   },
+  "parts": [
+    {
+      "mpn": "STM32G414RBT3",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Restricted"
+    },
+    {
+      "mpn": "STM32G414RBT6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Restricted"
+    }
+  ],
   "gpio_version": "STM32G47x_gpio_v1_0",
   "pinout": [
     {

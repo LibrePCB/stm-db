@@ -17,6 +17,29 @@
     "flash": 2048,
     "frequency": 100
   },
+  "parts": [
+    {
+      "mpn": "STM32WBA63CIU6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WBA63CIU7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32WBA63CIU6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WBA6_gpio_v1_0",
   "pinout": [
     {

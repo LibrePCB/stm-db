@@ -17,6 +17,22 @@
     "flash": 1024,
     "frequency": 100
   },
+  "parts": [
+    {
+      "mpn": "STM32WBA62MGF6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WBA62MGF6TR",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WBA6_gpio_v1_0",
   "pinout": [
     {

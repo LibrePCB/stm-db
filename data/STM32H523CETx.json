@@ -16,6 +16,29 @@
     "io": 35,
     "flash": 512
   },
+  "parts": [
+    {
+      "mpn": "STM32H523CET6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32H523CET7",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    },
+    {
+      "mpn": "STM32H523CET7TR",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Tape and Reel",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32H52x_gpio_v1_0",
   "pinout": [
     {

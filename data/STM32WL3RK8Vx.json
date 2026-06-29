@@ -16,6 +16,15 @@
     "io": 18,
     "flash": 64
   },
+  "parts": [
+    {
+      "mpn": "STM32WL3RK8V6",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Preview"
+    }
+  ],
   "gpio_version": "STM32WL3R_gpio_v1_0",
   "pinout": [
     {

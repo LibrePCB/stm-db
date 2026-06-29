@@ -16,6 +16,22 @@
     "io": 17,
     "flash": 128
   },
+  "parts": [
+    {
+      "mpn": "STM32WL33KBV7X",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    },
+    {
+      "mpn": "STM32WL33KBV6X",
+      "temperature_min": -40.0,
+      "temperature_max": 85.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32WL33_gpio_v1_0",
   "pinout": [
     {

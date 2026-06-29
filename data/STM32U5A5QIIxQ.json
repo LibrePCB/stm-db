@@ -16,6 +16,15 @@
     "io": 106,
     "flash": 2048
   },
+  "parts": [
+    {
+      "mpn": "STM32U5A5QII3Q",
+      "temperature_min": -40.0,
+      "temperature_max": 125.0,
+      "packing_type": "Tray",
+      "status": "Active"
+    }
+  ],
   "gpio_version": "STM32U59x_gpio_v1_0",
   "pinout": [
     {

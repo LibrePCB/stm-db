@@ -16,6 +16,15 @@
     "io": 111,
     "flash": 4096
   },
+  "parts": [
+    {
+      "mpn": "STM32H5F4ZJJ7Q",
+      "temperature_min": -40.0,
+      "temperature_max": 105.0,
+      "packing_type": "Not Applicable",
+      "status": "Coming soon"
+    }
+  ],
   "gpio_version": "STM32H5(E-F)x_gpio_v1_0",
   "pinout": [
     {
